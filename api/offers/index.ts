@@ -1,6 +1,6 @@
 import { AzureFunction, Context, HttpRequest } from "@azure/functions"
 import fetch from "node-fetch"
-import HTMLParser from "node-html-parser"
+import { parse } from "node-html-parser"
 
 const BASE_URL = "https://www.meinereiseangebote.de"
 
@@ -63,7 +63,7 @@ const getOffers = async (id = "GZTF-5717") => {
   const url = `${BASE_URL}/${id}`
   const offersPage = await fetch(url)
   const offersBody = await offersPage.text()
-  const root = HTMLParser.parse(offersBody)
+  const root = parse(offersBody, {})
   return root
     .querySelectorAll(".ph-offer")
     .map(getOffer)
