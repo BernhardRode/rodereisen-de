@@ -102,7 +102,12 @@ const Navbar = ({ siteMetadata }) => {
         <div className="nav-right-content">
           <ul>
             <li>
-              <Link className="btn btn-yellow" to="/tour-details">
+              <Link
+                className="btn btn-yellow"
+                to="https://outlook.office365.com/owa/calendar/ReisebroRode@rode.io/bookings/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 Termin Vereinbaren <FontAwesomeIcon icon="envelope" />
               </Link>
             </li>
