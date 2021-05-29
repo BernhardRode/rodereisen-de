@@ -1,0 +1,49 @@
+:root {
+  --rowNum: 3;
+  --colNum: 2;
+  --gridHeight: 220px;
+}
+@media (min-width: 430px) {
+  :root {
+    --colNum: 3;
+  }
+}
+@media (min-width: 580px) {
+  :root {
+    --colNum: 4;
+  }
+}
+@media (min-width: 720px) {
+  :root {
+    --colNum: 5;
+  }
+}
+@media (min-width: 890px) {
+  :root {
+    --colNum: 6;
+  }
+}
+@media (min-width: 1040px) {
+  :root {
+    --colNum: 7;
+  }
+}
+
+.grid-container {
+  margin: 0 auto;
+  display: grid;
+  grid-template-rows: repeat(var(--rowNum), var(--gridHeight));
+  grid-template-columns: repeat(var(--colNum), auto);
+}
+
+.grid-item {
+  display: grid;
+  grid-column-start: auto;
+  grid-row-start: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.grid-span-2 {
+  grid-column: span 2;
+}

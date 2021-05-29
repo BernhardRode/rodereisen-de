@@ -60,6 +60,7 @@ const getOffer = (page) => {
 }
 
 const getOffers = async (id = "GZTF-5717") => {
+  console.log({ id })
   const url = `${BASE_URL}/${id}`
   const offersPage = await fetch(url)
   const offersBody = await offersPage.text()
