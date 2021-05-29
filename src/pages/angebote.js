@@ -37,16 +37,14 @@ const OffersPage = (props) => {
                 data-wow-duration="0.6s"
                 data-wow-delay="0.1s"
               >
-                Perfect Holiday Plan
+                Entdecken Sie die Welt. Gemeinsam mit uns.
               </h2>
               <p
                 className="wow animated fadeInUp"
                 data-wow-duration="0.6s"
                 data-wow-delay="0.2s"
               >
-                No vis fastidii accumsan, ignota postulant ea mea. Vis et prima
-                integre, ei vis ridens moderatius reformidans cu vim doctus
-                accumsan ignota.
+                40 Jahre Erfahrung rund um den Globus.
               </p>
             </div>
           </div>
@@ -57,30 +55,30 @@ const OffersPage = (props) => {
               className="col-lg-3 col-sm-6"
               key={`${offer.meta.id}-${offer.meta.index}`}
             >
-              <div
-                className="single-destinations-list style-two wow animated fadeInUp"
-                data-wow-duration="0.4s"
-                data-wow-delay="0.1s"
-              >
-                <div className="thumb">
-                  <img src={offer.trip.image} alt="list" />
-                </div>
-                <div className="details">
-                  <p className="location">
-                    <img src={"/img/icons/1.png"} alt="map" />
-                    {offer.meta.id} - {offer.trip.city}
-                  </p>
-                  <h4 className="title">
-                    {offer.meta.id} - {offer.trip.city}
-                  </h4>
-                  <p className="content">{offer.trip.duration}</p>
-                  <div className="tp-price-meta">
-                    <h2>
-                      {offer.trip.price} <small>$</small>
-                    </h2>
+              <a href={offer.trip.link} target="_blank" rel="noreferrer">
+                <div
+                  className="single-destinations-list style-two wow animated fadeInUp"
+                  data-wow-duration="0.4s"
+                  data-wow-delay="0.1s"
+                >
+                  <div className="thumb">
+                    <img src={offer.trip.image} alt="list" />
+                  </div>
+                  <div className="details">
+                    <p className="location">
+                      <img src={"/img/icons/1.png"} alt="map" />
+                      {offer.trip.city}
+                    </p>
+                    <h4 className="title">{offer.trip.hotel}</h4>
+                    <p className="content">{offer.trip.duration}</p>
+                    <div className="tp-price-meta">
+                      <h2>
+                        {offer.trip.price} <small>$</small>
+                      </h2>
+                    </div>
                   </div>
                 </div>
-              </div>
+              </a>
             </div>
           ))}
         </div>
