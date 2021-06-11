@@ -10,7 +10,7 @@ const fetch = require("node-fetch")
 const { parse } = require("node-html-parser")
 const path = require("path")
 
-const createSlug = (str) => {
+const createSlug = str => {
   str = String(str).toString()
   str = str.replace(/^\s+|\s+$/g, "") // trim
   str = str.toLowerCase()
@@ -586,8 +586,8 @@ const createSlug = (str) => {
     Zh: ["Ж"],
   }
 
-  Object.keys(swaps).forEach((swap) => {
-    swaps[swap].forEach((s) => {
+  Object.keys(swaps).forEach(swap => {
+    swaps[swap].forEach(s => {
       str = str.replace(new RegExp(s, "g"), swap)
     })
   })
@@ -604,7 +604,7 @@ const createSlug = (str) => {
 
 const BASE_URL = "https://www.meinereiseangebote.de"
 
-const mapTime = (timeString) => {
+const mapTime = timeString => {
   const s = timeString.split(".")
   const p = new Date(Date.parse(`${s[2]}-${s[1]}-${s[0]}`))
   return p
@@ -643,12 +643,12 @@ const parsePage = (page, index, meta) => {
       .childNodes[0].rawText.trim()
     const [duration, description, pkg] = page
       .querySelector(".ph-offer-host")
-      .childNodes.filter((a) => a.constructor.name === "TextNode")
-      .map((s) => s.text)
-      .map((s) => s.replace(/\t/g, ""))
-      .map((s) => s.replace(/\n/g, ""))
-      .map((s) => s.trim())
-      .filter((s) => s !== "")
+      .childNodes.filter(a => a.constructor.name === "TextNode")
+      .map(s => s.text)
+      .map(s => s.replace(/\t/g, ""))
+      .map(s => s.replace(/\n/g, ""))
+      .map(s => s.trim())
+      .filter(s => s !== "")
     const organizer = page
       .querySelector(".ph-offer-tour-logo img")
       .getAttribute("src")
@@ -693,7 +693,7 @@ const parsePage = (page, index, meta) => {
   }
 }
 
-const getOffer = async (meta) => {
+const getOffer = async meta => {
   const { id } = meta
   const url = `${BASE_URL}/${id}`
   const offersPage = await fetch(url)
@@ -702,11 +702,11 @@ const getOffer = async (meta) => {
   return root
     .querySelectorAll(".ph-offer")
     .map((page, index) => parsePage(page, index, meta))
-    .filter((a) => a !== null)
+    .filter(a => a !== null)
 }
 
-const getOffers = async (ids) => {
-  return (await Promise.all(ids.map((id) => getOffer(id)))).flat()
+const getOffers = async ids => {
+  return (await Promise.all(ids.map(id => getOffer(id)))).flat()
 }
 
 const cachedOffers = [
@@ -920,7 +920,7 @@ exports.sourceNodes = async ({
           { id: "EMYR-4542", name: "sandra" },
         ])
 
-    offers.forEach((offer) => {
+    offers.forEach(offer => {
       const node = {
         ...offer,
         id: createNodeId(`offer-${offer.meta.id}-${offer.meta.index}`),
@@ -938,7 +938,7 @@ exports.sourceNodes = async ({
 }
 
 exports.createPages = async ({ graphql, actions, reporter }) => {
-  const offerTemplate = path.resolve("./src/templates/angebot.js")
+  const offerTemplate = path.resolve("./src/templates/angebot.tsx")
 
   try {
     const result = await graphql(`
@@ -985,7 +985,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
 
     const entries = result.data.allOffers.edges
 
-    entries.forEach((context) => {
+    entries.forEach(context => {
       const { slug } = context.node.meta
       const page = {
         path: `/angebote/${slug}`,

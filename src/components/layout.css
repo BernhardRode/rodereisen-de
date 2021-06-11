@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.pt-192 {
+  padding-top: 48rem;
+}
+
+.pt-144 {
+  padding-top: 36rem;
+}
+
+.blur {
+  backdrop-filter: blur(8px);
+}

@@ -1,26 +1,24 @@
 import { graphql, Link } from "gatsby"
 import React from "react"
-import Content from "../components/content"
 import Layout from "../components/layout"
+import SEO from "../components/seo"
 import SearchEngineOptimization from "../components/seo"
 
 const OfferPage = ({ pageContext: { trip, meta } }) => {
   return (
     <Layout>
-      <SearchEngineOptimization title="Angebot" />
-      <Content>
-        <section>
-          <h1>{meta.slug}</h1>
-          <a href={trip.link}>{trip.link}</a>
-          <br />
-          <img src={trip.organizer} alt={trip.description} />
-          <br />
-          <img src={trip.image} alt={trip.description} />
-          <br />
-          <Link to="/">Go back to the Home</Link>
-          <Link to="/angebote/">Go back to the overview</Link>
-        </section>
-      </Content>
+      <SEO title="Home" />
+      <section>
+        <h1>{meta.slug}</h1>
+        <a href={trip.link}>{trip.link}</a>
+        <br />
+        <img src={trip.organizer} alt={trip.description} />
+        <br />
+        <img src={trip.image} alt={trip.description} />
+        <br />
+        <Link to="/">Go back to the Home</Link>
+        <Link to="/angebote/">Go back to the overview</Link>
+      </section>
     </Layout>
   )
 }

@@ -1,12 +1,13 @@
-import React from "react"
-import Content from "../components/content"
+import * as React from "react"
+import HeaderImage from "../components/header-image"
 import Layout from "../components/layout"
-import PageHeader from "../components/page-header"
-import SearchEngineOptimization from "../components/seo"
-import "./index.css"
+import SectionCorona from "../components/section-corona"
+import SectionHeadline from "../components/section-headline"
+import SEO from "../components/seo"
+import Wall, { Walltile } from "../components/wall"
 
 const IndexPage = () => {
-  const tiles = [
+  const tiles: Walltile[] = [
     { type: "image", colspan: 1, src: "/images/1.png" },
     { type: "image", colspan: 2, src: "/images/2.png" },
     { type: "image", colspan: 2, src: "/images/3.png" },
@@ -23,24 +24,19 @@ const IndexPage = () => {
     { type: "image", colspan: 2, src: "/images/14.png" },
     { type: "image", colspan: 1, src: "/images/15.png" },
   ]
-
+  const credit = `Photo by <a href="https://unsplash.com/@jruscello?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jessica Ruscello</a> on <a href="https://unsplash.com/s/photos/beach?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>`
   return (
     <Layout>
-      <SearchEngineOptimization title="Home" />
-      <PageHeader background="/images/bg-1.png" />
-      <Content zero>
-        <div className="grid-container">
-          {tiles.map((tile, index) => (
-            <div
-              key={index}
-              className={
-                tile.colspan === 2 ? "grid-item grid-span-2" : "grid-item"
-              }
-              style={{ backgroundImage: `url(${tile.src})` }}
-            ></div>
-          ))}
-        </div>
-      </Content>
+      <SEO title="Home" />
+      <HeaderImage
+        src="/frank-mckenna-OD9EOzfSOh0-unsplash.jpg"
+        alt="Photo by Jessica Ruscello on Unsplash"
+        credit={credit}
+        heightClass="h-screen"
+      />
+      <Wall tiles={tiles} />
+      <SectionHeadline headline="wir sind" subheadline="für sie da" />
+      <SectionCorona />
     </Layout>
   )
 }

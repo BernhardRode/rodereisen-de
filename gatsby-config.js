@@ -1,9 +1,3 @@
-require("dotenv").config({
-  path: `.env.${process.env.NODE_ENV}`,
-})
-
-console.log(process.env)
-
 module.exports = {
   siteMetadata: {
     author: "@ebbo",
@@ -53,6 +47,7 @@ module.exports = {
         hashtags: true,
       },
     },
+    `gatsby-plugin-image`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -62,31 +57,25 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-    // `gatsby-plugin-sitemap`,
-    // {
-    //   resolve: `gatsby-plugin-manifest`,
-    //   options: {
-    //     name: `rodereisen`,
-    //     short_name: `rodereisen`,
-    //     description: `wir kümmern uns. um sie`,
-    //     start_url: `/`,
-    //     background_color: `#ffffff`,
-    //     theme_color: `#b75e09`,
-    //     display: `standalone`,
-    //     icons: [
-    //       {
-    //         src: `/android-chrome-192x192.png`,
-    //         sizes: `192x192`,
-    //         type: `image/png`,
-    //       },
-    //       {
-    //         src: `/android-chrome-512x512.png`,
-    //         sizes: `512x512`,
-    //         type: `image/png`,
-    //       },
-    //     ],
-    //   },
-    // },
-    `gatsby-plugin-offline`,
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `gatsby-starter-default`,
+        short_name: `starter`,
+        start_url: `/`,
+        background_color: `#663399`,
+        theme_color: `#663399`,
+        display: `minimal-ui`,
+        icon: `src/images/rr-flugzeug.png`, // This path is relative to the root of the site.
+      },
+    },
+    `gatsby-plugin-gatsby-cloud`,
+    `gatsby-plugin-postcss`,
+    // this (optional) plugin enables Progressive Web App + Offline functionality
+    // To learn more, visit: https://gatsby.dev/offline
+    // `gatsby-plugin-offline`,
   ],
+  flags: {
+    DEV_SSR: false,
+  },
 }

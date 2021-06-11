@@ -5,12 +5,11 @@
  * See: https://www.gatsbyjs.org/docs/use-static-query/
  */
 
-import React from "react"
-import PropTypes from "prop-types"
+import * as React from "react"
 import Helmet from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
 
-function SearchEngineOptimization({ description, lang, meta, title }) {
+function SEO(props: SEOProps) {
   const { site } = useStaticQuery(
     graphql`
       query {
@@ -25,14 +24,11 @@ function SearchEngineOptimization({ description, lang, meta, title }) {
     `
   )
 
-  const metaDescription = description || site.siteMetadata.description
+  const metaDescription = props.description || site.siteMetadata.description
 
   return (
     <Helmet
-      htmlAttributes={{
-        lang,
-      }}
-      title={title}
+      title={props.title}
       titleTemplate={`%s | ${site.siteMetadata.title}`}
       meta={[
         {
@@ -41,7 +37,7 @@ function SearchEngineOptimization({ description, lang, meta, title }) {
         },
         {
           property: `og:title`,
-          content: title,
+          content: props.title,
         },
         {
           property: `og:description`,
@@ -61,28 +57,50 @@ function SearchEngineOptimization({ description, lang, meta, title }) {
         },
         {
           name: `twitter:title`,
-          content: title,
+          content: props.title,
         },
         {
           name: `twitter:description`,
           content: metaDescription,
         },
-      ].concat(meta)}
-    />
+      ].concat(props.meta)}
+    >
+      <html lang={props.lang} />
+      <link
+        rel="preconnect"
+        href="https://fonts.googleapis.com"
+        crossOrigin="anonymous"
+        as="font"
+      />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet"
+      />
+    </Helmet>
   )
 }
 
-SearchEngineOptimization.defaultProps = {
+SEO.defaultProps = {
   lang: `de`,
   meta: [],
   description: ``,
 }
 
-SearchEngineOptimization.propTypes = {
-  description: PropTypes.string,
-  lang: PropTypes.string,
-  meta: PropTypes.arrayOf(PropTypes.object),
-  title: PropTypes.string.isRequired,
+interface SEOProps {
+  description?: string
+  lang?: string
+  meta?: MetaWithProperty[] | MetaWithName[]
+  title: string
 }
 
-export default SearchEngineOptimization
+interface MetaWithProperty {
+  property: string
+  content: string
+}
+
+interface MetaWithName {
+  name: string
+  content: string
+}
+
+export default SEO
