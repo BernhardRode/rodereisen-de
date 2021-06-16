@@ -30,8 +30,10 @@ const Header = props => {
 
   return (
     <header
-      className={`w-full h-24 fixed top-0 left-0 right-0 ${
-        isTransparent ? null : "bg-white blur bg-opacity-80"
+      className={`w-full h-24 fixed top-0 left-0 right-0 transition-colors ease-in-out duration-500 ${
+        isTransparent
+          ? "bg-white md:bg-transparent"
+          : "bg-white blur bg-opacity-80 shadow-2xl"
       }`}
     >
       <div className="container flex items-center justify-center h-full max-w-6xl px-8 mx-auto sm:justify-between xl:px-0">
@@ -54,19 +56,19 @@ const Header = props => {
         >
           <a
             href="/"
-            className="ml-0 mr-0 font-bold duration-100 md:ml-12 md:mr-3 lg:mr-8 transition-color hover:text-pink-500"
+            className="ml-0 mr-0 pt-5 pb-5 block font-bold duration-100 md:ml-12 md:mr-3 lg:mr-8 transition-color hover:text-pink-500"
           >
             Home<span className="text-pink-500">.</span>
           </a>
           <a
             href="/experten"
-            className="mr-0 font-bold duration-100 md:mr-3 lg:mr-8 transition-color hover:text-pink-500"
+            className="ml-0 mr-0 pt-5 pb-5 block font-bold duration-100 md:mr-3 lg:mr-8 transition-color hover:text-pink-500"
           >
             Experten<span className="text-pink-500">.</span>
           </a>
           <a
             href="/standorte"
-            className="font-bold duration-100 transition-color hover:text-pink-500"
+            className="ml-0 mr-0 pt-5 pb-5 block font-bold duration-100 transition-color hover:text-pink-500"
           >
             Standorte<span className="text-pink-500">.</span>
           </a>
