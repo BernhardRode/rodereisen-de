@@ -27,7 +27,7 @@ const Layout = (props: LayoutProps) => (
       <>
         <div className="flex flex-col min-h-screen">
           <Header siteTitle={data.site.siteMetadata.title} />
-          <main>{props.children}</main>
+          <main className="pb-16">{props.children}</main>
           <Footer siteTitle={data.site.siteMetadata.title} />
         </div>
       </>

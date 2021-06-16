@@ -3,24 +3,57 @@ import { StaticImage } from "gatsby-plugin-image"
 import * as React from "react"
 
 const Footer = (props: FooterProps) => (
-  <footer className="bg-gray-50 text-gray-600 px-6 lg:px-8 py-12">
-    <div className="max-w-screen-xl mx-auto grid md:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-x-8">
+  <footer
+    className="bg-blue-900 px-6 lg:px-8 py-12 bg-no-repeat bg-contain	bg-center"
+    style={{ backgroundImage: `url("/bg-skyline.png")` }}
+  >
+    <div className="max-w-screen-xl mx-auto grid md:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-x-8 text-white">
       <div>
-        <StaticImage
-          src="./../images/rr-logo-sticky.png"
-          alt="Reisebüro Rode GmbH"
-          width={200}
-        />
-        <p className="mt-4">Wir kümmern uns. Um Sie.</p>
-      </div>
-      <div>
-        <h5 className="text-xl font-semibold text-gray-700">Legal</h5>
+        <a href="/" className="relative flex flex-col font-black leading-none">
+          <span className="text-2xl text-white">
+            <span className="font-light">reisebüro</span>
+            <span className="font-bold">rode</span>
+            <span className="text-pink-500">.</span>
+          </span>
+          <span className="font-light text-xs text-white">
+            wir kümmern uns. um sie.
+          </span>
+        </a>
+        <div className="space-y-4 md:space-y-6 mt-4">
+          <div className="flex items-start space-x-4">
+            <div>
+              <svg
+                className="w-6 h-6 mt-1 text-white"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+                ></path>
+              </svg>
+            </div>
+
+            <div className="">
+              <a
+                href="mailto:info@rodereisen.de"
+                className="text-yellow-500 hover:text-pink-500 pt-10"
+              >
+                info@rodereisen.de
+              </a>
+            </div>
+          </div>
+        </div>
         <nav className="mt-4">
           <ul className="space-y-2">
             <li>
               <a
                 href="/impressum"
-                className="font-normal text-base hover:text-gray-400"
+                className="font-normal text-base text-yellow-500 hover:text-pink-500"
               >
                 Impressum
               </a>
@@ -28,7 +61,7 @@ const Footer = (props: FooterProps) => (
             <li>
               <a
                 href="/agb"
-                className="font-normal text-base hover:text-gray-400"
+                className="font-normal text-base text-yellow-500 hover:text-pink-500"
               >
                 AGB
               </a>
@@ -36,7 +69,7 @@ const Footer = (props: FooterProps) => (
             <li>
               <a
                 href="/agb-veranstalter"
-                className="font-normal text-base hover:text-gray-400"
+                className="font-normal text-base text-yellow-500 hover:text-pink-500"
               >
                 Veranstalter AGB
               </a>
@@ -45,14 +78,15 @@ const Footer = (props: FooterProps) => (
         </nav>
       </div>
       <div>
-        <h5 className="text-xl text-gray-700">
-          standort<b>beilstein</b>
+        <h5 className="text-lg text-white">
+          <span className="font-light">standort</span>
+          <span className="font-semibold">beilstein</span>
         </h5>
         <div className="space-y-4 md:space-y-6 mt-4">
           <div className="flex items-start space-x-4">
             <div>
               <svg
-                className="w-6 h-6 mt-1 text-gray-500"
+                className="w-6 h-6 mt-1 text-white"
                 fill="none"
                 stroke="currentColor"
                 viewBox="0 0 24 24"
@@ -78,47 +112,27 @@ const Footer = (props: FooterProps) => (
                 <br />
                 D-71717 Beilstein
                 <br />
-                +49 (0)7062 94990
+                <a
+                  className="text-yellow-500 hover:text-pink-500"
+                  href="tel:0049706294990"
+                >
+                  +49 (0)7062 94990
+                </a>
               </address>
-            </div>
-          </div>
-          <div className="flex items-start space-x-4">
-            <div>
-              <svg
-                className="w-6 h-6 mt-1 text-gray-500"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
-                ></path>
-              </svg>
-            </div>
-            <div className="flex-1">
-              <a
-                href="mailto:info@rodereisen.de"
-                className="hover:text-gray-400"
-              >
-                info@rodereisen.de
-              </a>
             </div>
           </div>
         </div>
       </div>
       <div>
-        <h5 className="text-xl text-gray-700">
-          standort<b>steinheim</b>
+        <h5 className="text-lg text-white">
+          <span className="font-light">standort</span>
+          <span className="font-semibold">steinheim</span>
         </h5>
         <div className="space-y-4 md:space-y-6 mt-4">
           <div className="flex items-start space-x-4">
             <div>
               <svg
-                className="w-6 h-6 mt-1 text-gray-500"
+                className="w-6 h-6 mt-1 text-white"
                 fill="none"
                 stroke="currentColor"
                 viewBox="0 0 24 24"
@@ -138,40 +152,42 @@ const Footer = (props: FooterProps) => (
                 ></path>
               </svg>
             </div>
-            <div className="flex-1">
+            <div className="flex">
               <address className="not-italic">
                 Friedrichstraße 8
                 <br />
                 D-71711 Steinheim
                 <br />
-                +49 (0)7144 81550
+                <a
+                  href="tel:0049714481550"
+                  className="text-yellow-500 hover:text-pink-500"
+                >
+                  +49 (0)7144 81550
+                </a>
               </address>
             </div>
           </div>
+        </div>
+      </div>
+      <div>
+        <h5 className="text-lg text-white">
+          <span className="font-light">konto</span>
+          <span className="font-semibold">daten</span>
+        </h5>
+        <div className="flex items-start space-x-4">
           <div className="flex items-start space-x-4">
-            <div>
-              <svg
-                className="w-6 h-6 mt-1 text-gray-500"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
-                ></path>
-              </svg>
-            </div>
-            <div className="flex-1">
-              <a
-                href="mailto:info@rodereisen.de"
-                className="hover:text-gray-400"
-              >
-                info@rodereisen.de
-              </a>
+            <div className="space-y-4 md:space-y-6 mt-4">
+              <div className="flex flex-col items-start space-x-4">
+                <div className="">
+                  <div>Volksbank Backnang</div>
+                  <div>
+                    IBAN: <span>DE52 6029 1120 0660 2660 08</span>
+                  </div>
+                  <div>
+                    BIC: <span>GENODES1VBK</span>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -180,7 +196,7 @@ const Footer = (props: FooterProps) => (
     <div className="max-w-screen-xl mx-auto flex flex-col items-center mt-16">
       <div className="max-w-screen-xl mx-auto flex flex-col items-center mt-16">
         <div className="flex items-center space-x-2">
-          <a href="#" className="hover:text-gray-500">
+          <a href="#" className="text-yellow-500 hover:text-white">
             <span className="sr-only">Facebook</span>
             <svg
               className="h-6 w-6"
@@ -197,7 +213,7 @@ const Footer = (props: FooterProps) => (
           </a>
           <a
             href="https://www.instagram.com/rodereisen/"
-            className="hover:text-gray-500"
+            className="text-yellow-500 hover:text-white"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -216,8 +232,9 @@ const Footer = (props: FooterProps) => (
             </svg>
           </a>
         </div>
-        <div className="text-sm mt-4">
-          &copy;{new Date().getFullYear()} Reisebüro Rode GmbH.
+        <div className="text-sm text-white mt-4">
+          &copy; 1981 - {new Date().getFullYear()} Reisebüro Rode GmbH. Alle
+          Rechte vorbehalten.
         </div>
       </div>
     </div>

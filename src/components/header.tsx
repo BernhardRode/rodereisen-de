@@ -120,7 +120,7 @@ const Header = props => {
         <div className="absolute left-0 flex-col items-center justify-center hidden w-full pb-8 mt-48 border-b border-gray-200 md:relative md:w-auto md:bg-transparent md:border-none md:mt-0 md:flex-row md:p-0 md:items-end md:flex md:justify-between">
           <a
             href="/angebote"
-            className="relative px-3 py-2 mr-0 text-sm font-bold text-pink-500 md:px-5 sm:mr-3 md:mt-0 hover:text-white"
+            className="relative px-3 py-2 mr-0 text-sm font-bold text-pink-500 md:px-5 sm:mr-3 md:mt-0 hover:text-blue-900"
           >
             Angebote
           </a>
