@@ -70,7 +70,7 @@ const Header = props => {
           >
             Standorte<span className="text-pink-500">.</span>
           </a>
-          <div className="flex flex-col block w-full font-medium border-t border-gray-200 md:hidden">
+          <div className="flex flex-col w-full font-medium border-t border-gray-200 md:hidden">
             <a
               href="/angebote"
               className="w-full py-2 font-bold text-center text-pink-500"
@@ -125,7 +125,7 @@ const Header = props => {
           </a>
           <a
             onClick={() => setIsOpen(true)}
-            className="relative hover:text-blue-900 cursor-pointer inline-block w-auto h-full px-5 py-3 text-sm font-bold leading-none text-white transition-all transition duration-100 duration-300 bg-indigo-700 rounded shadow-md fold-bold lg:bg-yellow-500 lg:text-white-500 sm:w-full lg:shadow-none hover:shadow-xl"
+            className="relative hover:text-blue-900 cursor-pointer inline-block w-auto h-full px-5 py-3 text-sm font-bold leading-none text-white transition-all duration-100 bg-indigo-700 rounded shadow-md fold-bold lg:bg-yellow-500 lg:text-white-500 sm:w-full lg:shadow-none hover:shadow-xl"
           >
             Termin vereinbaren
           </a>
