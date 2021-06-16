@@ -1,6 +1,5 @@
 import * as React from "react"
 import { useEffect, useState } from "react"
-import Modal from "react-modal"
 import ModalBooking from "./modal-booking"
 
 const Header = props => {
