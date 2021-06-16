@@ -28,12 +28,6 @@ const IndexPage = () => {
   return (
     <Layout>
       <SEO title="Home" />
-      <HeaderImage
-        src="/frank-mckenna-OD9EOzfSOh0-unsplash.jpg"
-        alt="Photo by Jessica Ruscello on Unsplash"
-        credit={credit}
-        heightClass="h-screen"
-      />
       <Wall tiles={tiles} />
       <SectionHeadline headline="wir sind" subheadline="für sie da" />
       <SectionCorona />

@@ -2,14 +2,16 @@ import * as React from "react"
 import SingleOffer from "./single-offer"
 
 const SectionOffers = ({ offers }) => (
-  <section className="w-full pt-192">
-    <div className="container w-2/3 rounded-lg overflow-hidden">
-      {offers.map(offer => (
-        <SingleOffer
-          offer={offer}
-          key={`${offer.meta.id}-${offer.meta.slug}`}
-        />
-      ))}
+  <section className="w-full mt-16 bg-white">
+    <div className="container rounded-lg overflow-hidden">
+      <div className="grid grid-flow-col grid-cols-3 gap-4">
+        {offers.map(offer => (
+          <SingleOffer
+            offer={offer}
+            key={`${offer.meta.id}-${offer.meta.slug}`}
+          />
+        ))}
+      </div>
     </div>
   </section>
 )

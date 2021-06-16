@@ -2,22 +2,23 @@ import * as React from "react"
 import HeaderImageCredit from "./header-image-credit"
 
 const HeaderImage = (props: HeaderImageProps) => {
-  const { src, heightClass } = props
+  const { src, backgroundColor } = props
   return src ? (
-    <div
-      style={{ backgroundImage: `url(${src})`, zIndex: -1 }}
-      className={`fixed bg-contain top-0 left-0 right-0 bottom-0 bg-no-repeat ${heightClass}`}
-    >
-      {props.children}
-      {props.credit ? <HeaderImageCredit /> : null}
+    <div className={`w-full pt-36`} style={{ backgroundColor }}>
+      <div
+        style={{ backgroundImage: `url(${src})`, zIndex: -1, height: 625 }}
+        className={`container bg-cover bg-no-repeat`}
+      >
+        {props.children}
+        {props.credit ? <HeaderImageCredit /> : null}
+      </div>
     </div>
   ) : null
 }
 
 interface HeaderImageProps {
   src: string
-  alt: string
-  heightClass: string
+  backgroundColor?: string
   children?: any
   credit?: string
 }

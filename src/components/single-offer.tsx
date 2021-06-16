@@ -2,11 +2,10 @@ import * as React from "react"
 
 const SingleOffer = ({ offer }) => {
   return (
-    <div className="w-full bg-white">
-      <div className="container w-2/3">
-        <h1>{offer.meta.id}</h1>
-        <h1>{offer.trip.image}</h1>
-        <h1>{offer.trip.hotel}</h1>
+    <div className="col-span-1">
+      <div className="flex flex-col">
+        <img src={offer.trip.image} alt={offer.trip.hotel} />
+        <p>{offer.trip.hotel}</p>
       </div>
     </div>
   )

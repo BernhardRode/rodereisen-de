@@ -16,7 +16,7 @@ const AngebotePage = props => {
   return (
     <Layout>
       <SEO title="Angebote" />
-      <HeaderImage src="/images/bg-1.png" heightClass="pt-144" />
+      <HeaderImage src="/images/bg-1.png" backgroundColor="#745F90" />
       <SectionOffers offers={offers} />
     </Layout>
   )

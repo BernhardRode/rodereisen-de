@@ -6,8 +6,8 @@ import SEO from "../components/seo"
 const ImpressumPage = () => (
   <Layout>
     <SEO title="Impressum" />
-    <HeaderImage src="/images/bg-3.png" heightClass="pt-144" />
-    <section className="w-full pt-192">
+    <HeaderImage src="/images/bg-7.png" backgroundColor="#4BE1E9" />
+    <section className="w-full mt-16">
       <div className="container w-2/3 rounded-lg overflow-hidden">
         <h1>Impressum</h1>
       </div>
