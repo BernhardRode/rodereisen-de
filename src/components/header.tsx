@@ -61,20 +61,20 @@ const Header = props => {
           </a>
           <a
             href="/experten"
-            className="ml-0 mr-0 pt-5 pb-5 block font-bold duration-100 md:mr-3 lg:mr-8 transition-color hover:text-pink-500"
+            className="ml-0 mr-0 pt-5 pb-5 block font-bold duration-100 md:ml-12 md:mr-3 lg:mr-8 transition-color hover:text-pink-500"
           >
             Experten<span className="text-pink-500">.</span>
           </a>
           <a
             href="/standorte"
-            className="ml-0 mr-0 pt-5 pb-5 block font-bold duration-100 transition-color hover:text-pink-500"
+            className="ml-0 mr-0 pt-5 pb-5 block font-bold duration-100 md:ml-12 md:mr-3 lg:mr-8 transition-color hover:text-pink-500"
           >
             Standorte<span className="text-pink-500">.</span>
           </a>
           <div className="flex flex-col w-full font-medium border-t border-gray-200 md:hidden">
             <a
               href="/angebote"
-              className="w-full py-2 font-bold text-center text-pink-500"
+              className="w-full py-2 pt-3 pb-3 font-bold text-center text-pink-500"
             >
               Angebote
             </a>
@@ -109,7 +109,7 @@ const Header = props => {
               </div>
             </a>
             <a
-              href="mailto:info@rodereisen.de"
+              onClick={() => setIsOpen(true)}
               className="relative inline-block w-full px-5 py-3 text-sm leading-none text-center text-white bg-yellow-500 fold-bold"
             >
               Termin vereinbaren
@@ -120,13 +120,13 @@ const Header = props => {
         <div className="absolute left-0 flex-col items-center justify-center hidden w-full pb-8 mt-48 border-b border-gray-200 md:relative md:w-auto md:bg-transparent md:border-none md:mt-0 md:flex-row md:p-0 md:items-end md:flex md:justify-between">
           <a
             href="/angebote"
-            className="relative px-3 py-2 mr-0 text-sm font-bold text-pink-500 md:px-5 sm:mr-3 md:mt-0 hover:text-blue-900"
+            className="relative py-4 mr-0 text-sm font-bold text-pink-500 md:px-5 sm:mr-3 md:mt-0 hover:text-blue-900 lg:text-base"
           >
             Angebote
           </a>
           <a
             onClick={() => setIsOpen(true)}
-            className="relative hover:text-blue-900 cursor-pointer inline-block w-auto h-full px-5 py-3 text-sm font-bold leading-none text-white transition-all duration-100 bg-indigo-700 rounded shadow-md fold-bold lg:bg-yellow-500 lg:text-white-500 sm:w-full lg:shadow-none hover:shadow-xl"
+            className="relative hover:text-blue-900 cursor-pointer inline-block w-auto h-full px-5 py-4 lg:text-base text-sm font-bold leading-none text-white transition-all duration-100 bg-indigo-700 rounded shadow-md fold-bold lg:bg-yellow-500 lg:text-white-500 sm:w-full lg:shadow-none hover:shadow-xl"
           >
             Termin vereinbaren
           </a>

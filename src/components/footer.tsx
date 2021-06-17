@@ -4,7 +4,7 @@ import * as React from "react"
 
 const Footer = (props: FooterProps) => (
   <footer
-    className="bg-blue-900 px-6 lg:px-8 py-12 bg-no-repeat bg-contain	bg-center"
+    className="bg-blue-900 px-6 lg:px-8 py-12 bg-no-repeat bg-cover	bg-center"
     style={{ backgroundImage: `url("/bg-skyline.png")` }}
   >
     <div className="max-w-screen-xl mx-auto grid md:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-x-8 text-white">
@@ -41,7 +41,7 @@ const Footer = (props: FooterProps) => (
             <div className="">
               <a
                 href="mailto:info@rodereisen.de"
-                className="text-yellow-500 hover:text-pink-500 pt-10"
+                className="hover:text-yellow-500 text-pink-500 pt-10"
               >
                 info@rodereisen.de
               </a>
@@ -53,7 +53,7 @@ const Footer = (props: FooterProps) => (
             <li>
               <a
                 href="/impressum"
-                className="font-normal text-base text-yellow-500 hover:text-pink-500"
+                className="font-normal text-base hover:text-yellow-500 text-pink-500"
               >
                 Impressum
               </a>
@@ -61,7 +61,7 @@ const Footer = (props: FooterProps) => (
             <li>
               <a
                 href="/agb"
-                className="font-normal text-base text-yellow-500 hover:text-pink-500"
+                className="font-normal text-base hover:text-yellow-500 text-pink-500"
               >
                 AGB
               </a>
@@ -69,7 +69,7 @@ const Footer = (props: FooterProps) => (
             <li>
               <a
                 href="/agb-veranstalter"
-                className="font-normal text-base text-yellow-500 hover:text-pink-500"
+                className="font-normal text-base hover:text-yellow-500 text-pink-500"
               >
                 Veranstalter AGB
               </a>
@@ -113,7 +113,7 @@ const Footer = (props: FooterProps) => (
                 D-71717 Beilstein
                 <br />
                 <a
-                  className="text-yellow-500 hover:text-pink-500"
+                  className="hover:text-yellow-500 text-pink-500"
                   href="tel:0049706294990"
                 >
                   +49 (0)7062 94990
@@ -160,7 +160,7 @@ const Footer = (props: FooterProps) => (
                 <br />
                 <a
                   href="tel:0049714481550"
-                  className="text-yellow-500 hover:text-pink-500"
+                  className="hover:text-yellow-500 text-pink-500"
                 >
                   +49 (0)7144 81550
                 </a>
@@ -196,7 +196,10 @@ const Footer = (props: FooterProps) => (
     <div className="max-w-screen-xl mx-auto flex flex-col items-center mt-16">
       <div className="max-w-screen-xl mx-auto flex flex-col items-center mt-16">
         <div className="flex items-center space-x-2">
-          <a href="#" className="text-yellow-500 hover:text-white">
+          <a
+            href="https://www.facebook.com/ReisebueroRode/"
+            className="hover:text-yellow-500 text-pink-500"
+          >
             <span className="sr-only">Facebook</span>
             <svg
               className="h-6 w-6"
@@ -213,7 +216,7 @@ const Footer = (props: FooterProps) => (
           </a>
           <a
             href="https://www.instagram.com/rodereisen/"
-            className="text-yellow-500 hover:text-white"
+            className="hover:text-yellow-500 text-pink-500"
             target="_blank"
             rel="noopener noreferrer"
           >
