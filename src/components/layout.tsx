@@ -5,12 +5,11 @@
  * See: https://www.gatsbyjs.org/docs/static-query/
  */
 
+import { graphql, StaticQuery } from "gatsby"
 import * as React from "react"
-import { StaticQuery, graphql } from "gatsby"
-
+import Footer from "./footer"
 import Header from "./header"
 import "./layout.css"
-import Footer from "./footer"
 
 const Layout = (props: LayoutProps) => (
   <StaticQuery

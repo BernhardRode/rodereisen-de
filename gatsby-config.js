@@ -47,16 +47,64 @@ module.exports = {
         hashtags: true,
       },
     },
+    "gatsby-transformer-yaml",
     `gatsby-plugin-image`,
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "blog",
+        path: `${__dirname}/content/blog`,
+      },
+    },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "mitarbeiter",
+        path: `${__dirname}/content/mitarbeiter`,
+      },
+    },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "data",
+        path: `${__dirname}/content/data`,
+      },
+    },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "images",
+        path: `${__dirname}/content/images`,
+      },
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `images`,
-        path: `${__dirname}/src/images`,
+        name: "logos",
+        path: `${__dirname}/src/images/logos`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `portraits`,
+        path: `${__dirname}/src/images/portraits`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `portraits-square`,
+        path: `${__dirname}/src/images/portraits-square`,
       },
     },
     `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
+    {
+      resolve: `gatsby-plugin-sharp`,
+      options: {
+        defaultQuality: 100,
+      },
+    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -66,11 +114,34 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/rr-flugzeug.png`, // This path is relative to the root of the site.
+        icon: `src/images/logos/rr-flugzeug.png`, // This path is relative to the root of the site.
       },
     },
-    `gatsby-plugin-gatsby-cloud`,
+    `gatsby-transformer-sharp`,
+    {
+      resolve: "gatsby-transformer-remark",
+      options: {
+        plugins: [
+          "gatsby-remark-relative-images",
+          "gatsby-remark-normalize-paths",
+          {
+            resolve: "gatsby-remark-images",
+            options: {
+              maxWidth: 1000,
+              linkImagesToOriginal: false,
+            },
+          },
+        ],
+      },
+    },
+    // `gatsby-plugin-gatsby-cloud`,
     `gatsby-plugin-postcss`,
+    {
+      resolve: `gatsby-plugin-purgecss`,
+      options: {
+        tailwind: true,
+      },
+    },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,

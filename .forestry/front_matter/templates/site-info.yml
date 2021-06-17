@@ -1,0 +1,26 @@
+---
+label: Konfiguration
+hide_body: true
+fields:
+- type: text
+  name: titel
+  label: Titel
+- type: text
+  name: beschreibung
+  label: Beschreibung
+- type: text
+  name: repository_url
+  label: Repository
+- name: e-mail
+  type: text
+  config:
+    required: false
+  label: E-Mail
+  description: Kontakt E-Mail Adresse.
+- name: instagram
+  type: text
+  config:
+    required: false
+  label: Instagram
+pages:
+- config.json

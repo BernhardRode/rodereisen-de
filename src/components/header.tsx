@@ -29,7 +29,7 @@ const Header = props => {
 
   return (
     <header
-      className={`w-full h-24 fixed top-0 left-0 right-0 transition-colors ease-in-out duration-500 ${
+      className={`w-full h-24 fixed top-0 left-0 right-0 transition-colors ease-in-out duration-500 z-50 ${
         isTransparent
           ? "bg-white md:bg-transparent"
           : "bg-white blur bg-opacity-80 shadow-2xl"

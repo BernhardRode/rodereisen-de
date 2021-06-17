@@ -13,3 +13,7 @@
 .blur {
   backdrop-filter: blur(8px);
 }
+
+.hideme:hover {
+  opacity: 0;
+}

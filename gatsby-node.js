@@ -728,7 +728,7 @@ const cachedOffers = [
       flight: "",
       hotel: "The Devonshire House Hotel ohne Transfer",
       image:
-        "https://i17.giatamedia.com/s.php?uid=180322&source=xml&size=800&cid=21474&iid=71593840",
+        "https://i11.giatamedia.com/s.php?uid=180322&source=xml&size=800&cid=22258&iid=66288405",
       link: "https://www.meinereiseangebote.de/RQVW-2524/80145733",
       organizer:
         "https://cluster2.images.traveltainment.eu/images/content/va_logos/small/FTI.gif",
@@ -938,6 +938,8 @@ exports.sourceNodes = async ({
 }
 
 exports.createPages = async ({ graphql, actions, reporter }) => {
+  const { createPage } = actions
+
   const offerTemplate = path.resolve("./src/templates/angebot.tsx")
 
   try {
@@ -992,7 +994,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
         component: offerTemplate,
         context: context.node,
       }
-      actions.createPage(page)
+      createPage(page)
     })
   } catch (error) {
     console.log(error)

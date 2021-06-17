@@ -1,0 +1,34 @@
+{
+  "description": "Wir kümmern uns. Um sie.",
+  "repository_url": "https://github.com/bernhardrode/rodereisen-website",
+  "title": "Reisebüro Rode GmbH",
+  "bank": [
+    {
+      "bic": "GENODES1VBK",
+      "iban": "DE52 6029 1120 0660 2660 08",
+      "name": "Volksbank Backnang"
+    }
+  ],
+  "contact": {
+    "email": "info@rodereisen.de",
+    "facebook_handle": "ReisebueroRode",
+    "instagram_handle": "rodereisen",
+    "twitter_handle": "rodereisen",
+    "website": "www.rodereisen.de",
+    "bookings": "https://outlook.office365.com/owa/calendar/ReisebroRode@rode.io/bookings/"
+  },
+  "locations": [
+    {
+      "city": "Beilstein",
+      "phone": "+49 (0)7062 94990",
+      "street": "Hauptstrasse 44",
+      "zip": "71717"
+    },
+    {
+      "city": "Steinheim",
+      "phone": "+49 (0)7144 81550",
+      "street": "Friedrichstraße 8",
+      "zip": "71711"
+    }
+  ]
+}
