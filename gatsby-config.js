@@ -136,12 +136,12 @@ module.exports = {
     },
     // `gatsby-plugin-gatsby-cloud`,
     `gatsby-plugin-postcss`,
-    {
-      resolve: `gatsby-plugin-purgecss`,
-      options: {
-        tailwind: true,
-      },
-    },
+    // {
+    //   resolve: `gatsby-plugin-purgecss`,
+    //   options: {
+    //     tailwind: true,
+    //   },
+    // },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
