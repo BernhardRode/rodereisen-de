@@ -15,8 +15,8 @@ fields:
     source:
       type: pages
       section: mitarbeiter
-      file:
-      path:
+      file: 
+      path: 
   label: Kontakt
   description: Wer hat diesen Artikel verfasst.
 - name: datum
@@ -25,8 +25,8 @@ fields:
   description: Date post was created
   config:
     required: false
-    date_format:
-    time_format:
+    date_format: 
+    time_format: 
     display_utc: false
   default: now
 - name: bild
