@@ -102,7 +102,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-sharp`,
       options: {
-        defaultQuality: 100,
+        defaults: {
+          formats: [`auto`, `webp`],
+          placeholder: "blurred",
+          maxWidth: 1080,
+          breakpoints: [540, 1080],
+          defaultQuality: 90,
+        },
       },
     },
     {
@@ -117,7 +123,6 @@ module.exports = {
         icon: `src/images/logos/rr-flugzeug.png`, // This path is relative to the root of the site.
       },
     },
-    `gatsby-transformer-sharp`,
     {
       resolve: "gatsby-transformer-remark",
       options: {
@@ -127,7 +132,7 @@ module.exports = {
           {
             resolve: "gatsby-remark-images",
             options: {
-              maxWidth: 1000,
+              maxWidth: 1080,
               linkImagesToOriginal: false,
             },
           },
@@ -136,6 +141,13 @@ module.exports = {
     },
     // `gatsby-plugin-gatsby-cloud`,
     `gatsby-plugin-postcss`,
+    {
+      resolve: "gatsby-plugin-purgecss",
+      options: {
+        tailwind: true,
+        whitelist: ["blockquote"],
+      },
+    },
     // {
     //   resolve: `gatsby-plugin-purgecss`,
     //   options: {

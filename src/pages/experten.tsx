@@ -67,9 +67,8 @@ export const query = graphql`
         node {
           childImageSharp {
             gatsbyImageData(
-              quality: 100
               aspectRatio: 1.5
-              transformOptions: { fit: OUTSIDE }
+              transformOptions: { fit: INSIDE }
             )
           }
           id
