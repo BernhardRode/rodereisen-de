@@ -57,4 +57,5 @@ fields:
     label: Lustiges Bild
   label: Bilder
 pages:
+- content/mitarbeiter/peter-rode.md
 - content/mitarbeiter/thomas-baltzer.md
