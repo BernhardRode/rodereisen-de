@@ -1,3 +1,7 @@
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV}`,
+})
+
 module.exports = {
   siteMetadata: {
     author: "@ebbo",
@@ -45,6 +49,14 @@ module.exports = {
     //     paginate: 100,
     //     maxPosts: 20,
     //     hashtags: true,
+    //   },
+    // },
+    // {
+    //   resolve: `gatsby-source-custom`,
+    //   options: {
+    //     // facebookApiToken: process.env.FACEBOOK_TOKEN,
+    //     // googleMapsApiKey: process.env.GOOGLE_MAPS_API_KEY,
+    //     accessToken: process.env.MAPBOX_TOKEN,
     //   },
     // },
     "gatsby-transformer-yaml",
