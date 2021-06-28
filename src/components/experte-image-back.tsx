@@ -12,6 +12,7 @@ const ExpertImageBack = ({ experte }) => {
               gatsbyImageData(
                 aspectRatio: 1.5
                 transformOptions: { fit: INSIDE }
+                width: 540
               )
             }
             id

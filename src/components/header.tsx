@@ -21,6 +21,7 @@ const Header = props => {
   }
 
   useEffect(() => {
+    handleScroll()
     window.addEventListener("scroll", handleScroll)
     return () => {
       window.removeEventListener("scroll", handleScroll)
@@ -32,7 +33,7 @@ const Header = props => {
       className={`w-full h-24 fixed top-0 left-0 right-0 transition-colors ease-in-out duration-500 ${
         isTransparent
           ? "bg-white md:bg-transparent z-40"
-          : "bg-white blur bg-opacity-80 shadow-2xl z-30"
+          : "bg-white blur bg-opacity-80 shadow-2xl z-50"
       }`}
     >
       <div className="container flex items-center justify-center h-full max-w-6xl px-8 mx-auto sm:justify-between xl:px-0">

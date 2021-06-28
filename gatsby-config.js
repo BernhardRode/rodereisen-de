@@ -130,12 +130,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-sharp`,
       options: {
+        defaultQuality: 100,
         defaults: {
           formats: [`auto`, `webp`],
-          placeholder: "blurred",
-          // maxWidth: 1080,
+          placeholder: "tracedSVG",
           breakpoints: [540, 1080],
-          // defaultQuality: 90,
         },
       },
     },

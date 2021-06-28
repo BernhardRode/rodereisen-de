@@ -1,26 +1,57 @@
+import { graphql, useStaticQuery } from "gatsby"
+import { getSrc } from "gatsby-plugin-image"
 import * as React from "react"
-import HeaderImageCredit from "./header-image-credit"
 
 const HeaderImage = (props: HeaderImageProps) => {
-  const { src, backgroundColor } = props
+  const data = useStaticQuery(graphql`
+    query HeaderImagesQuery {
+      allFile(filter: { sourceInstanceName: { eq: "banner" } }) {
+        edges {
+          node {
+            childImageSharp {
+              gatsbyImageData(height: 1024)
+            }
+            id
+            name
+            extension
+          }
+        }
+      }
+    }
+  `)
+  const { banner, background, backgroundColor, children } = props
+
+  const bannerIndex = data.allFile.edges.findIndex(
+    ({ node }) => node.name === banner
+  )
+  const { node } = data.allFile.edges[bannerIndex > -1 ? bannerIndex : 0]
+  const src = getSrc(node)
   return src ? (
-    <div className={`w-full pt-36`} style={{ backgroundColor }}>
+    <>
       <div
-        style={{ backgroundImage: `url(${src})`, zIndex: -1, height: 625 }}
-        className={`container bg-cover bg-no-repeat`}
+        className={`w-full`}
+        style={{
+          background,
+          backgroundColor,
+        }}
       >
-        {props.children}
-        {props.credit ? <HeaderImageCredit /> : null}
+        <div
+          style={{ backgroundImage: `url(${src})`, zIndex: -1, height: 768 }}
+          className={`container bg-cover z-0`}
+        ></div>
       </div>
-    </div>
-  ) : null
+      <div className="">{children ? children : null}</div>
+    </>
+  ) : (
+    children
+  )
 }
 
 interface HeaderImageProps {
-  src: string
+  banner: string
+  background?: string
   backgroundColor?: string
   children?: any
-  credit?: string
 }
 
 HeaderImage.defaultProps = {

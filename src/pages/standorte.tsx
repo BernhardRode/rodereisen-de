@@ -8,11 +8,12 @@ import SEO from "../components/seo"
 const StandortePage = ({ data }) => (
   <Layout>
     <SEO title="Standorte" />
-    <HeaderImage src="/images/bg-5.png" backgroundColor="#475FA6" />
-    <SectionHeadline headline="Standort" subheadline="Beilstein" />
-    <SectionStandort name="Beilstein" />
-    <SectionHeadline headline="Standort" subheadline="Steinheim" />
-    <SectionStandort name="Steinheim" />
+    <HeaderImage banner="Banner_8">
+      <SectionHeadline headline="Standort" subheadline="Beilstein" />
+      <SectionStandort name="Beilstein" />
+      <SectionHeadline headline="Standort" subheadline="Steinheim" />
+      <SectionStandort name="Steinheim" />
+    </HeaderImage>
   </Layout>
 )
 

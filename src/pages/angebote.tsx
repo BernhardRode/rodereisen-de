@@ -5,15 +5,17 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import HeaderImage from "../components/header-image"
 import SectionOffers from "../components/section-offers"
+import SectionHeadline from "../components/section-headline"
 
 const AngebotePage = props => {
   const offers = props.data.allOffers.edges.map(({ node }) => node)
-  console.log({ offers })
   return (
     <Layout>
       <SEO title="Angebote" />
-      <HeaderImage src="/images/bg-1.png" backgroundColor="#745F90" />
-      <SectionOffers offers={offers} />
+      <HeaderImage banner="Banner_3">
+        <SectionHeadline headline="Aktuelle" subheadline="Angebote" />
+        <SectionOffers offers={offers} />
+      </HeaderImage>
     </Layout>
   )
 }
