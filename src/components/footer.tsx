@@ -1,10 +1,8 @@
-import { Link } from "gatsby"
-import { StaticImage } from "gatsby-plugin-image"
 import * as React from "react"
 
 const Footer = (props: FooterProps) => (
   <footer
-    className="bg-blue-900 px-6 lg:px-8 py-12 bg-no-repeat bg-cover	bg-center"
+    className="bg-blue-900 px-6 lg:px-8 py-12 bg-no-repeat bg-cover	bg-center z-30"
     style={{ backgroundImage: `url("/bg-skyline.png")` }}
   >
     <div className="max-w-screen-xl mx-auto grid md:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-x-8 text-white">

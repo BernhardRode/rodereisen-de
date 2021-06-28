@@ -1,14 +1,13 @@
 ---
 name: Peter
 nachname: Rode
-warenkorb: ''
+warenkorb: ""
 kontakt:
   email: peter@rodereisen.de
-  telefon: ''
-  instagram: ''
-  twitter: ''
+  telefon: ""
+  instagram: ""
+  twitter: ""
 bilder:
-  bild: ''
-  bild_hover: ''
-
+  bild: "peter-rode.jpg"
+  bild_hover: "peter-rode.jpg"
 ---

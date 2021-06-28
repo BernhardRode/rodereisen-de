@@ -7,12 +7,8 @@ import HeaderImage from "../components/header-image"
 import SectionOffers from "../components/section-offers"
 
 const AngebotePage = props => {
-  const offers = [
-    ...props.data.allOffers.edges.map(({ node }) => ({
-      ...node,
-    })),
-  ]
-
+  const offers = props.data.allOffers.edges.map(({ node }) => node)
+  console.log({ offers })
   return (
     <Layout>
       <SEO title="Angebote" />
@@ -28,28 +24,24 @@ export const query = graphql`
     allOffers {
       edges {
         node {
-          meta {
-            id
-            index
-            name
-            slug
-          }
-          trip {
-            city
-            description
-            destination
-            destinationDescription
-            duration
-            final
-            flight
-            hotel
-            image
-            link
-            organizer
-            pkg
-            price
-            time(locale: "", fromNow: false, formatString: "", difference: "")
-          }
+          basketId
+          city
+          destination
+          destinationDescription
+          duration
+          end
+          facts
+          final
+          flight
+          hotel
+          image
+          link
+          offerId
+          organizer
+          pkg
+          price
+          slug
+          start
         }
       }
     }

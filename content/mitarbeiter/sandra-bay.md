@@ -8,13 +8,9 @@ kontakt:
   telefon: ""
   instagram: ""
   twitter: ""
-beschreibung: ""
-bild: "./../content/images/cf9f4214-8774-40e7-86d7-0cfc49b344ce.jpeg"
-bild_lustig: "./../content/images/643512a5-323b-4791-bfdb-8a21a99a099f.jpeg"
-warenkorb: "HWBW-1263"
 bilder:
-  bild: ""
-  bild_hover: ""
+  bild: "sandra-bay.jpg"
+  bild_hover: "sandra-bay.jpg"
 ---
 
 # Sandra Bay

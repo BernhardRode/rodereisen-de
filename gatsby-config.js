@@ -37,23 +37,31 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
-    {
-      resolve: `gatsby-source-instagram`,
-      options: {
-        access_token: process.env.FACEBOOK_TOKEN,
-        instagram_id: "17841405466170091",
-        paginate: 100,
-        maxPosts: 20,
-        hashtags: true,
-      },
-    },
+    // {
+    //   resolve: `gatsby-source-instagram`,
+    //   options: {
+    //     access_token: process.env.FACEBOOK_TOKEN,
+    //     instagram_id: "17841405466170091",
+    //     paginate: 100,
+    //     maxPosts: 20,
+    //     hashtags: true,
+    //   },
+    // },
     "gatsby-transformer-yaml",
     `gatsby-plugin-image`,
+    // {
+    //   resolve: "gatsby-source-filesystem",
+    //   options: {
+    //     name: "blog",
+    //     path: `${__dirname}/content/blog`,
+    //   },
+    // },
     {
       resolve: "gatsby-source-filesystem",
       options: {
-        name: "blog",
-        path: `${__dirname}/content/blog`,
+        name: "pages",
+        path: `${__dirname}/content/pages`,
+        ignore: [`**/\.*`],
       },
     },
     {
@@ -61,6 +69,7 @@ module.exports = {
       options: {
         name: "mitarbeiter",
         path: `${__dirname}/content/mitarbeiter`,
+        ignore: [`**/\.*`],
       },
     },
     {
@@ -70,18 +79,19 @@ module.exports = {
         path: `${__dirname}/content/data`,
       },
     },
-    {
-      resolve: "gatsby-source-filesystem",
-      options: {
-        name: "images",
-        path: `${__dirname}/content/images`,
-      },
-    },
+    // {
+    //   resolve: "gatsby-source-filesystem",
+    //   options: {
+    //     name: "images",
+    //     path: `${__dirname}/content/images`,
+    //   },
+    // },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: "logos",
         path: `${__dirname}/src/images/logos`,
+        ignore: [`**/\.*`],
       },
     },
     {
@@ -89,6 +99,15 @@ module.exports = {
       options: {
         name: `portraits`,
         path: `${__dirname}/src/images/portraits`,
+        ignore: [`**/\.*`],
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `portraits-funny`,
+        path: `${__dirname}/src/images/portraits-funny`,
+        ignore: [`**/\.*`],
       },
     },
     {
@@ -96,6 +115,15 @@ module.exports = {
       options: {
         name: `portraits-square`,
         path: `${__dirname}/src/images/portraits-square`,
+        ignore: [`**/\.*`],
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `banner`,
+        path: `${__dirname}/src/images/banner`,
+        ignore: [`**/\.*`],
       },
     },
     `gatsby-transformer-sharp`,
@@ -105,9 +133,9 @@ module.exports = {
         defaults: {
           formats: [`auto`, `webp`],
           placeholder: "blurred",
-          maxWidth: 1080,
+          // maxWidth: 1080,
           breakpoints: [540, 1080],
-          defaultQuality: 90,
+          // defaultQuality: 90,
         },
       },
     },
@@ -128,12 +156,10 @@ module.exports = {
       options: {
         plugins: [
           "gatsby-remark-relative-images",
-          "gatsby-remark-normalize-paths",
           {
             resolve: "gatsby-remark-images",
             options: {
               maxWidth: 1080,
-              linkImagesToOriginal: false,
             },
           },
         ],
@@ -145,20 +171,11 @@ module.exports = {
       resolve: "gatsby-plugin-purgecss",
       options: {
         tailwind: true,
-        whitelist: ["blockquote"],
+        whitelist: [],
       },
     },
-    // {
-    //   resolve: `gatsby-plugin-purgecss`,
-    //   options: {
-    //     tailwind: true,
-    //   },
-    // },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
   ],
-  flags: {
-    DEV_SSR: false,
-  },
 }

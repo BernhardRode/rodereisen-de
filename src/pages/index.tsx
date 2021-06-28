@@ -1,5 +1,4 @@
 import * as React from "react"
-import HeaderImage from "../components/header-image"
 import Layout from "../components/layout"
 import SectionCorona from "../components/section-corona"
 import SectionHeadline from "../components/section-headline"
@@ -24,7 +23,6 @@ const IndexPage = () => {
     { type: "image", colspan: 2, src: "/images/14.png" },
     { type: "image", colspan: 1, src: "/images/15.png" },
   ]
-  const credit = `Photo by <a href="https://unsplash.com/@jruscello?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jessica Ruscello</a> on <a href="https://unsplash.com/s/photos/beach?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>`
   return (
     <Layout>
       <SEO title="Home" />
