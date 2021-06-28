@@ -366,7 +366,7 @@ Flug ab Stuttgart (Economy)
             </div>
             <div class="ph-page-header-container-2nd-top">
                 <section class="ph-page-contact-map"
-                    data-url="https://www.google.com/maps/embed/v1/place?key=AIzaSyAol4V-GeB9VeVyXtbBXV5vrf887xeEY2c&amp;q=Haupstrasse 44, 71717 Beilstein, DE">
+                    data-url="">
                 </section>
                 <section class="ph-page-header-logo agent-picture">
                     <div class="agent-picture-square"> <img id="agencyHeaderImg"
