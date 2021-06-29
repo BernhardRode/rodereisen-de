@@ -7,27 +7,10 @@ import SEO from "../components/seo"
 import Wall, { Walltile } from "../components/wall"
 
 const IndexPage = () => {
-  const tiles: Walltile[] = [
-    { type: "image", colspan: 1, src: "/images/1.png" },
-    { type: "image", colspan: 2, src: "/images/2.png" },
-    { type: "image", colspan: 2, src: "/images/3.png" },
-    { type: "image", colspan: 1, src: "/images/4.png" },
-    { type: "image", colspan: 1, src: "/images/5.png" },
-    { type: "image", colspan: 2, src: "/images/6.png" },
-    { type: "image", colspan: 1, src: "/images/7.png" },
-    { type: "image", colspan: 1, src: "/images/8.png" },
-    { type: "image", colspan: 1, src: "/images/9.png" },
-    { type: "image", colspan: 2, src: "/images/10.png" },
-    { type: "image", colspan: 1, src: "/images/11.png" },
-    { type: "image", colspan: 2, src: "/images/12.png" },
-    { type: "image", colspan: 1, src: "/images/13.png" },
-    { type: "image", colspan: 2, src: "/images/14.png" },
-    { type: "image", colspan: 1, src: "/images/15.png" },
-  ]
   return (
     <Layout>
       <SEO title="Home" />
-      <Wall tiles={tiles} />
+      <Wall />
       <SectionHeadline headline="wir sind" subheadline="für sie da" />
       <SectionCorona />
     </Layout>

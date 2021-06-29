@@ -51,14 +51,6 @@ module.exports = {
     //     hashtags: true,
     //   },
     // },
-    // {
-    //   resolve: `gatsby-source-custom`,
-    //   options: {
-    //     // facebookApiToken: process.env.FACEBOOK_TOKEN,
-    //     // googleMapsApiKey: process.env.GOOGLE_MAPS_API_KEY,
-    //     accessToken: process.env.MAPBOX_TOKEN,
-    //   },
-    // },
     "gatsby-transformer-yaml",
     `gatsby-plugin-image`,
     // {
@@ -101,8 +93,24 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
+        name: "tiles",
+        path: `${__dirname}/src/images/tiles`,
+        ignore: [`**/\.*`],
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
         name: "logos",
         path: `${__dirname}/src/images/logos`,
+        ignore: [`**/\.*`],
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `locations`,
+        path: `${__dirname}/src/images/locations`,
         ignore: [`**/\.*`],
       },
     },
