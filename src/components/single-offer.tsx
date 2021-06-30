@@ -1,6 +1,21 @@
 import * as React from "react"
 
+const parseDate = dateString => {
+  const date = new Date(dateString)
+  const options = {
+    weekday: "long",
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+  }
+
+  return date.toLocaleDateString("de-DE", options as any)
+}
+
 const SingleOffer = ({ offer }) => {
+  const start = parseDate(offer.start)
+  const end = parseDate(offer.end)
+
   return (
     <div className="flex flex-col p-4">
       <div className="rounded shadow overflow-hidden">
@@ -8,11 +23,10 @@ const SingleOffer = ({ offer }) => {
           className="h-52 w-full bg-cover"
           style={{ backgroundImage: `url("${offer.image}")` }}
         >
-          <div className="relative top-10 w-20 text-center bg-yellow-500 rounded">
-            <div className="">
-              <a className="" href="/contact">
-                Details 🔍
-              </a>
+          <div className="flew flex-grow w-full h-full flex items-center justify-center">
+            <div className="rounded-full text-white bg-yellow-500 h-20 w-20 items-center justify-center opacity-0 hover:opacity-100 flex flex-col">
+              <span>🔍</span>
+              <span>Details</span>
             </div>
           </div>
         </div>
@@ -23,8 +37,8 @@ const SingleOffer = ({ offer }) => {
           </h3>
           <ul className="border-0 border-t-4 ml-10 mr-10 border-dotted">
             <li>{offer.final}</li>
-            <li>{offer.start}</li>
-            <li>{offer.end}</li>
+            <li>{start}</li>
+            <li>{end}</li>
           </ul>
           <div className="">
             <p className="text-gray-500 text-lg text-center pr-24">Preis</p>

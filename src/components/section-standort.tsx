@@ -11,23 +11,29 @@ const SectionStandort = ({
   src,
   openHours,
   openDays,
+  open,
 }) => {
-  const [isOpen, setOpen] = useState(false)
+  const [isOpen, setOpen] = useState(null)
 
   useEffect(() => {
+    // setInterval(() => {
     const now = new Date()
     const weekday = now.getDay()
     const hour = now.getHours()
-    const isOpen =
+    const result =
       openDays.indexOf(weekday) > -1 && openHours.indexOf(hour) > -1
-    setOpen(isOpen)
+
+    if (isOpen !== result) {
+      setOpen(result)
+    }
+    // }, 1000)
   }, [])
 
   return (
-    <div className="py-3 flex flex-grow mb-36">
-      <div className="bg-white shadow-lg border-gray-100 max-h-96	border sm:rounded-3xl p-8 flex space-x-8">
-        <div className="h-60 overflow-visible w-1/2">
-          <div className="flex rounded-xl overflow-hidden ring-2 ring-blue-900">
+    <div className="py-3 flex flex-grow lg:mb-36">
+      <div className="lg:border sm:rounded-3xl p-8 flex flex-col-reverse lg:flex-row lg:space-x-8 lg:shadow-xl">
+        <div className="lg:h-60 overflow-visible lg:w-1/2">
+          <div className="flex rounded-xl overflow-hidden ring-2 ring-gray-200 lg:shadow-xl">
             <iframe
               width="100%"
               height="500"
@@ -38,14 +44,16 @@ const SectionStandort = ({
             ></iframe>
           </div>
         </div>
-        <div className="flex flex-col w-1/2 space-y-4">
-          <div className="flex justify-between items-start">
-            <h2 className="text-3xl font-bold">{name}</h2>
-            <div
-              className={`rounded-full h-8 w-8 ${
-                isOpen ? "bg-green-500" : "bg-red-500"
-              }`}
-            ></div>
+        <div className="flex flex-col lg:w-1/2 space-y-4">
+          <div className="flex justify-between items-center">
+            <h2 className="text-2xl font-bold">{name}</h2>
+            {isOpen !== null ? (
+              <div
+                className={`rounded-full h-6 w-6 ${
+                  isOpen === true ? "bg-green-500" : "bg-red-500"
+                }`}
+              ></div>
+            ) : null}
           </div>
           <GatsbyImage
             image={image}
@@ -66,6 +74,10 @@ const SectionStandort = ({
               <br />
               {city}
             </div>
+          </div>
+          <div>
+            <div className="text-sm text-gray-400">Öffnungszeiten:</div>
+            <div className="text-lg text-gray-800">{open}</div>
           </div>
         </div>
       </div>

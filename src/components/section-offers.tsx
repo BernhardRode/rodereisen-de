@@ -1,5 +1,5 @@
 import * as React from "react"
-import { useEffect, useState } from "react"
+import { useState } from "react"
 import ModalBooking from "./modal-booking"
 import SingleOffer from "./single-offer"
 
@@ -9,7 +9,7 @@ const SectionOffers = ({ offers }) => {
   const open = offer => {
     const BASE_URL = "https://www.meinereiseangebote.de"
     const url = `${BASE_URL}/${offer.basketId}/${offer.offerId}`
-    setUrl(`${BASE_URL}/${offer.basketId}/${offer.offerId}`)
+    setUrl(url)
     setIsOpen(true)
   }
 

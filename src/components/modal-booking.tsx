@@ -1,6 +1,5 @@
 import * as React from "react"
-import { useEffect, useLayoutEffect } from "react"
-import { clearAllBodyScrollLocks, enableBodyScroll } from "body-scroll-lock"
+import { useLayoutEffect } from "react"
 
 // Hook
 function useLockBodyScroll() {
@@ -32,7 +31,7 @@ const ModalBooking = props => {
 
   return (
     <>
-      <div className="fixed h-screen max-h-screen w-screen z-50 top-0 left-0 right-0 bottom-0 bg-white blur opacity-95">
+      <div className="fixed h-screen max-h-screen w-screen z-50 top-0 left-0 right-0 bottom-0 bg-white">
         <div className="w-full h-full">
           <iframe className="w-full h-full" src={src}></iframe>
         </div>

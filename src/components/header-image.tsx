@@ -36,8 +36,8 @@ const HeaderImage = (props: HeaderImageProps) => {
         }}
       >
         <div
-          style={{ backgroundImage: `url(${src})`, zIndex: -1, height: 768 }}
-          className={`container bg-cover z-0`}
+          style={{ backgroundImage: `url(${src})`, zIndex: -1 }}
+          className={`container bg-cover z-0 h-12 lg:h-96`}
         ></div>
       </div>
       <div className="">{children ? children : null}</div>

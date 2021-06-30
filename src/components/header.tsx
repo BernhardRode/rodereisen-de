@@ -32,7 +32,7 @@ const Header = props => {
     <header
       className={`w-full h-24 fixed top-0 left-0 right-0 transition-colors ease-in-out duration-500 ${
         isTransparent
-          ? "bg-white md:bg-transparent z-40"
+          ? "bg-white lg:bg-transparent z-40"
           : "bg-white blur bg-opacity-80 shadow-2xl z-50"
       }`}
     >
@@ -50,29 +50,29 @@ const Header = props => {
 
         <nav
           id="nav"
-          className={`absolute top-0 left-0 flex flex-col items-center justify-between w-full h-64 pt-5 mt-24 text-sm text-blue-900 bg-white border-t border-gray-200 md:w-auto md:flex-row md:h-24 lg:text-base md:bg-transparent md:mt-0 md:border-none md:py-0 md:flex md:relative ${
+          className={`absolute top-0 left-0 flex flex-col items-center justify-between w-full h-64 pt-5 mt-24 text-sm text-blue-900 bg-white border-t border-gray-200 lg:w-auto lg:flex-row lg:h-24 lg:text-base lg:bg-transparent lg:mt-0 lg:border-none lg:py-0 lg:flex lg:relative ${
             isOpen ? null : "hidden"
           }`}
         >
           <a
             href="/"
-            className="ml-0 mr-0 pt-5 pb-5 block font-bold duration-100 md:ml-12 md:mr-3 lg:mr-8 transition-color hover:text-pink-500"
+            className="ml-0 mr-0 pt-5 pb-5 block font-bold duration-100 lg:ml-12 lg:mr-3 lg:mr-8 transition-color hover:text-pink-500"
           >
             Home<span className="text-pink-500">.</span>
           </a>
           <a
             href="/experten"
-            className="ml-0 mr-0 pt-5 pb-5 block font-bold duration-100 md:ml-12 md:mr-3 lg:mr-8 transition-color hover:text-pink-500"
+            className="ml-0 mr-0 pt-5 pb-5 block font-bold duration-100 lg:ml-12 lg:mr-3 lg:mr-8 transition-color hover:text-pink-500"
           >
             Experten<span className="text-pink-500">.</span>
           </a>
           <a
             href="/standorte"
-            className="ml-0 mr-0 pt-5 pb-5 block font-bold duration-100 md:ml-12 md:mr-3 lg:mr-8 transition-color hover:text-pink-500"
+            className="ml-0 mr-0 pt-5 pb-5 block font-bold duration-100 lg:ml-12 lg:mr-3 lg:mr-8 transition-color hover:text-pink-500"
           >
             Standorte<span className="text-pink-500">.</span>
           </a>
-          <div className="flex flex-col w-full font-medium border-t border-gray-200 md:hidden">
+          <div className="flex flex-col w-full font-medium border-t border-gray-200 lg:hidden">
             <a
               href="/angebote"
               className="w-full py-2 pt-3 pb-3 font-bold text-center text-pink-500"
@@ -118,10 +118,10 @@ const Header = props => {
           </div>
         </nav>
 
-        <div className="absolute left-0 flex-col items-center justify-center hidden w-full pb-8 mt-48 border-b border-gray-200 md:relative md:w-auto md:bg-transparent md:border-none md:mt-0 md:flex-row md:p-0 md:items-end md:flex md:justify-between">
+        <div className="absolute left-0 flex-col items-center justify-center hidden w-full pb-8 mt-48 border-b border-gray-200 lg:relative lg:w-auto lg:bg-transparent lg:border-none lg:mt-0 lg:flex-row lg:p-0 lg:items-end lg:flex lg:justify-between">
           <a
             href="/angebote"
-            className="relative py-4 mr-0 text-sm font-bold text-pink-500 md:px-5 sm:mr-3 md:mt-0 hover:text-blue-900 lg:text-base"
+            className="relative py-4 mr-0 text-sm font-bold text-pink-500 lg:px-5 sm:mr-3 lg:mt-0 hover:text-blue-900 lg:text-base"
           >
             Angebote
           </a>
@@ -135,7 +135,7 @@ const Header = props => {
 
         <div
           id="nav-mobile-btn"
-          className={`absolute top-0 right-0 block w-6 mt-8 mr-10 cursor-pointer select-none md:hidden sm:mt-10 ${
+          className={`absolute top-0 right-0 block w-6 mt-8 mr-10 cursor-pointer select-none lg:hidden sm:mt-10 ${
             isOpen ? null : "close"
           }`}
           onClick={() => setOpen(!isOpen)}
