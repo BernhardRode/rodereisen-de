@@ -24,7 +24,7 @@ const StandortePage = ({ data }) => {
       }
     }
   `)
-  const [sthImage, bstImage] = images.allFile.edges.map(({ node }) =>
+  const [bstImage, sthImage] = images.allFile.edges.map(({ node }) =>
     getImage(node)
   )
 
