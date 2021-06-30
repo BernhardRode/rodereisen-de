@@ -10,12 +10,12 @@ export interface Walltile {
 
 const Wall = () => {
   const data = useStaticQuery(graphql`
-    query TilesImagesQuery {
+    query WallTilesImagesQuery {
       allFile(filter: { sourceInstanceName: { eq: "tiles" } }) {
         edges {
           node {
             childImageSharp {
-              gatsbyImageData(width: 300, height: 400)
+              gatsbyImageData(height: 400, layout: CONSTRAINED)
             }
             id
             name
@@ -27,20 +27,28 @@ const Wall = () => {
   `)
 
   const sorted = data.allFile.edges.sort(
-    (a, b) => parseInt(a.node.name) - parseInt(b.node.name)
+    (a, b) =>
+      parseInt(a.node.name.split("-")[0]) - parseInt(b.node.name.split("-")[0])
   )
-  const tiles = sorted.map(({ node }) => getImage(node))
-
+  const tiles = sorted.map(({ node }) => {
+    console.log(node)
+    return {
+      tile: getImage(node),
+      span: node.name.split("-")[1] ? parseInt(node.name.split("-")[1]) : 1,
+    }
+  })
+  console.log(tiles)
   // console.log(tiles)
   return (
-    <div className="container pt-40 bg-white">
-      <div className="rounded-xl overflow-hidden">
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 xl:grid-cols-7 gap-0 ">
-          {tiles.map((tile, index) => (
+    <div className="container pt-32 bg-white p-4">
+      <div className="rounded shadow overflow-hidden">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 xl:grid-cols-7 grid-rows-3 gap-0 ">
+          {tiles.map(({ tile, span }, index) => (
             <div
               key={index}
-              className={`block bg-cover bg-no-repeat h-72 aspect-w-3`}
-              style={{ backgroundImage: `url(${tile})` }}
+              className={`block bg-cover bg-no-repeat h-72 aspect-w-3 ${
+                span === 2 ? "col-span-2" : null
+              }`}
             >
               <GatsbyImage image={tile} alt="Reisebüro Rode Gmbh" />
             </div>
