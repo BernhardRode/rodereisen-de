@@ -87,7 +87,7 @@ const Footer = (props: FooterProps) => {
               </li>
               <li>
                 <a
-                  href="/agb-veranstalter"
+                  href="/veranstalter-agb"
                   className="font-normal text-base hover:text-yellow-500 text-pink-500"
                 >
                   Veranstalter AGB
