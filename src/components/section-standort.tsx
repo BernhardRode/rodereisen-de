@@ -1,5 +1,6 @@
 import { GatsbyImage } from "gatsby-plugin-image"
 import * as React from "react"
+import { useEffect, useState } from "react"
 
 const SectionStandort = ({
   name,
@@ -11,11 +12,16 @@ const SectionStandort = ({
   openHours,
   openDays,
 }) => {
-  const now = new Date()
-  const weekday = now.getDay()
-  const hour = now.getHours()
+  const [isOpen, setOpen] = useState(false)
 
-  const isOpen = openDays.indexOf(weekday) > -1 && openHours.indexOf(hour) > -1
+  useEffect(() => {
+    const now = new Date()
+    const weekday = now.getDay()
+    const hour = now.getHours()
+    const isOpen =
+      openDays.indexOf(weekday) > -1 && openHours.indexOf(hour) > -1
+    setOpen(isOpen)
+  }, [])
 
   return (
     <div className="py-3 flex flex-grow mb-36">
