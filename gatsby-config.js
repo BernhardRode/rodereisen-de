@@ -181,6 +181,25 @@ module.exports = {
               maxWidth: 1080,
             },
           },
+          "gatsby-remark-classes",
+          {
+            resolve: `gatsby-remark-classes`,
+            options: {
+              classMap: {
+                link: "bg-yellow hover:bg-transparent hover:text-black hover:underline",
+                paragraph: "font-text mb-6",
+                "heading[depth=0]": "text-5xl",
+                "heading[depth=1]": "text-4xl",
+                "heading[depth=2]": "text-3xl",
+                "heading[depth=3]": "text-2xl",
+                "heading[depth=4]": "text-2xl",
+                "heading[depth=5]": "text-2xl",
+                "list[ordered=false]": "",
+                "list[ordered=true]": "",
+                listItem: "list",
+              },
+            },
+          },
         ],
       },
     },
@@ -190,7 +209,7 @@ module.exports = {
       resolve: "gatsby-plugin-purgecss",
       options: {
         tailwind: true,
-        whitelist: [],
+        whitelist: ["mx-8", "my-6", "pl-4"],
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality

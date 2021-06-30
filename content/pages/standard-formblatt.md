@@ -1,5 +1,5 @@
 ---
-title: Standard-Formblatt
+title: Standard Formblatt
 date: "2021-07-28T00:00:00.000Z"
 ---
 
@@ -25,12 +25,21 @@ Weiterführende Informationen zu Ihren wichtigsten Rechten nach der Richtlinie (
 - Können nach Beginn der Pauschalreise wesentliche Bestandteile der Pauschalreise nicht vereinbarungsgemäß durchgeführt werden, so sind dem Reisenden angemessene andere Vorkehrungen ohne Mehrkosten anzubieten. Der Reisende kann ohne Zahlung einer Rücktrittsgebühr vom Vertrag zurücktreten, wenn Leistungen nicht gemäß dem Vertrag erbracht werden und dies erhebliche Auswirkungen auf die Erbringung der vertraglichen Pauschalreiseleistungen hat und der Reiseveranstalter es versäumt, Abhilfe zu schaffen.
 - Der Reisende hat Anspruch auf eine Preisminderung und/oder Schadenersatz, wenn die Reiseleistungen nicht oder nicht ordnungsgemäß erbracht werden.
 - Der Reiseveranstalter leistet dem Reisenden Beistand, wenn dieser sich in Schwierigkeiten befindet.
-- Im Fall der Insolvenz des Reiseveranstalters oder – in einigen Mitgliedstaaten – des Reisevermittlers werden Zahlungen zurückerstattet. Tritt die Insolvenz des Reiseveranstalters oder, sofern einschlägig, des Reisevermittlers nach Beginn der Pauschalreise ein und ist die Beförderung Bestandteil der Pauschalreise, so wird die Rückbeförderung der Reisenden gewährleistet. Reisebüro Rode GmbH hat eine Insolvenzversicherung mit der R+V Allgemeine Versicherung AG abgeschlossen.
-  Die Reisenden können diese Einrichtung, kontaktieren, wenn ihnen Leistungen aufgrund der Insolvenz der Reisebüro Rode GmbH verweigert werden.
-  **R+V Allgemeine Versicherung AG
-  **Raiffeisenplatz 1
-  65189 Wiesbaden
-  Telefon: 0611 533-0
-  Servicezeiten: Mo. - Fr. 07:00 - 18:00 Uhr
-  Fax: 0611 533-4500
-  E-Mail: [ruv@ruv.de](mailto:ruv@ruv.de)
+- Im Fall der Insolvenz des Reiseveranstalters oder – in einigen Mitgliedstaaten – des Reisevermittlers werden Zahlungen zurückerstattet. Tritt die Insolvenz des Reiseveranstalters oder, sofern einschlägig, des Reisevermittlers nach Beginn der Pauschalreise ein und ist die Beförderung Bestandteil der Pauschalreise, so wird die Rückbeförderung der Reisenden gewährleistet.
+
+## Reisebüro Rode GmbH hat eine Insolvenzversicherung mit der R+V Allgemeine Versicherung AG abgeschlossen.
+
+Die Reisenden können diese Einrichtung, kontaktieren, wenn ihnen Leistungen aufgrund der Insolvenz der Reisebüro Rode GmbH verweigert werden.
+
+- R+V Allgemeine Versicherung AG
+- Raiffeisenplatz 1
+
+65189 Wiesbaden
+
+Telefon: 0611 533-0
+
+Servicezeiten: Mo. - Fr. 07:00 - 18:00 Uhr
+
+Fax: 0611 533-4500
+
+E-Mail: [ruv@ruv.de](mailto:ruv@ruv.de)

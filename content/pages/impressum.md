@@ -8,28 +8,39 @@ date: "2021-07-28T00:00:00.000Z"
 GF Peter Rode
 
 Inhaltlich Verantwortlicher: (gemäß § 5 TMG) Thomas Baltzer
+
 [thomas@rodereisen.de](mailto:thomas@rodereisen.de)
+
 Hauptstrasse 44
 71717 Beilstein
 
 Datenschutz Beauftragter: Bernhard Rode
+
 [mail@bernhardrode.de](mailto:mail@bernhardrode.de)
+
 Hauptstrasse 44
+
 71717 Beilstein
 
 Amtsgericht Heilbronn
+
 hrb 104001
+
 ust.id. DE145781171
+
 P: +49 (0)7062 9499-0
+
 F: +49 (0)7062 9499-94
+
 M: info@rodereisen.de
-W: <http://www.rodereisen.de>
+
+W: <https://www.rodereisen.de>
 
 Verantwortlicher nach § 55 II RStV
 
 Die Europäische Kommission stellt eine Plattform für die außergerichtliche Online-Streitbeilegung (OS-Plattform) bereit, die unter
 
-[www.ec.europa.eu/consumers/odr](http://www.ec.europa.eu/consumers/odr)
+[www.ec.europa.eu/consumers/odr](https://www.ec.europa.eu/consumers/odr)
 
 aufrufbar ist. Wir sind weder verpflichtet noch bereit, an dem Streitschlichtungsverfahren teilzunehmen.
 

@@ -93,6 +93,14 @@ const Footer = (props: FooterProps) => {
                   Veranstalter AGB
                 </a>
               </li>
+              <li>
+                <a
+                  href="/standard-formblatt"
+                  className="font-normal text-base hover:text-yellow-500 text-pink-500"
+                >
+                  Standard Formblatt
+                </a>
+              </li>
             </ul>
           </nav>
         </div>

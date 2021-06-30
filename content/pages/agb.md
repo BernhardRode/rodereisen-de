@@ -3,7 +3,7 @@ title: Allgemeine Geschäfts Bedingungen
 date: "2021-07-28T00:00:00.000Z"
 ---
 
-[Link zu den Veranstalter AGBs](https://www.rodereisen.de/veranstalter-agbs/)
+[Link zu den Veranstalter AGBs](/veranstalter-agb/)
 
 Dies sind die Allgemeinen Geschäftsbedingungen/Reisebedingungen der Reisebüro Rode GmbH (im weiteren Reisebüro Rode genannt) und zwar im vorliegenden für den Fall, dass Reisebüro Rode als Pauschalreiseveranstalter nach dem neuen Reiserecht auftritt.
 
@@ -283,20 +283,23 @@ Auf die europäische Online-Streitbeilegung im Internet www.ec.europa.eu wird hi
 
 Gemäß Artikel 251 EGBGB ist die Reisebüro Rode GmbH als Reiseveranstalter verpflichtet, mit einem Formblatt alle Reisenden vor Buchung einer Pauschalreise über grundlegende Rechte der Reisenden zu unterrichten. Dieses Formblatt finden Sie nachfolgend, bitte lesen Sie dies durch:
 
-- [Reisebüro Rode GmbH Standard Formblatt](https://www.rodereisen.de/standard-formblatt/)
+- [Reisebüro Rode GmbH Standard Formblatt](/standard-formblatt/)
 
 ### Reisebüro Rode GmbH
 
-Firmensitz:
+#### Firmensitz
+
 Reisebüro Rode GmbH
-Oberstenfelderstr. 16
+
+Hauptstrasse 44
+
 71717 Beilstein
 
 Geschäftsführer: Peter Rode
 
-Telefon: 07062 94990
-E-Mail: [info@rodereisen.de](mailto:info@rodereisen.de)
-URL: [https://www.rodereisen.de](https://www.rodereisen.de)
-Ust-IdNr.: DE145781171
+> Telefon: 07062 94990
+> E-Mail: [info@rodereisen.de](mailto:info@rodereisen.de)
+> URL: <https://www.rodereisen.de>
+> Ust-IdNr.: DE145781171
 
 Die vorstehenden Reisebedingungen für Pauschalreiseveranstalter sind urheberrechtlich geschützt, Stand September 2018, Anwaltsbüro Wittkop, Essen.
