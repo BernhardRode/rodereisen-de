@@ -24,7 +24,7 @@ const SingleOffer = ({ offer }) => {
           style={{ backgroundImage: `url("${offer.image}")` }}
         >
           <div className="flew flex-grow w-full h-full flex items-center justify-center">
-            <div className="rounded-full text-white bg-yellow-500 h-20 w-20 items-center justify-center opacity-0 hover:opacity-100 flex flex-col">
+            <div className="rounded-full text-white bg-yellow-600 h-20 w-20 items-center justify-center opacity-0 hover:opacity-100 flex flex-col">
               <span>🔍</span>
               <span>Details</span>
             </div>

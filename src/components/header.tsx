@@ -92,7 +92,7 @@ const Header = props => {
             </a>
             <a
               href="tel:0049706294990"
-              className="relative inline-block w-full px-5 py-3 text-sm leading-none text-center text-white bg-yellow-500 fold-bold"
+              className="relative inline-block w-full px-5 py-3 text-sm leading-none text-center text-white bg-yellow-600 fold-bold"
             >
               {" "}
               <div className="flex flex-col">
@@ -102,7 +102,7 @@ const Header = props => {
             </a>
             <a
               href="tel:0049714481550"
-              className="relative inline-block w-full px-5 py-3 text-sm leading-none text-center text-white bg-yellow-500 fold-bold"
+              className="relative inline-block w-full px-5 py-3 text-sm leading-none text-center text-white bg-yellow-600 fold-bold"
             >
               {" "}
               <div className="flex flex-col">
@@ -112,7 +112,7 @@ const Header = props => {
             </a>
             <a
               href="mailto:info@rodereisen.de"
-              className="relative inline-block w-full px-5 py-3 text-sm leading-none text-center text-white bg-yellow-500 fold-bold"
+              className="relative inline-block w-full px-5 py-3 text-sm leading-none text-center text-white bg-yellow-600 fold-bold"
             >
               {" "}
               <div className="flex flex-col">
@@ -125,14 +125,14 @@ const Header = props => {
                 href="https://outlook.office365.com/owa/calendar/ReisebroRode@rode.io/bookings/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="relative hover:text-blue-900 cursor-pointer inline-block w-auto h-full px-5 py-4 lg:text-base text-sm font-bold leading-none text-white transition-all duration-100 bg-indigo-700 rounded shadow-md fold-bold lg:bg-yellow-500 lg:text-white-500 sm:w-full lg:shadow-none hover:shadow-xl"
+                className="relative hover:text-blue-900 cursor-pointer inline-block w-auto h-full px-5 py-4 lg:text-base text-sm font-bold leading-none text-white transition-all duration-100 bg-indigo-700 rounded shadow-md fold-bold lg:bg-yellow-600 lg:text-white-500 sm:w-full lg:shadow-none hover:shadow-xl"
               >
                 Termin vereinbaren
               </a>
             ) : null}
             {browserIsSafari === false ? (
               <a
-                className="relative hover:text-blue-900 cursor-pointer inline-block w-auto h-full px-5 py-4 lg:text-base text-sm font-bold leading-none text-white transition-all duration-100 bg-indigo-700 rounded shadow-md fold-bold lg:bg-yellow-500 lg:text-white-500 sm:w-full lg:shadow-none hover:shadow-xl"
+                className="relative hover:text-blue-900 cursor-pointer inline-block w-auto h-full px-5 py-4 lg:text-base text-sm font-bold leading-none text-white transition-all duration-100 bg-indigo-700 rounded shadow-md fold-bold lg:bg-yellow-600 lg:text-white-500 sm:w-full lg:shadow-none hover:shadow-xl"
                 onClick={() => setIsOpen(true)}
               >
                 Termin vereinbaren
@@ -152,14 +152,14 @@ const Header = props => {
             <a
               href="https://outlook.office365.com/owa/calendar/ReisebroRode@rode.io/bookings/"
               target="_blank"
-              className="relative hover:text-blue-900 cursor-pointer inline-block w-auto h-full px-5 py-4 lg:text-base text-sm font-bold leading-none text-white transition-all duration-100 bg-indigo-700 rounded shadow-md fold-bold lg:bg-yellow-500 lg:text-white-500 sm:w-full lg:shadow-none hover:shadow-xl"
+              className="relative hover:text-blue-900 cursor-pointer inline-block w-auto h-full px-5 py-4 lg:text-base text-sm font-bold leading-none text-white transition-all duration-100 bg-indigo-700 rounded shadow-md fold-bold lg:bg-yellow-600 lg:text-white-500 sm:w-full lg:shadow-none hover:shadow-xl"
             >
               Termin vereinbaren
             </a>
           ) : null}
           {browserIsSafari === false ? (
             <a
-              className="relative hover:text-blue-900 cursor-pointer inline-block w-auto h-full px-5 py-4 lg:text-base text-sm font-bold leading-none text-white transition-all duration-100 bg-indigo-700 rounded shadow-md fold-bold lg:bg-yellow-500 lg:text-white-500 sm:w-full lg:shadow-none hover:shadow-xl"
+              className="relative hover:text-blue-900 cursor-pointer inline-block w-auto h-full px-5 py-4 lg:text-base text-sm font-bold leading-none text-white transition-all duration-100 bg-indigo-700 rounded shadow-md fold-bold lg:bg-yellow-600 lg:text-white-500 sm:w-full lg:shadow-none hover:shadow-xl"
               onClick={() => setIsOpen(true)}
             >
               Termin vereinbaren
