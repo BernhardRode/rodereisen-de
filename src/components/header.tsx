@@ -6,7 +6,18 @@ const Header = props => {
   const [isTransparent, setTransparent] = useState(true)
   const [isOpen, setOpen] = useState(false)
   const [modalIsOpen, setIsOpen] = useState(false)
+  const [browserIsSafari, setBrowserIsSafari] = useState(null)
   const offset = 5
+
+  useEffect(() => {
+    const isSafari =
+      navigator.userAgent.search("Safari") >= 0 &&
+      navigator.userAgent.search("Chrome") < 0
+
+    if (browserIsSafari !== isSafari) {
+      setBrowserIsSafari(isSafari)
+    }
+  })
 
   const handleScroll = () => {
     if (window.pageYOffset > offset) {
@@ -109,12 +120,24 @@ const Header = props => {
                 <span className="font-semibold">info@rodereisen.de</span>
               </div>
             </a>
-            <a
-              onClick={() => setIsOpen(true)}
-              className="relative inline-block w-full px-5 py-3 text-sm leading-none text-center text-white bg-yellow-500 fold-bold"
-            >
-              Termin vereinbaren
-            </a>
+            {browserIsSafari === null || browserIsSafari === true ? (
+              <a
+                href="https://outlook.office365.com/owa/calendar/ReisebroRode@rode.io/bookings/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="relative hover:text-blue-900 cursor-pointer inline-block w-auto h-full px-5 py-4 lg:text-base text-sm font-bold leading-none text-white transition-all duration-100 bg-indigo-700 rounded shadow-md fold-bold lg:bg-yellow-500 lg:text-white-500 sm:w-full lg:shadow-none hover:shadow-xl"
+              >
+                Termin vereinbaren
+              </a>
+            ) : null}
+            {browserIsSafari === false ? (
+              <a
+                className="relative hover:text-blue-900 cursor-pointer inline-block w-auto h-full px-5 py-4 lg:text-base text-sm font-bold leading-none text-white transition-all duration-100 bg-indigo-700 rounded shadow-md fold-bold lg:bg-yellow-500 lg:text-white-500 sm:w-full lg:shadow-none hover:shadow-xl"
+                onClick={() => setIsOpen(true)}
+              >
+                Termin vereinbaren
+              </a>
+            ) : null}
           </div>
         </nav>
 
@@ -125,12 +148,23 @@ const Header = props => {
           >
             Angebote
           </a>
-          <a
-            onClick={() => setIsOpen(true)}
-            className="relative hover:text-blue-900 cursor-pointer inline-block w-auto h-full px-5 py-4 lg:text-base text-sm font-bold leading-none text-white transition-all duration-100 bg-indigo-700 rounded shadow-md fold-bold lg:bg-yellow-500 lg:text-white-500 sm:w-full lg:shadow-none hover:shadow-xl"
-          >
-            Termin vereinbaren
-          </a>
+          {browserIsSafari === null || browserIsSafari === true ? (
+            <a
+              href="https://outlook.office365.com/owa/calendar/ReisebroRode@rode.io/bookings/"
+              target="_blank"
+              className="relative hover:text-blue-900 cursor-pointer inline-block w-auto h-full px-5 py-4 lg:text-base text-sm font-bold leading-none text-white transition-all duration-100 bg-indigo-700 rounded shadow-md fold-bold lg:bg-yellow-500 lg:text-white-500 sm:w-full lg:shadow-none hover:shadow-xl"
+            >
+              Termin vereinbaren
+            </a>
+          ) : null}
+          {browserIsSafari === false ? (
+            <a
+              className="relative hover:text-blue-900 cursor-pointer inline-block w-auto h-full px-5 py-4 lg:text-base text-sm font-bold leading-none text-white transition-all duration-100 bg-indigo-700 rounded shadow-md fold-bold lg:bg-yellow-500 lg:text-white-500 sm:w-full lg:shadow-none hover:shadow-xl"
+              onClick={() => setIsOpen(true)}
+            >
+              Termin vereinbaren
+            </a>
+          ) : null}
         </div>
 
         <div
