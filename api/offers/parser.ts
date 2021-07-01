@@ -1,6 +1,5 @@
 import fetch from "node-fetch"
 import { parse } from "node-html-parser"
-import { htmlCache } from "./cache"
 
 const BASE_URL = "https://www.meinereiseangebote.de"
 
@@ -730,13 +729,13 @@ const parseOffer = ({
 }
 
 const cache = {}
-export const getOffers = async (id = "PRBG-2151", local = true) => {
+export const getOffers = async (id = "PRBG-2151") => {
   if (cache[id]) {
     return cache[id]
   }
   const url = `${BASE_URL}/${id}`
-  const offersPage = local ? null : await fetch(url)
-  const offersBody = local ? htmlCache : await offersPage.text()
+  const offersPage = await fetch(url)
+  const offersBody = await offersPage.text()
   const root = parse(offersBody, {})
 
   const phOfferLinks = root
