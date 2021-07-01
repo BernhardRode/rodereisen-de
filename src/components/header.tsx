@@ -125,14 +125,14 @@ const Header = props => {
                 href="https://outlook.office365.com/owa/calendar/ReisebroRode@rode.io/bookings/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="relative hover:text-blue-900 cursor-pointer inline-block w-auto h-full px-5 py-4 lg:text-base text-sm font-bold leading-none text-white transition-all duration-100 bg-indigo-700 rounded shadow-md fold-bold lg:bg-pink-500 lg:text-blue-900 sm:w-full lg:shadow-none hover:shadow-xl"
+                className="relative hover:text-blue-900 cursor-pointer inline-block w-auto h-full px-5 py-4 lg:text-base text-sm font-bold leading-none text-white transition-all duration-100 bg-indigo-700 rounded shadow-md fold-bold lg:bg-pink-500 lg:text-white sm:w-full lg:shadow-none hover:shadow-xl"
               >
                 Termin vereinbaren
               </a>
             ) : null}
             {browserIsSafari === false ? (
               <a
-                className="relative hover:text-blue-900 cursor-pointer inline-block w-auto h-full px-5 py-4 lg:text-base text-sm font-bold leading-none text-white transition-all duration-100 bg-indigo-700 rounded shadow-md fold-bold lg:bg-pink-500 lg:text-blue-900 sm:w-full lg:shadow-none hover:shadow-xl"
+                className="relative hover:text-blue-900 cursor-pointer inline-block w-auto h-full px-5 py-4 lg:text-base text-sm font-bold leading-none text-white transition-all duration-100 bg-indigo-700 rounded shadow-md fold-bold lg:bg-pink-500 lg:text-white sm:w-full lg:shadow-none hover:shadow-xl"
                 onClick={() => setIsOpen(true)}
               >
                 Termin vereinbaren
@@ -152,14 +152,14 @@ const Header = props => {
             <a
               href="https://outlook.office365.com/owa/calendar/ReisebroRode@rode.io/bookings/"
               target="_blank"
-              className="relative hover:text-blue-900 cursor-pointer inline-block w-auto h-full px-5 py-4 lg:text-base text-sm font-bold leading-none text-white transition-all duration-100 bg-indigo-700 rounded shadow-md fold-bold lg:bg-pink-500 lg:text-blue-900 sm:w-full lg:shadow-none hover:shadow-xl"
+              className="relative hover:text-blue-900 cursor-pointer inline-block w-auto h-full px-5 py-4 lg:text-base text-sm font-bold leading-none text-white transition-all duration-100 bg-indigo-700 rounded shadow-md fold-bold lg:bg-pink-500 lg:text-white sm:w-full lg:shadow-none hover:shadow-xl"
             >
               Termin vereinbaren
             </a>
           ) : null}
           {browserIsSafari === false ? (
             <a
-              className="relative hover:text-blue-900 cursor-pointer inline-block w-auto h-full px-5 py-4 lg:text-base text-sm font-bold leading-none text-white transition-all duration-100 bg-indigo-700 rounded shadow-md fold-bold lg:bg-pink-500 lg:text-blue-900 sm:w-full lg:shadow-none hover:shadow-xl"
+              className="relative hover:text-blue-900 cursor-pointer inline-block w-auto h-full px-5 py-4 lg:text-base text-sm font-bold leading-none text-white transition-all duration-100 bg-indigo-700 rounded shadow-md fold-bold lg:bg-pink-500 lg:text-white sm:w-full lg:shadow-none hover:shadow-xl"
               onClick={() => setIsOpen(true)}
             >
               Termin vereinbaren
