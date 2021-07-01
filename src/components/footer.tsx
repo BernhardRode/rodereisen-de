@@ -25,7 +25,6 @@ const Footer = () => {
     }
   `)
   const image = data.allFile.edges[0].node
-  console.log(image)
   const src = getSrc(image)
   return (
     <footer
