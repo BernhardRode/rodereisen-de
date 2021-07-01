@@ -17,7 +17,7 @@ const SingleOffer = ({ offer }) => {
   const end = parseDate(offer.end)
 
   return (
-    <div className="flex flex-col p-4">
+    <div className="flex flex-col">
       <div className="rounded shadow overflow-hidden">
         <div
           className="h-52 w-full bg-cover"
@@ -31,7 +31,9 @@ const SingleOffer = ({ offer }) => {
           </div>
         </div>
         <div className="details pt-4">
-          <h2 className="text-blue-900 text-2xl text-center">{offer.hotel}</h2>
+          <h2 className="text-blue-900 text-2xl text-center h-16">
+            {offer.hotel}
+          </h2>
           <h3 className="text-gray-500 text-base pb-4 text-center">
             {offer.destinationDescription}
           </h3>

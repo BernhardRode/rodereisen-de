@@ -20,8 +20,8 @@ const SectionOffers = ({ offers }) => {
 
   return (
     <section className="w-full bg-white">
-      <div className="container rounded-lg overflow-hidden">
-        <div className="grid grid-flow-row grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+      <div className="container rounded overflow-hidden">
+        <div className="grid grid-flow-row grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
           {offers.map((offer, index) => (
             <button onClick={() => open(offer)} key={`${offer.id}-${index}`}>
               <SingleOffer offer={offer} />

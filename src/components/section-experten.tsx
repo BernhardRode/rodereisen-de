@@ -7,7 +7,7 @@ const SectionExperten = ({ data }) => {
   return (
     <section className="w-full">
       <div className="container overflow-hidden">
-        <div className="grid grid-cols-2 md:grid-cols-4 rounded-lg overflow-hidden">
+        <div className="grid grid-cols-2 md:grid-cols-4 rounded overflow-hidden">
           {data.allMarkdownRemark.edges
             .filter(({ node }) => node?.frontmatter?.bilder?.bild.length > 0)
             .map((obj, index) => {
