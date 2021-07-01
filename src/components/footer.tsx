@@ -1,14 +1,20 @@
 import { graphql, useStaticQuery } from "gatsby"
+import { getSrc } from "gatsby-plugin-image"
 import * as React from "react"
 
-const Footer = (props: FooterProps) => {
+const Footer = () => {
   const data = useStaticQuery(graphql`
     query FooterImagesQuery {
-      allFile(filter: { sourceInstanceName: { eq: "banner" } }) {
+      allFile(
+        filter: {
+          sourceInstanceName: { eq: "logos" }
+          name: { eq: "bg-skyline" }
+        }
+      ) {
         edges {
           node {
             childImageSharp {
-              gatsbyImageData(height: 1024)
+              gatsbyImageData(height: 300)
             }
             id
             name
@@ -18,10 +24,13 @@ const Footer = (props: FooterProps) => {
       }
     }
   `)
+  const image = data.allFile.edges[0].node
+  console.log(image)
+  const src = getSrc(image)
   return (
     <footer
       className="bg-blue-900 px-6 lg:px-8 py-12 bg-no-repeat bg-cover	bg-center z-30"
-      style={{ backgroundImage: `url("/bg-skyline.png")` }}
+      style={{ backgroundImage: `url("${src}")` }}
     >
       <div className="max-w-screen-xl mx-auto grid md:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-x-8 text-white">
         <div>
@@ -105,10 +114,10 @@ const Footer = (props: FooterProps) => {
           </nav>
         </div>
         <div>
-          <h5 className="text-lg text-white">
+          <div className="text-lg text-white">
             <span className="font-light">standort</span>
             <span className="font-semibold">beilstein</span>
-          </h5>
+          </div>
           <div className="space-y-4 md:space-y-6 mt-4">
             <div className="flex items-start space-x-4">
               <div>
@@ -151,10 +160,10 @@ const Footer = (props: FooterProps) => {
           </div>
         </div>
         <div>
-          <h5 className="text-lg text-white">
+          <div className="text-lg text-white">
             <span className="font-light">standort</span>
             <span className="font-semibold">steinheim</span>
-          </h5>
+          </div>
           <div className="space-y-4 md:space-y-6 mt-4">
             <div className="flex items-start space-x-4">
               <div>
@@ -197,10 +206,10 @@ const Footer = (props: FooterProps) => {
           </div>
         </div>
         <div>
-          <h5 className="text-lg text-white">
+          <div className="text-lg text-white">
             <span className="font-light">konto</span>
             <span className="font-semibold">daten</span>
-          </h5>
+          </div>
           <div className="flex items-start space-x-4">
             <div className="flex items-start space-x-4">
               <div className="space-y-4 md:space-y-6 mt-4">

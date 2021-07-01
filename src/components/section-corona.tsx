@@ -1,21 +1,53 @@
 import * as React from "react"
 
 const SectionCorona = () => (
-  <section className="w-full bg-white">
-    <div className="container w-2/3">
-      <h1>liebe kunden!</h1>
-      <p>
-        aufgrund behördlicher anordnung sind wir erneut dazu gezwungen, unsere
-        ladenlokale in beilstein und steinheim bis auf weiteres zu schließen.
-        wir sind dennoch für sie da und kümmern uns um ihr anliegen.
-      </p>
-      <p>
-        bitte kontaktieren sie uns per e-mail unter info@rodereisen.de. sie
-        erhalten schnellstmöglich eine rückantwort. in dringenden fällen wählen
-        sie bitte:
-      </p>
-      <p>07062-9499-0 oder 07144-8155-0</p>
-      <h2>ihr reisebüro rode team</h2>
+  <section className="w-full">
+    <div className="container w-1/2">
+      <div className="">
+        <h1 className="text-3xl text-blue-900 pt-6 pb-6">liebe kunden!</h1>
+        <p>Wir sind endlich wieder persönlich für sie da!</p>
+        <p>Unsere Reisebüros sind wie folgt geöffnet:</p>
+        <ul className="list-disc list-inside pt-6 pb-6">
+          <li>Beilstein: Montag – Freitag 10-17 Uhr</li>
+          <li>Steinheim: Montag – Freitag 10-13 und 14-17 Uhr </li>
+        </ul>
+        <p>
+          Um terminvereinbarung wird gebeten. Das geht am einfachsten über
+          unsere "Termin vereinbaren" Funktion.
+        </p>
+        <ul className="list-disc list-inside pt-6 pb-6">
+          <li>
+            <a
+              className="hover:text-yellow-500 text-pink-500"
+              href="mailto:info@rodereisen.de"
+            >
+              info@rodereisen.de
+            </a>
+          </li>
+          <li>
+            <a
+              className="hover:text-yellow-500 text-pink-500"
+              href="tel:0049706294990"
+            >
+              +49 (0)7062 94990
+            </a>
+          </li>
+          <li>
+            <a
+              href="tel:0049714481550"
+              className="hover:text-yellow-500 text-pink-500"
+            >
+              +49 (0)7144 81550
+            </a>
+          </li>
+        </ul>
+        <p>
+          bitte kontaktieren sie uns per e-mail unter info@rodereisen.de. sie
+          erhalten schnellstmöglich eine rückantwort. in dringenden fällen
+          wählen sie bitte:
+        </p>
+        <h2>Ihr Reisebüro Rode Team</h2>
+      </div>
     </div>
   </section>
 )

@@ -56,19 +56,19 @@ const Header = props => {
         >
           <a
             href="/"
-            className="ml-0 mr-0 pt-5 pb-5 block font-bold duration-100 lg:ml-12 lg:mr-3 lg:mr-8 transition-color hover:text-pink-500"
+            className="ml-0 mr-0 pt-5 pb-5 block font-bold duration-100 lg:ml-12 lg:mr-8 transition-color hover:text-pink-500"
           >
             Home<span className="text-pink-500">.</span>
           </a>
           <a
             href="/experten"
-            className="ml-0 mr-0 pt-5 pb-5 block font-bold duration-100 lg:ml-12 lg:mr-3 lg:mr-8 transition-color hover:text-pink-500"
+            className="ml-0 mr-0 pt-5 pb-5 block font-bold duration-100 lg:ml-12 lg:mr-8 transition-color hover:text-pink-500"
           >
             Experten<span className="text-pink-500">.</span>
           </a>
           <a
             href="/standorte"
-            className="ml-0 mr-0 pt-5 pb-5 block font-bold duration-100 lg:ml-12 lg:mr-3 lg:mr-8 transition-color hover:text-pink-500"
+            className="ml-0 mr-0 pt-5 pb-5 block font-bold duration-100 lg:ml-12 lg:mr-8 transition-color hover:text-pink-500"
           >
             Standorte<span className="text-pink-500">.</span>
           </a>
