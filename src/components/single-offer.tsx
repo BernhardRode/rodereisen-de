@@ -44,7 +44,7 @@ const SingleOffer = ({ offer }) => {
           </ul>
           <div className="">
             <p className="text-gray-500 text-lg text-center pr-24">Preis</p>
-            <h3 className="text-yellow-500 text-5xl font-normal text-center">
+            <h3 className="text-yellow-600 text-5xl font-normal text-center">
               {offer.price} <small>&euro;</small>
             </h3>
           </div>

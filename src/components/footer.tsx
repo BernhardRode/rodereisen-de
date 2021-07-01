@@ -68,7 +68,7 @@ const Footer = () => {
               <div className="">
                 <a
                   href="mailto:info@rodereisen.de"
-                  className="hover:text-yellow-500 text-pink-600 pt-10"
+                  className="hover:text-yellow-600 text-pink-600 pt-10"
                 >
                   info@rodereisen.de
                 </a>
@@ -80,7 +80,7 @@ const Footer = () => {
               <li>
                 <a
                   href="/impressum"
-                  className="font-normal text-base hover:text-yellow-500 text-pink-600"
+                  className="font-normal text-base hover:text-yellow-600 text-pink-600"
                 >
                   Impressum
                 </a>
@@ -88,7 +88,7 @@ const Footer = () => {
               <li>
                 <a
                   href="/agb"
-                  className="font-normal text-base hover:text-yellow-500 text-pink-600"
+                  className="font-normal text-base hover:text-yellow-600 text-pink-600"
                 >
                   AGB
                 </a>
@@ -96,7 +96,7 @@ const Footer = () => {
               <li>
                 <a
                   href="/veranstalter-agb"
-                  className="font-normal text-base hover:text-yellow-500 text-pink-600"
+                  className="font-normal text-base hover:text-yellow-600 text-pink-600"
                 >
                   Veranstalter AGB
                 </a>
@@ -104,7 +104,7 @@ const Footer = () => {
               <li>
                 <a
                   href="/standard-formblatt"
-                  className="font-normal text-base hover:text-yellow-500 text-pink-600"
+                  className="font-normal text-base hover:text-yellow-600 text-pink-600"
                 >
                   Standard Formblatt
                 </a>
@@ -148,7 +148,7 @@ const Footer = () => {
                   D-71717 Beilstein
                   <br />
                   <a
-                    className="hover:text-yellow-500 text-pink-600"
+                    className="hover:text-yellow-600 text-pink-600"
                     href="tel:0049706294990"
                   >
                     +49 (0)7062 94990
@@ -195,7 +195,7 @@ const Footer = () => {
                   <br />
                   <a
                     href="tel:0049714481550"
-                    className="hover:text-yellow-500 text-pink-600"
+                    className="hover:text-yellow-600 text-pink-600"
                   >
                     +49 (0)7144 81550
                   </a>
@@ -233,7 +233,7 @@ const Footer = () => {
           <div className="flex items-center space-x-2">
             <a
               href="https://www.facebook.com/ReisebueroRode/"
-              className="hover:text-yellow-500 text-pink-600"
+              className="hover:text-yellow-600 text-pink-600"
             >
               <span className="sr-only">Facebook</span>
               <svg
@@ -251,7 +251,7 @@ const Footer = () => {
             </a>
             <a
               href="https://www.instagram.com/rodereisen/"
-              className="hover:text-yellow-500 text-pink-600"
+              className="hover:text-yellow-600 text-pink-600"
               target="_blank"
               rel="noopener noreferrer"
             >
