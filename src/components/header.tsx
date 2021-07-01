@@ -52,7 +52,7 @@ const Header = props => {
           <span className="text-2xl text-blue-900">
             <span className="font-light">reisebüro</span>
             <span className="font-bold">rode</span>
-            <span className="text-pink-500">.</span>
+            <span className="text-pink-600">.</span>
           </span>
           <span className="font-light text-xs text-blue-900">
             wir kümmern uns. um sie.
@@ -67,26 +67,26 @@ const Header = props => {
         >
           <a
             href="/"
-            className="ml-0 mr-0 pt-5 pb-5 block font-bold duration-100 lg:ml-12 lg:mr-8 transition-color hover:text-pink-500"
+            className="ml-0 mr-0 pt-5 pb-5 block font-bold duration-100 lg:ml-12 lg:mr-8 transition-color hover:text-pink-600"
           >
-            Home<span className="text-pink-500">.</span>
+            Home<span className="text-pink-600">.</span>
           </a>
           <a
             href="/experten"
-            className="ml-0 mr-0 pt-5 pb-5 block font-bold duration-100 lg:ml-12 lg:mr-8 transition-color hover:text-pink-500"
+            className="ml-0 mr-0 pt-5 pb-5 block font-bold duration-100 lg:ml-12 lg:mr-8 transition-color hover:text-pink-600"
           >
-            Experten<span className="text-pink-500">.</span>
+            Experten<span className="text-pink-600">.</span>
           </a>
           <a
             href="/standorte"
-            className="ml-0 mr-0 pt-5 pb-5 block font-bold duration-100 lg:ml-12 lg:mr-8 transition-color hover:text-pink-500"
+            className="ml-0 mr-0 pt-5 pb-5 block font-bold duration-100 lg:ml-12 lg:mr-8 transition-color hover:text-pink-600"
           >
-            Standorte<span className="text-pink-500">.</span>
+            Standorte<span className="text-pink-600">.</span>
           </a>
           <div className="flex flex-col w-full font-medium border-t border-gray-200 lg:hidden">
             <a
               href="/angebote"
-              className="w-full py-2 pt-3 pb-3 font-bold text-center text-pink-500"
+              className="w-full py-2 pt-3 pb-3 font-bold text-center text-pink-600"
             >
               Angebote
             </a>
@@ -144,7 +144,7 @@ const Header = props => {
         <div className="absolute left-0 flex-col items-center justify-center hidden w-full pb-8 mt-48 border-b border-gray-200 lg:relative lg:w-auto lg:bg-transparent lg:border-none lg:mt-0 lg:flex-row lg:p-0 lg:items-end lg:flex lg:justify-between">
           <a
             href="/angebote"
-            className="relative py-4 mr-0 text-sm font-bold text-pink-500 lg:px-5 sm:mr-3 lg:mt-0 hover:text-blue-900 lg:text-base"
+            className="relative py-4 mr-0 text-sm font-bold text-pink-600 lg:px-5 sm:mr-3 lg:mt-0 hover:text-blue-900 lg:text-base"
           >
             Angebote
           </a>

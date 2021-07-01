@@ -18,7 +18,7 @@ const SectionCorona = () => (
         <ul className="list-disc list-inside pt-6 pb-6">
           <li>
             <a
-              className="hover:text-yellow-500 text-pink-500"
+              className="hover:text-yellow-500 text-pink-600"
               href="mailto:info@rodereisen.de"
             >
               info@rodereisen.de
@@ -26,7 +26,7 @@ const SectionCorona = () => (
           </li>
           <li>
             <a
-              className="hover:text-yellow-500 text-pink-500"
+              className="hover:text-yellow-500 text-pink-600"
               href="tel:0049706294990"
             >
               +49 (0)7062 94990
@@ -35,7 +35,7 @@ const SectionCorona = () => (
           <li>
             <a
               href="tel:0049714481550"
-              className="hover:text-yellow-500 text-pink-500"
+              className="hover:text-yellow-500 text-pink-600"
             >
               +49 (0)7144 81550
             </a>

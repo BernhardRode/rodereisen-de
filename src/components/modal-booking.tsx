@@ -36,7 +36,7 @@ const ModalBooking = props => {
           <iframe className="w-full h-full" src={src}></iframe>
         </div>
         <a
-          className="absolute top-10 right-10 text-5xl z-50 text-pink-500 cursor-pointer"
+          className="absolute top-10 right-10 text-5xl z-50 text-pink-600 cursor-pointer"
           onClick={() => close()}
         >
           ✖️
