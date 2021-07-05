@@ -33,13 +33,13 @@ const ModalBooking = props => {
     <>
       <div className="fixed h-screen max-h-screen w-screen z-50 top-0 left-0 right-0 bottom-0 bg-white">
         <div className="w-full h-full">
-          <iframe className="w-full h-full" src={src}></iframe>
+          <iframe className="w-full h-full pb-100" src={src}></iframe>
         </div>
         <a
-          className="absolute top-10 right-10 text-5xl z-50 text-pink-600 cursor-pointer"
+          className="absolute top-10 right-10 text-5xl text-center z-50 w-12 h-12 text-white bg-blue-900 cursor-pointer bg-opacity-50 rounded-full shadow-lg"
           onClick={() => close()}
         >
-          ✖️
+          ×
         </a>
       </div>
     </>

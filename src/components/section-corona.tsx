@@ -1,20 +1,25 @@
 import * as React from "react"
+import SectionHeadline from "./section-headline"
 
 const SectionCorona = () => (
   <section className="w-full">
-    <div className="container w-1/2">
+    <div className="container lg:w-1/2 p-4 lg:p-0">
       <div className="">
-        <h1 className="text-3xl text-blue-900 pt-6 pb-6">liebe kunden!</h1>
-        <p>Wir sind endlich wieder persönlich für sie da!</p>
-        <p>Unsere Reisebüros sind wie folgt geöffnet:</p>
+        <h1 className="text-3xl text-blue-900 pt-6 pb-6 text-center">
+          liebe kunden!
+        </h1>
+        <p className="text-center">
+          Wir sind endlich wieder persönlich für sie da!
+        </p>
+
+        <p className="text-center">
+          Unsere Reisebüros sind wie folgt geöffnet:
+        </p>
+
         <ul className="list-disc list-inside pt-6 pb-6">
           <li>Beilstein: Montag – Freitag 10-17 Uhr</li>
           <li>Steinheim: Montag – Freitag 10-13 und 14-17 Uhr </li>
         </ul>
-        <p>
-          Um terminvereinbarung wird gebeten. Das geht am einfachsten über
-          unsere "Termin vereinbaren" Funktion.
-        </p>
         <ul className="list-disc list-inside pt-6 pb-6">
           <li>
             <a
@@ -41,12 +46,6 @@ const SectionCorona = () => (
             </a>
           </li>
         </ul>
-        <p>
-          bitte kontaktieren sie uns per e-mail unter info@rodereisen.de. sie
-          erhalten schnellstmöglich eine rückantwort. in dringenden fällen
-          wählen sie bitte:
-        </p>
-        <h2>Ihr Reisebüro Rode Team</h2>
       </div>
     </div>
   </section>

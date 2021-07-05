@@ -1,0 +1,12 @@
+:root {
+  --rowNum: 3;
+  --colNum: 5;
+  --gridHeight: 400px;
+  --wrapperH: 20px;
+}
+
+.wall {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-gap: 0rem;
+}

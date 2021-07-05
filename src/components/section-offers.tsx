@@ -38,11 +38,14 @@ const SectionOffers = ({ offers }) => {
 
   return (
     <section className="w-full bg-white">
-      <div className="container rounded overflow-hidden">
-        <div className="grid grid-flow-row grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-4">
+      <div className="container rounded overflow-hidden p-4 lg:p-0">
+        <div
+          className="grid grid-flow-row grid-cols-1 lg:grid-cols-4 gap-4 mb-4"
+          style={{ alignItems: "center" }}
+        >
           {offers.map((offer, index) => (
             <div
-              className="flex flex-col flex-grow"
+              className="flex flex-col flex-grow cursor-pointer"
               key={`${offer.id}-${index}`}
             >
               {browserIsSafari === null || browserIsSafari === true ? (

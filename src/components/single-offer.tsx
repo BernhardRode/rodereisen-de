@@ -18,7 +18,7 @@ const SingleOffer = ({ offer }) => {
 
   return (
     <div className="flex flex-col">
-      <div className="rounded shadow overflow-hidden">
+      <div className="rounded border lg:shadow overflow-hidden">
         <div
           className="h-52 w-full bg-cover"
           style={{ backgroundImage: `url("${offer.image}")` }}
