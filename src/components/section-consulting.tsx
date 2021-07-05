@@ -23,7 +23,6 @@ const SectionConsulting = () => {
 
   return (
     <section className="w-full">
-      <hr />
       <div className="container text-center">
         <h2 className="text-3xl pt-8 pb-8 text-blue-900">
           Meine Reiseangebote

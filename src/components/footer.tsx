@@ -30,8 +30,10 @@ const Footer = () => {
   const src = getSrc(image)
   return (
     <>
-      <SectionConsulting />
-      <SectionNewsletter />
+      <div className="bg-gray-100" style={{ borderTop: "4px dotted #cfcfcf" }}>
+        <SectionConsulting />
+        <SectionNewsletter />
+      </div>
       <footer
         className="bg-blue-900 px-6 lg:px-8 py-12 bg-no-repeat bg-cover	bg-center z-30"
         style={{ backgroundImage: `url("${src}")` }}

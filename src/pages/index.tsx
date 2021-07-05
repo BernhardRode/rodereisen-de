@@ -1,6 +1,6 @@
 import * as React from "react"
 import Layout from "../components/layout"
-import SectionCorona from "../components/section-corona"
+import SectionBestReisen from "../components/section-best-reisen"
 import SectionHeadline from "../components/section-headline"
 import SectionRodeApp from "../components/section-rode-app"
 import SectionRodeInklusive from "../components/section-rode-inklusive"
@@ -17,6 +17,7 @@ const IndexPage = () => {
       <SectionRodeVideo />
       <SectionRodeInklusive />
       <SectionRodeApp />
+      <SectionBestReisen />
     </Layout>
   )
 }

@@ -2,8 +2,7 @@ import * as React from "react"
 import SectionHeadline from "./section-headline"
 
 const SectionRodeInklusive = () => (
-  <section className="w-full">
-    <hr className="pt-8" />
+  <section className="w-full pb-16">
     <div className="container lg:w-1/2 p-4 lg:p-0">
       <SectionHeadline headline="Gutes Gefühl" subheadline="inklusive" />
       <div className="flew flex-row">

@@ -2,8 +2,7 @@ import * as React from "react"
 import SectionHeadline from "./section-headline"
 
 const SectionRodeVideo = () => (
-  <section className="w-full p-4 lg:p-32">
-    <hr className="pt-8" />
+  <section className="w-full pb-16">
     <div className="container">
       <div className="grid grid-cols-1 lg:grid-cols-2">
         <div className="lg:p-32">

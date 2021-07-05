@@ -8,7 +8,6 @@ const SectionNewsletter = () => {
     "https://connect.best-reisen.de/newsletter/registration?agency=1181"
   return (
     <section className="w-full pb-16">
-      <hr />
       <div className="container text-center">
         <h2 className="text-3xl pt-8 pb-8 text-blue-900">Newsletter</h2>
         <p className="text-base">
