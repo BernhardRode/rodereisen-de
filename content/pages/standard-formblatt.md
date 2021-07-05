@@ -11,7 +11,7 @@ Zudem verfügt Reisebüro Rode GmbH über die gesetzlich vorgeschriebene Absiche
 
 Weiterführende Informationen zu Ihren wichtigsten Rechten nach der Richtlinie (EU) 2015/2302 in der in das nationale Recht umgesetzten Form finden sie unter [www.umsetzung-richtlinie-eu2015-2302.de](https://www.umsetzung-richtlinie-eu2015-2302.de).
 
-## Wichtigste Rechte nach der Richtlinie (EU) 2015/2302:
+## Wichtigste Rechte nach der Richtlinie (EU) 2015/2302
 
 - Die Reisenden erhalten alle wesentlichen Informationen über die Pauschalreise vor Abschluss des Pauschalreisevertrags.
 - Es haftet immer mindestens ein Unternehmer für die ordnungsgemäße Erbringung aller im Vertrag inbegriffenen Reiseleistungen.
@@ -27,7 +27,7 @@ Weiterführende Informationen zu Ihren wichtigsten Rechten nach der Richtlinie (
 - Der Reiseveranstalter leistet dem Reisenden Beistand, wenn dieser sich in Schwierigkeiten befindet.
 - Im Fall der Insolvenz des Reiseveranstalters oder – in einigen Mitgliedstaaten – des Reisevermittlers werden Zahlungen zurückerstattet. Tritt die Insolvenz des Reiseveranstalters oder, sofern einschlägig, des Reisevermittlers nach Beginn der Pauschalreise ein und ist die Beförderung Bestandteil der Pauschalreise, so wird die Rückbeförderung der Reisenden gewährleistet.
 
-## Reisebüro Rode GmbH hat eine Insolvenzversicherung mit der R+V Allgemeine Versicherung AG abgeschlossen.
+## Reisebüro Rode GmbH hat eine Insolvenzversicherung mit der R+V Allgemeine Versicherung AG abgeschlossen
 
 Die Reisenden können diese Einrichtung, kontaktieren, wenn ihnen Leistungen aufgrund der Insolvenz der Reisebüro Rode GmbH verweigert werden.
 
