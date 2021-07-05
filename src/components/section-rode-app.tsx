@@ -9,7 +9,27 @@ const SectionRodeApp = () => {
       allFile(
         filter: {
           sourceInstanceName: { eq: "logos" }
-          name: { regex: "/app/" }
+          name: { regex: "/appstore/" }
+        }
+      ) {
+        edges {
+          node {
+            id
+            name
+            extension
+            publicURL
+          }
+        }
+      }
+    }
+  `)
+  
+  const dataAppLogo = useStaticQuery(graphql`
+    query AppImagesQuery {
+      allFile(
+        filter: {
+          sourceInstanceName: { eq: "logos" }
+          name: { eq: "/app-logo/" }
         }
       ) {
         edges {
@@ -20,15 +40,19 @@ const SectionRodeApp = () => {
             id
             name
             extension
-            publicURL
           }
         }
       }
     }
   `)
-  const [appLogo, appleAppStore, googleAppStore] = data.allFile.edges.map(
+  const [appleAppStore, googleAppStore] = data.allFile.edges.map(
     ({ node }) => node
   )
+  
+  const [appLogo] = dataAppLogo.allFile.edges.map(
+    ({ node }) => node
+  )
+  
   const appLogoImage = getImage(appLogo)
 
   return (
