@@ -75,7 +75,7 @@ const SectionStandort = ({
               {city}
             </div>
           </div>
-          <div>
+          <div className="pb-8 lg:pb-0">
             <div className="text-sm text-gray-400">Öffnungszeiten:</div>
             <div className="text-lg text-gray-800">{open}</div>
           </div>
