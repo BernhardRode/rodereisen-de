@@ -5,11 +5,11 @@ import SectionHeadline from "./section-headline"
 
 const SectionRodeApp = () => {
   const data = useStaticQuery(graphql`
-    query AppStoreImagesQuery {
-      allFile(
+    query AppImagesQuery {
+      appleAppStore: allFile(
         filter: {
           sourceInstanceName: { eq: "logos" }
-          name: { regex: "/appstore/" }
+          name: { eq: "appstore-apple" }
         }
       ) {
         edges {
@@ -21,15 +21,25 @@ const SectionRodeApp = () => {
           }
         }
       }
-    }
-  `)
-  
-  const dataAppLogo = useStaticQuery(graphql`
-    query AppImagesQuery {
-      allFile(
+      googleAppStore: allFile(
         filter: {
           sourceInstanceName: { eq: "logos" }
-          name: { eq: "/app-logo/" }
+          name: { eq: "appstore-google" }
+        }
+      ) {
+        edges {
+          node {
+            id
+            name
+            extension
+            publicURL
+          }
+        }
+      }
+      dataAppLogo: allFile(
+        filter: {
+          sourceInstanceName: { eq: "logos" }
+          name: { eq: "app-logo" }
         }
       ) {
         edges {
@@ -45,14 +55,15 @@ const SectionRodeApp = () => {
       }
     }
   `)
-  const [appleAppStore, googleAppStore] = data.allFile.edges.map(
-    ({ node }) => node
-  )
-  
-  const [appLogo] = dataAppLogo.allFile.edges.map(
-    ({ node }) => node
-  )
-  
+
+  const [appleAppStore] = data.appleAppStore.edges
+    .map(({ node }) => node)
+    .map(({ publicURL }) => publicURL)
+  const [googleAppStore] = data.googleAppStore.edges
+    .map(({ node }) => node)
+    .map(({ publicURL }) => publicURL)
+  const [appLogo] = data.dataAppLogo.edges.map(({ node }) => node)
+
   const appLogoImage = getImage(appLogo)
 
   return (
@@ -88,7 +99,7 @@ const SectionRodeApp = () => {
           >
             <img
               className="p-4 lg:p-12"
-              src={appleAppStore.publicURL}
+              src={appleAppStore}
               alt="Apple App Store"
             />
           </a>
@@ -99,7 +110,7 @@ const SectionRodeApp = () => {
           >
             <img
               className="p-4 lg:p-12"
-              src={googleAppStore.publicURL}
+              src={googleAppStore}
               alt="Google App Store"
             />
           </a>
