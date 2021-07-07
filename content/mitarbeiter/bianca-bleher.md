@@ -1,10 +1,11 @@
 ---
 name: Bianca
 nachname: Bleher
+slug: bianca-bleher
 warenkorb: ""
 kontakt:
   email: bianca@rodereisen.de
-  telefon: ""
+  telefon: "+49 (0)7062 - 9499 0"
   instagram: ""
   twitter: ""
 bilder:

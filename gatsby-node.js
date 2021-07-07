@@ -4,6 +4,7 @@
  * See: https://www.gatsbyjs.org/docs/node-apis/
  */
 const fetch = require("node-fetch")
+const path = require("path")
 const { getOffers } = require("./parser.js")
 
 exports.sourceNodes = async ({
@@ -43,76 +44,58 @@ exports.sourceNodes = async ({
 
 exports.createPages = async ({ graphql, actions, reporter }) => {
   const { createPage } = actions
-  const pagesQuery = `
-    {
-      allFile(filter: { sourceInstanceName: { eq: "pages" } }) {
-        edges {
-          node {
-            dir
-            id
-            sourceInstanceName
-            childMarkdownRemark {
-              html
+
+  try {
+    const result = await graphql(`
+      query ExpertsQuery {
+        mitarbeiter: allFile(
+          filter: { sourceInstanceName: { eq: "mitarbeiter" } }
+        ) {
+          edges {
+            node {
+              id
+              childMarkdownRemark {
+                frontmatter {
+                  warenkorb
+                  name
+                  nachname
+                  slug
+                  kontakt {
+                    email
+                    telefon
+                    instagram
+                    twitter
+                  }
+                  fachgebiete
+                  bilder {
+                    bild
+                    bild_hover
+                  }
+                }
+                html
+              }
+              extension
+              name
             }
           }
         }
       }
+    `)
+    if (result.errors) {
+      reporter.error("There was an error fetching pages", result.errors)
     }
-  `
+    const entries = result.data.mitarbeiter.edges
+    const template = path.resolve("./src/templates/experte.tsx")
 
-  // const offerTemplate = path.resolve("./src/templates/angebot.tsx")
-  // try {
-  //   const result = await graphql(`
-  //     query OffersQuery {
-  //       allOffers {
-  //         edges {
-  //           node {
-  //             meta {
-  //               id
-  //               index
-  //               name
-  //               slug
-  //             }
-  //             trip {
-  //               city
-  //               description
-  //               destination
-  //               destinationDescription
-  //               duration
-  //               final
-  //               flight
-  //               hotel
-  //               image
-  //               link
-  //               organizer
-  //               pkg
-  //               price
-  //               time(
-  //                 locale: ""
-  //                 fromNow: false
-  //                 formatString: ""
-  //                 difference: ""
-  //               )
-  //             }
-  //           }
-  //         }
-  //       }
-  //     }
-  //   `)
-  //   if (result.errors) {
-  //     reporter.error("There was an error fetching pages", result.errors)
-  //   }
-  //   const entries = result.data.allOffers.edges
-  //   entries.forEach(context => {
-  //     const { slug } = context.node.meta
-  //     const page = {
-  //       path: `/angebote/${slug}`,
-  //       component: offerTemplate,
-  //       context: context.node,
-  //     }
-  //     createPage(page)
-  //   })
-  // } catch (error) {
-  //   console.log(error)
-  // }
+    entries.forEach(({ node }) => {
+      const page = {
+        path: `/experten/${node.childMarkdownRemark.frontmatter.slug}`,
+        component: template,
+        context: node,
+      }
+      createPage(page)
+    })
+  } catch (error) {
+    console.log(error)
+  }
 }

@@ -1,10 +1,11 @@
 ---
 name: Ralf
 nachname: Selcho
+slug: ralf-selcho
 warenkorb: ""
 kontakt:
   email: ralf@rodereisen.de
-  telefon: ""
+  telefon: "+49 (0)7062 - 9499 0"
   instagram: ""
   twitter: ""
 bilder:

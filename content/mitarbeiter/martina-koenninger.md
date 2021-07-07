@@ -1,10 +1,11 @@
 ---
 name: Martina
 nachname: Könninger
+slug: martina-koenninger
 warenkorb: ""
 kontakt:
   email: martina@rodereisen.de
-  telefon: ""
+  telefon: "+49 (0)7062 - 9499 0"
   instagram: ""
   twitter: ""
 bilder:

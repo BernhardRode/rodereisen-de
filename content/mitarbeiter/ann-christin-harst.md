@@ -1,10 +1,11 @@
 ---
 name: Ann-Christin
 nachname: Harst
+slug: ann-christin-harst
 warenkorb: ""
 kontakt:
   email: ann-christin@rodereisen.de
-  telefon: ""
+  telefon: "+49 (0)7062 - 9499 0"
   instagram: ""
   twitter: ""
 bilder:

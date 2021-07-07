@@ -37,6 +37,7 @@ export const query = graphql`
             warenkorb
             name
             nachname
+            slug
             fachgebiete
             kontakt {
               email

@@ -31,9 +31,9 @@ const SectionStandort = ({
 
   return (
     <div className="py-3 flex flex-grow lg:mb-36">
-      <div className="lg:border sm:rounded p-8 flex flex-col-reverse lg:flex-row lg:space-x-8 lg:shadow-xl">
+      <div className="lg:border sm:rounded p-8 flex flex-col-reverse lg:flex-row lg:space-x-8 lg:shadow">
         <div className="lg:h-60 overflow-visible lg:w-1/2">
-          <div className="flex rounded-xl overflow-hidden ring-2 ring-gray-200 lg:shadow-xl">
+          <div className="flex rounded-xl overflow-hidden ring-2 ring-gray-200">
             <iframe
               width="100%"
               height="500"

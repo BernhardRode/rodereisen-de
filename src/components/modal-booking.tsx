@@ -36,10 +36,25 @@ const ModalBooking = props => {
           <iframe className="w-full h-full pb-100" src={src}></iframe>
         </div>
         <a
-          className="absolute top-10 right-10 text-5xl text-center z-50 w-12 h-12 text-white bg-blue-900 cursor-pointer bg-opacity-50 rounded-full shadow-lg"
+          className="absolute top-10 right-10 text-5xl text-center z-50 w-12 h-12"
           onClick={() => close()}
         >
-          ×
+          <div className="text-white bg-blue-900 rounded-full inline-block p-2">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-12 w-12"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M6 18L18 6M6 6l12 12"
+              />
+            </svg>
+          </div>
         </a>
       </div>
     </>

@@ -1,10 +1,11 @@
 ---
 name: Mirjana
 nachname: Moreno
+slug: mirijana-moreno
 warenkorb: ""
 kontakt:
   email: mirijana@rodereisen.de
-  telefon: ""
+  telefon: "+49 (0)7062 - 9499 0"
   instagram: ""
   twitter: ""
 bilder:

@@ -1,10 +1,11 @@
 ---
 name: Bettina
 nachname: Oehler
+slug: bettina-oehler
 warenkorb: ""
 kontakt:
   email: bettina@rodereisen.de
-  telefon: ""
+  telefon: "+49 (0)7062 - 9499 0"
   instagram: ""
   twitter: ""
 bilder:

@@ -8,9 +8,31 @@ import SectionStandort from "../components/section-standort"
 import SEO from "../components/seo"
 
 const StandortePage = ({ data }) => {
-  const images = useStaticQuery(graphql`
+  const result = useStaticQuery(graphql`
     query LocationImagesQuery {
-      allFile(filter: { sourceInstanceName: { eq: "locations" } }) {
+      bst: allFile(
+        filter: {
+          sourceInstanceName: { eq: "locations" }
+          name: { eq: "buero-bst" }
+        }
+      ) {
+        edges {
+          node {
+            childImageSharp {
+              gatsbyImageData(height: 1024)
+            }
+            id
+            name
+            extension
+          }
+        }
+      }
+      sth: allFile(
+        filter: {
+          sourceInstanceName: { eq: "locations" }
+          name: { eq: "buero-sth" }
+        }
+      ) {
         edges {
           node {
             childImageSharp {
@@ -24,9 +46,8 @@ const StandortePage = ({ data }) => {
       }
     }
   `)
-  const [bstImage, sthImage] = images.allFile.edges.map(({ node }) =>
-    getImage(node)
-  )
+  const [bstImage] = result.bst.edges.map(({ node }) => getImage(node))
+  const [sthImage] = result.sth.edges.map(({ node }) => getImage(node))
 
   const openDaysBst = [1, 2, 3, 4, 5]
   const openHoursBst = [10, 11, 12, 13, 14, 15, 16]

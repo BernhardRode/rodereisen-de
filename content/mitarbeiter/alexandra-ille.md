@@ -1,10 +1,11 @@
 ---
 name: Alexandra
 nachname: Ille
+slug: alexandra-ille
 warenkorb: ""
 kontakt:
   email: alexandra@rodereisen.de
-  telefon: ""
+  telefon: "+49 (0)7062 - 9499 0"
   instagram: ""
   twitter: ""
 bilder:
