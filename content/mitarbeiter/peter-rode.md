@@ -12,3 +12,7 @@ bilder:
   bild: "peter-rode.jpg"
   bild_hover: "peter-rode.jpg"
 ---
+
+# Peter Rode
+
+Mitgründer des Reisebüro Rode und seit über 40 Jahren Ideengeber und Ihr Partner auf dem Weg 

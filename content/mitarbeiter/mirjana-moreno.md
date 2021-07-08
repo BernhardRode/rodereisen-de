@@ -5,7 +5,7 @@ slug: mirijana-moreno
 warenkorb: ""
 kontakt:
   email: mirijana@rodereisen.de
-  telefon: "+49 (0)7062 - 9499 0"
+  telefon: "+49 (0)7144 - 8155 0"
   instagram: ""
   twitter: ""
 bilder:

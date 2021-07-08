@@ -138,30 +138,3 @@ Wir haften nicht für den nicht von uns zu vertretenden Verlust,Untergang oder B
 ### Streitbeilegungsverfahren vor einer Verbraucher-Schlichtungsstelle
 
 Reisebüro Rode als Vermittler ist nicht zur Teilnahme an einem Streitbeilegungsverfahren vor einer Verbraucher-Schlichtungsstelleverpflichtet und nimmt an einem Streitbeilegungsverfahren vor einerVerbraucher-Schlichtungsstelle auch nicht teil.
-
-#### FORMBLATT für die Vermittlung
-
-Gemäß Artikel 251 EGBGB ist die Reisebüro Rode GmbH als Reisevermittler verpflichtet, mit einem Formblatt alle Reisenden vor Buchung über grundlegende Rechte der Reisenden zu unterrichten. Dieses Formblatt für Vermittler finden Sie nachfolgend, bitte lesen Sie dies durch:
-
-- [Reisebüro Rode GmbH Formblatt Vermittlung](https://www.rodereisen.de/app/uploads/2018/10/Formblatt-Vermittler-VR-Rode-1018.pdf)
-
-Reisebüro Rode GmbH
-
-#### Firmensitz
-
-**Reisebüro Rode GmbH
-Oberstenfelderstr. 16
-71717 Beilstein**
-
-#### Geschäftsführer: Peter Rode
-
-- Telefon: 07062 94990
-- E-Mail: [info@rodereisen.de](mailto:info@rodereisen.de)
-- URL: [https://www.rodereisen.de](https://www.rodereisen.de/)
-- Ust-IdNr.: DE145781171
-
-Die vorstehenden Reisebedingungen für Reisevermittler und Vermittler Verbundener Reiseleistungen, sind urheberrechtlich geschützt,
-
-Stand Oktober 2018,
-
-Anwaltsbüro Rüdiger Wittkop, Essen

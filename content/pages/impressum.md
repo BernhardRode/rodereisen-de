@@ -5,46 +5,59 @@ date: "2021-07-28T00:00:00.000Z"
 
 ## Reisebüro Rode GmbH
 
-GF Peter Rode
+### Geschäftsführer
 
-Inhaltlich Verantwortlicher: (gemäß § 5 TMG) Thomas Baltzer
+> Peter Rode
+>
+> [peter@rodereisen.de](mailto:peter@rodereisen.de)
+>
+> Hauptstrasse 44
+>
+> 71717 Beilstein
 
-[thomas@rodereisen.de](mailto:thomas@rodereisen.de)
+### Inhaltlich Verantwortlicher (gemäß § 5 TMG)
 
-Hauptstrasse 44
-71717 Beilstein
+> Thomas Baltzer
+>
+> [thomas@rodereisen.de](mailto:thomas@rodereisen.de)
+>
+> Hauptstrasse 44
+>
+> 71717 Beilstein
 
-Datenschutz Beauftragter: Bernhard Rode
+### Datenschutz Beauftragter
 
-[mail@bernhardrode.de](mailto:mail@bernhardrode.de)
+> Bernhard Rode
+>
+> [mail@bernhardrode.de](mailto:mail@bernhardrode.de)
+>
+> Hauptstrasse 44
+>
+> 71717 Beilstein
 
-Hauptstrasse 44
+### Eingetragenes Unternehmen
 
-71717 Beilstein
+> Amtsgericht Heilbronn
+>
+> hrb 104001
+>
+> ust.id. DE145781171
 
-Amtsgericht Heilbronn
+### Kontakt
 
-hrb 104001
+> Telefon: +49 (0)7062 9499-0
+>
+> Fax: +49 (0)7062 9499-94
+>
+> Mail: info@rodereisen.de
+>
+> Internet: <https://www.rodereisen.de>
 
-ust.id. DE145781171
+### Verantwortlicher nach § 55 II RStV
 
-P: +49 (0)7062 9499-0
+Die Europäische Kommission stellt eine Plattform für die außergerichtliche Online-Streitbeilegung (OS-Plattform) bereit, die unter [www.ec.europa.eu/consumers/odr](https://www.ec.europa.eu/consumers/odr) aufrufbar ist. Wir sind weder verpflichtet noch bereit, an dem Streitschlichtungsverfahren teilzunehmen.
 
-F: +49 (0)7062 9499-94
-
-M: info@rodereisen.de
-
-W: <https://www.rodereisen.de>
-
-Verantwortlicher nach § 55 II RStV
-
-Die Europäische Kommission stellt eine Plattform für die außergerichtliche Online-Streitbeilegung (OS-Plattform) bereit, die unter
-
-[www.ec.europa.eu/consumers/odr](https://www.ec.europa.eu/consumers/odr)
-
-aufrufbar ist. Wir sind weder verpflichtet noch bereit, an dem Streitschlichtungsverfahren teilzunehmen.
-
-Stand 18. Mai 2018
+> Stand 18. Mai 2018
 
 ## Haftungshinweis
 

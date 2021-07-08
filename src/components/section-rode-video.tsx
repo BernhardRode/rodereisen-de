@@ -8,11 +8,11 @@ const SectionRodeVideo = () => (
         <div className="lg:p-32">
           <div className="text-5xl text-center"></div>
           <h1 className="text-3xl text-blue-900 text-center pb-8">
-            Träumen werden wahr
+            Träumen werden wieder wahr
           </h1>
           <p className="text-center text-gray-400 pb-4">
-            Wir freuen uns schon sehr darauf, eure Träume endlich wieder wahr
-            werden zu lassen.
+            Und wir freuen uns sehr darauf, Ihre Urlaubsträume wahr werden zu
+            lassen.
           </p>
         </div>
         <div>

@@ -6,7 +6,7 @@ nachname: Baltzer
 slug: thomas-baltzer
 kontakt:
   email: semi@rodereisen.de
-  telefon: "+49 (0)7062 - 9499 0"
+  telefon: "+49 (0)7062 - 9499 22"
   instagram: ""
   twitter: ""
 bilder:

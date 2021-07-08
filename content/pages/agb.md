@@ -35,57 +35,47 @@ Reisebüro Rode ist verantwortlich für die ordnungsgemäße Durchführung der P
 
 Reisebüro Rode verfügt über die gesetzlich vorgeschriebene Absicherung für die Rückzahlung Ihrer Zahlungen (Insolvenzabsicherung) und auch für den Fall, falls der Transport in der Pauschalreise inbegriffen ist, dass Ihre Rückbeförderung im Falle einer Insolvenz sichergestellt ist.
 
-**Gemäß der Pauschalreiserichtlinie EU 2015/2302 gilt folgendes:**
+## Gemäß der Pauschalreiserichtlinie EU 2015/2302 gilt folgendes
 
-Der Reisende erhält alle wesentlichen Informationen über die Pauschalreise vor Abschluss des Pauschalreisevertrages.
+- Der Reisende erhält alle wesentlichen Informationen über die Pauschalreise vor Abschluss des Pauschalreisevertrages.
+- Der Reisende erhält eine Notruftelefonnummer oder Angabe zu einer Kontaktstelle über die er sich mit dem Reiseveranstalter oder dem Reisebüro in Verbindung setzen kann.
+- Mindestens ein Unternehmer haftet immer für die ordnungsgemäße Erbringung aller im Vertrag inbegriffenen Reiseleistungen.
+- Der Reiseveranstalter leistet dem Reisenden Beistand, wenn dieser sich in Schwierigkeiten befindet.
+- Die Reisenden können die Pauschalreise innerhalb einer angemessenen Frist und unter Umständen unter zusätzlichen Kosten auf eine andere Person übertragen.
+- Der Preis der Pauschalreise darf nur erhöht werden, wenn bestimmte Kosten (z. B. Treibstoffpreise) sich erhöhen und wenn dies im Vertrag ausdrücklich vorgesehen ist und in jedem Fall bis spätestens 20 Tage vor Beginn der Pauschalreise.
+- Wenn die Preiserhöhung 8% des Pauschalreisepreises übersteigt, kann der Reisende vom Vertrag zurücktreten.
+- Wenn sich ein Reiseveranstalter das Recht auf eine Preiserhöhung vorbehält, hat der Reisende das Recht auf eine Preissenkung, wenn die entsprechenden Kosten sich verringern.
+- Die Reisenden können ohne Zahlung einer Rücktrittsgebühr vom Vertrag zurücktreten und erhalten eine volle Erstattung aller Zahlungen, wenn einer der wesentlichen Bestandteile der Pauschalreise mit Ausnahme des Preises erheblich geändert wird.
+- Wenn der für die Pauschalreise verantwortliche Unternehmer die Pauschalreise vor Beginn der Pauschalreise absagt, haben die Reisenden Anspruch auf eine Kostenerstattung und unter Umständen auch auf eine Entschädigung.
+- Die Reisenden können bei Eintritt außergewöhnlicher Umstände vor Beginn der Pauschalreise ohne Zahlung einer Rücktrittsgebühr vom Vertrag zurücktreten, beispielsweise dann, wenn am Bestimmungsort schwerwiegende Sicherheitsprobleme bestehen, die die Pauschalreise voraussichtlich beeinträchtigen.
+- Zudem können die Reisenden jederzeit vor Beginn der Pauschalreise gegen Zahlung einer angemessenen und vertretbaren Rücktrittsgebühr vom Vertrag zurücktreten.
+- Können nach Beginn der Pauschalreise wesentliche Bestandteile der Pauschalreise nicht vereinbarungsgemäß durchgeführt werden, so sind dem Reisenden angemessene andere Vorkehrungen oder Mehrkosten anzubieten.
+- Der Reisende kann ohne Zahlung einer Rücktrittsgebühr vom Vertrag zurücktreten, ist also zur Kündigung berechtigt, wenn Leistungen nicht dem Vertrag erbracht werden und diese erhebliche Auswirkungen auf die Erbringung der vertraglichen Pauschalreiseleistung hat und der Reiseveranstalter es versäumt, Abhilfe zu schaffen.
+- Der Reisende hat Anspruch auf eine Reisepreisminderung und/ oder Schadensersatz, wenn die Reiseleistungen nicht, oder nicht ordnungsgemäß erbracht werden.
+- Im Fall der Insolvenz des Reiseveranstalters, oder in einigen Mitgliedstaaten des Reisevermittlers, werden Zahlungen zurück erstattet.
+- Tritt die Insolvenz des Reiseveranstalters oder sofern einschlägig des Reisevermittlers nach Beginn der Pauschalreise ein und ist die Beförderung Bestandteil der Pauschalreise, so wird die Rückbeförderung der Reisenden gewährleistet.
 
-Der Reisende erhält eine Notruftelefonnummer oder Angabe zu einer Kontaktstelle über die er sich mit dem Reiseveranstalter oder dem Reisebüro in Verbindung setzen kann.
+## Insolvenzabsicherung
 
-Mindestens ein Unternehmer haftet immer für die ordnungsgemäße Erbringung aller im Vertrag inbegriffenen Reiseleistungen.
-
-Der Reiseveranstalter leistet dem Reisenden Beistand, wenn dieser sich in Schwierigkeiten befindet.
-
-Die Reisenden können die Pauschalreise innerhalb einer angemessenen Frist und unter Umständen unter zusätzlichen Kosten auf eine andere Person übertragen.
-
-Der Preis der Pauschalreise darf nur erhöht werden, wenn bestimmte Kosten (z. B. Treibstoffpreise) sich erhöhen und wenn dies im Vertrag ausdrücklich vorgesehen ist und in jedem Fall bis spätestens 20 Tage vor Beginn der Pauschalreise.
-
-Wenn die Preiserhöhung 8% des Pauschalreisepreises übersteigt, kann der Reisende vom Vertrag zurücktreten.
-
-Wenn sich ein Reiseveranstalter das Recht auf eine Preiserhöhung vorbehält, hat der Reisende das Recht auf eine Preissenkung, wenn die entsprechenden Kosten sich verringern.
-
-Die Reisenden können ohne Zahlung einer Rücktrittsgebühr vom Vertrag zurücktreten und erhalten eine volle Erstattung aller Zahlungen, wenn einer der wesentlichen Bestandteile der Pauschalreise mit Ausnahme des Preises erheblich geändert wird.
-
-Wenn der für die Pauschalreise verantwortliche Unternehmer die Pauschalreise vor Beginn der Pauschalreise absagt, haben die Reisenden Anspruch auf eine Kostenerstattung und unter Umständen auch auf eine Entschädigung.
-
-Die Reisenden können bei Eintritt außergewöhnlicher Umstände vor Beginn der Pauschalreise ohne Zahlung einer Rücktrittsgebühr vom Vertrag zurücktreten, beispielsweise dann, wenn am Bestimmungsort schwerwiegende Sicherheitsprobleme bestehen, die die Pauschalreise voraussichtlich beeinträchtigen.
-
-Zudem können die Reisenden jederzeit vor Beginn der Pauschalreise gegen Zahlung einer angemessenen und vertretbaren Rücktrittsgebühr vom Vertrag zurücktreten.
-
-Können nach Beginn der Pauschalreise wesentliche Bestandteile der Pauschalreise nicht vereinbarungsgemäß durchgeführt werden, so sind dem Reisenden angemessene andere Vorkehrungen oder Mehrkosten anzubieten.
-
-Der Reisende kann ohne Zahlung einer Rücktrittsgebühr vom Vertrag zurücktreten, ist also zur Kündigung berechtigt, wenn Leistungen nicht dem Vertrag erbracht werden und diese erhebliche Auswirkungen auf die Erbringung der vertraglichen Pauschalreiseleistung hat und der Reiseveranstalter es versäumt, Abhilfe zu schaffen.
-
-Der Reisende hat Anspruch auf eine Reisepreisminderung und/ oder Schadensersatz, wenn die Reiseleistungen nicht, oder nicht ordnungsgemäß erbracht werden.
-
-Im Fall der Insolvenz des Reiseveranstalters, oder in einigen Mitgliedstaaten des Reisevermittlers, werden Zahlungen zurück erstattet.
-
-Tritt die Insolvenz des Reiseveranstalters oder sofern einschlägig des Reisevermittlers nach Beginn der Pauschalreise ein und ist die Beförderung Bestandteil der Pauschalreise, so wird die Rückbeförderung der Reisenden gewährleistet.
-
-**Die Insolvenzabsicherung Reisebüro Rode\`s erfolgt über die R+V Allgemeine Versicherung AG.**
-
-**R+V Allgemeine Versicherung AG
-**Raiffeisenplatz 1
-65189 Wiesbaden
-Telefon: 0611 533-0
-Servicezeiten: Mo. - Fr. 07:00 - 18:00 Uhr
-Fax: 0611 533-4500
-E-Mail: [ruv@ruv.de](mailto:ruv@ruv.de)
+> R+V Allgemeine Versicherung AG
+>
+> Raiffeisenplatz 1
+>
+> 65189 Wiesbaden
+>
+> Telefon: 0611 533-0
+>
+> Servicezeiten: Mo. - Fr. 07:00 - 18:00 Uhr
+>
+> Fax: 0611 533-4500
+>
+> E-Mail: [ruv@ruv.de](mailto:ruv@ruv.de)
 
 Weitere Angaben finden Sie im Internet zur EU-Richtlinie EU 2015/2302 und der Umsetzung in Deutsches Recht.
 
-**Kommt es nach Erfüllung der Informationspflicht sodann zum Abschluss des Reisevertrages zwischen Ihnen und Reisebüro Rode gilt für diesen Pauschalreisevertrag sodann zudem Folgendes:**
+Kommt es nach Erfüllung der Informationspflicht sodann zum Abschluss des Reisevertrages zwischen Ihnen und Reisebüro Rode gilt für diesen Pauschalreisevertrag sodann zudem Folgendes:
 
-## 1.) Reisevertrag
+### 1.) Reisevertrag
 
 Aufgrund Ihres Reisebüro Rode gegenüber abgegebenen Angebotes zum Abschluss eines Reisevertrages erhalten Sie die Reisebestätigung Reisebüro Rodes.
 
@@ -100,7 +90,7 @@ Für den Fall der Geltendmachung von Ansprüchen aus dem Reisevertrag gegenüber
 Reisebüro Rode weist darauf hin, dass gemäß §§ 312 Abs. 7, 312g Abs. 2 Satz 1 Nr. 9 BGB bei Pauschalreiseverträgen nach § 651a und § 651c BGB, die im Fernabsatz abgeschlossen werden (Briefe, Telefon, Faxkopie, E-Mail, SMS, Rundfunk, Telemedien, Onlinedienste), kein Widerrufsrecht besteht,
 sondern lediglich die gesetzlichen Rücktritts- und Kündigungsrechte, insbesondere das Rücktrittsrecht gemäß § 651h BGB . Ein Widerrufsrecht besteht jedoch, wenn der Vertrag über Reiseleistungen nach § 651a BGB außerhalb von Geschäftsräumen geschlossen worden ist, es sei denn, die mündlichen Verhandlungen, auf denen der Vertragsschluss beruht, sind auf vorhergehende Bestellung des Verbrauchhers geführt worden; im letztgenannten Fall besteht kein Widerrufsrecht.
 
-## 2.) Zahlung und Rücktritt
+### 2.) Zahlung und Rücktritt
 
 Reisebüro Rode ist gegen die eigene Insolvenz durch Abschluss einer Insolvenzversicherung abgesichert und händigt dem Reisenden mit Abschluss des Pauschalreisevertrages einen wirksamen Sicherungsschein mit Namen und Kontaktdaten des Kunden aus.
 
@@ -152,7 +142,7 @@ Spätestens 14 Tage nach erklärtem Rücktritt ist eine eventuell geleistete Anz
 
 Auch im Fall unvermeidbarer außergewöhnlicher Umstände gemäß § 651 h Abs. 4 Ziffer 2 BGB gilt Entsprechendes, Reisebüro Rode kann zurücktreten und verliert den Anspruch auf den Reisepreis.
 
-## 3.) Vertragsänderungen, Umbuchungen, Kosten
+### 3.) Vertragsänderungen, Umbuchungen, Kosten
 
 § 651 e BGB gestattet dem Reisenden innerhalb einer angemessenen Frist vor Reisebeginn (nicht später als 7 Tage vor Reisebeginn) gegenüber Reisebüro Rode eine Vertragsübertragung auf einen Dritten, der in die Rechte und Pflichten aus dem Pauschalreisevertrag eintritt, zu erklären.
 
@@ -172,7 +162,7 @@ Reisebüro Rode behält sich zudem vor, anstelle der Stornopauschalen eine konkr
 
 In diesem Fall verpflichtet sich Reisebüro Rode die geforderte Entschädigung konkret zu beziffern und zu belegen.
 
-## 4.) Leistungs und Preisänderungen
+### 4.) Leistungs und Preisänderungen
 
 Reisebüro Rode kann entsprechend der Regelungen des neuen Pauschalreiserechts gem. § 651 f und § 651 g neue Fassung BGB Preisänderungen vornehmen, sofern die Reise, in Folge eines Umstandes der nach Vertragsabschluss eingetreten ist und von Reisebüro Rode nicht wieder Treu und Glauben herbeigeführt wurde, nicht so durchgeführt werden kann, wie gebucht.
 
@@ -191,7 +181,7 @@ Die Liste von Luftfahrtunternehmen, die in der EU einer Betriebsuntersagung unte
 
 Reisebüro Rode weist darauf hin, dass es bei Direktflügen aus flug- und programmtechnischen Gründen zu Zwischenlandungen kommen kann. Für Sie wichtige Gegenstände, insbesondere Medikamente sollten in jedem Fall im Handgepäck mitgenommen werden.
 
-## 5.) Reisemängel, Haftung
+### 5.) Reisemängel, Haftung
 
 Die Rechte des Reisenden bei Reisemängel ergeben sich aus den §§ 651 i BGB, sie verjähren in 2 Jahren nach Beendigung der Reise.
 
@@ -203,7 +193,7 @@ Reisebüro Rode empfiehlt den Abschluss von Reiseunfall und Reisegepäckversiche
 
 Eine Haftung Reisebüro Rodes für Leistungsstörung, Personen und Sachschäden, die aus Leistungen entstehen, die als Fremdleistungen lediglich vermittelt werden (z. B. Theaterbesuche, Austellungen, Sportveranstaltungen, Zugfahrkaren und alle die ausdrücklich als Fremdleistung in der Reisebeschreibung gekennzeichnet sind) und die damit nicht Bestandteil der Pauschalreise sind und von in der Beschreibung ausdrücklich bezeichneten Dritten durchgeführt werden, ist nicht gegeben , es sei denn es liegt eine Ursache in der Verletzung von Hinweis, Aufklärungs- oder Organisationspflichten Reisebüro Rodes.
 
-## 6.) Mitwirkungspflicht des Reisenden
+### 6.) Mitwirkungspflicht des Reisenden
 
 Fehlerhafte Angaben in der Reisebestätigung oder das Fehlen notwendiger Reiseunterlagen hat der Reisende gegenüber Reisebüro Rode unverzüglich nach Erhalt zu rügen bzw. mitzuteilen.
 
@@ -235,7 +225,7 @@ Für Reiseleistungen, die der Reisende nicht in Anspruch nimmt, auch bei vorzeit
 
 Reisebüro Rode wird, wenn Leistungsträger Beträge an Reisebüro Rode erstatten, diese an den Reisenden weiterleiten.
 
-## 7.) Paß, Visa und Gesundheitsvorschriften
+### 7.) Paß, Visa und Gesundheitsvorschriften
 
 Reisebüro Rode wird den Reisenden über Bestimmungen von Paß, Visa und Gesundheitsvorschriften sowie deren evtl. Änderungen vor Reiseantritt unterrichten.
 
@@ -252,22 +242,22 @@ Informieren Sie sich bitte genau und befolgen Sie die Vorschriften unbedingt.
 
 Von verschiedenen Staaten werden bestimmte Impfzeugnisse verlangt, die nicht jünger als 8 Tage und nicht älter als 3 Jahre (Pocken) bzw. 10 Jahre (Gelbfieber) sein dürfen. Derartige Impfzeugnisse sind auch deutschen Behörden vorzuweisen, sofern Sie aus bestimmten Ländern (z. B. Afrika,Vorderer Orient) zurückkehren. Entsprechende Informationen entnehmen Sie bitte der vorvertraglichen Information und wenden Sie sich an uns bei konkreten Fragen.
 
-## 8.) Beistand zugunsten des Reisenden
+### 8.) Beistand zugunsten des Reisenden
 
 Für den Fall des Auftretens von Schwierigkeiten während der Reise sieht § 651 q BGB neue Fassung vor, dass Reisebüro Rode dem Reisenden unverzüglich in angemessener Weise Beistand gewährt.
 
 Hat der Reisende die den Beistand erfordernden Umstände schuldhaft selbst herbeigeführt, kann Reisebüro Rode Ersatz seiner Aufwendungen verlangen, wenn und soweit diese angemessen und Reisebüro Rode tatsächlich entstanden sind.
 
-## 9.) Datenschutz
+### 9.) Datenschutz
 
 Die personenbezogenen Daten, die Sie uns zur Verfügung stellen, werden elektronisch verarbeitet und genutzt, soweit sie zur Vertragsdurchführung erforderlich sind. Sämtliche Ihrer personenbezogenen Daten werden nach deutschen und europäischen Datenschutzrecht bearbeitet.
 Weitere Informationen zum Umgang mit Ihren Daten finden Sie in unserer Datenschutzerklärung unter: www.rodereisen.de. Dort Datenschutz
 
-## 10.) Allgemeines
+### 10.) Allgemeines
 
 Die Unwirksamkeit einzelner Bestimmungen des Reisevertrages hat nicht die Unwirksamkeit des gesamten Reisevertrages zur Folge. Das gleiche gilt für die vorliegenden Reisebedingungen.
 
-## 11.) Gerichtsstand, anzuwendendes Recht, Verbraucherschlichtungsstelle
+### 11.) Gerichtsstand, anzuwendendes Recht, Verbraucherschlichtungsstelle
 
 Auf das Rechtsverhältnis zwischen Reisebüro Rode und dem Reisenden ist ausschließlich deutsches Recht anzuwenden, dies wird auch für Reisende, die nicht Angehörige eines EU-Staates oder Schweizer Staatsbürger sind, entsprechend vereinbart.
 
@@ -287,7 +277,7 @@ Gemäß Artikel 251 EGBGB ist die Reisebüro Rode GmbH als Reiseveranstalter ver
 
 ### Reisebüro Rode GmbH
 
-#### Firmensitz
+### Firmensitz
 
 Reisebüro Rode GmbH
 

@@ -5,7 +5,7 @@ slug: bianca-bleher
 warenkorb: ""
 kontakt:
   email: bianca@rodereisen.de
-  telefon: "+49 (0)7062 - 9499 0"
+  telefon: "+49 (0)7144 - 8155 12"
   instagram: ""
   twitter: ""
 bilder:

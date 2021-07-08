@@ -161,11 +161,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `Reisebüro Rode GmbH`,
+        short_name: `rodereisen`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#FFFFFF`,
+        theme_color: `#1e3a8a`,
         display: `minimal-ui`,
         icon: `src/images/logos/rr-flugzeug.png`, // This path is relative to the root of the site.
       },
