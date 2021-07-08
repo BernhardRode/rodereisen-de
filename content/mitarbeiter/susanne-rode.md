@@ -5,7 +5,7 @@ slug: susanne-rode
 warenkorb: ""
 kontakt:
   email: susanne@rodereisen.de
-  telefon: "+49 (0)7062 - 9499 0"
+  telefon: "+49 (0)7062 - 9499 28"
   instagram: ""
   twitter: ""
 bilder:

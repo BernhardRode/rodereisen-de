@@ -5,7 +5,7 @@ slug: alexandra-ille
 warenkorb: ""
 kontakt:
   email: alexandra@rodereisen.de
-  telefon: "+49 (0)7062 - 9499 0"
+  telefon: "+49 (0)7062 - 9499 25"
   instagram: ""
   twitter: ""
 bilder:

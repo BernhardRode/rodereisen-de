@@ -5,7 +5,7 @@ slug: ann-christin-harst
 warenkorb: ""
 kontakt:
   email: ann-christin@rodereisen.de
-  telefon: "+49 (0)7062 - 9499 0"
+  telefon: "+49 (0)7062 - 9499 21"
   instagram: ""
   twitter: ""
 bilder:

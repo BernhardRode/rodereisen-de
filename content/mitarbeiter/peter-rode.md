@@ -5,7 +5,7 @@ slug: peter-rode
 warenkorb: ""
 kontakt:
   email: peter@rodereisen.de
-  telefon: "+49 (0)7062 - 9499 0"
+  telefon: "+49 (0)7062 - 9499 27"
   instagram: ""
   twitter: ""
 bilder:
@@ -15,4 +15,4 @@ bilder:
 
 # Peter Rode
 
-Mitgründer des Reisebüro Rode und seit über 40 Jahren Ideengeber und Ihr Partner auf dem Weg 
+Mitgründer des Reisebüro Rode und seit über 40 Jahren Ideengeber und Ihr Partner auf dem Weg

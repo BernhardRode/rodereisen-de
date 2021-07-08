@@ -5,7 +5,7 @@ slug: michaela-adler
 warenkorb: ""
 kontakt:
   email: michaela@rodereisen.de
-  telefon: "+49 (0)7062 - 9499 0"
+  telefon: "+49 (0)7062 - 9499 26"
   instagram: ""
   twitter: ""
 bilder:

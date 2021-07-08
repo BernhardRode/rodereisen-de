@@ -6,7 +6,7 @@ nachname: Bay
 slug: sandra-bay
 kontakt:
   email: sandra@rodereisen.de
-  telefon: "+49 (0)7062 - 9499 0"
+  telefon: "+49 (0)7062 - 9499 24"
   instagram: ""
   twitter: ""
 bilder:

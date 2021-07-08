@@ -5,7 +5,7 @@ slug: bettina-oehler
 warenkorb: ""
 kontakt:
   email: bettina@rodereisen.de
-  telefon: "+49 (0)7062 - 9499 0"
+  telefon: "+49 (0)7062 - 9499 29"
   instagram: ""
   twitter: ""
 bilder:

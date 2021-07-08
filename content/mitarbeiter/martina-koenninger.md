@@ -5,7 +5,7 @@ slug: martina-koenninger
 warenkorb: ""
 kontakt:
   email: martina@rodereisen.de
-  telefon: "+49 (0)7062 - 9499 0"
+  telefon: "+49 (0)7062 - 9499 23"
   instagram: ""
   twitter: ""
 bilder:

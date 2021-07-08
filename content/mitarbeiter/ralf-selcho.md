@@ -5,7 +5,7 @@ slug: ralf-selcho
 warenkorb: ""
 kontakt:
   email: ralf@rodereisen.de
-  telefon: "+49 (0)7144 - 8155 0"
+  telefon: "+49 (0)7144 - 8155 13"
   instagram: ""
   twitter: ""
 bilder:
