@@ -1,5 +1,5 @@
 import { graphql, useStaticQuery } from "gatsby"
-import { getSrc } from "gatsby-plugin-image"
+import { GatsbyImage, getImage } from "gatsby-plugin-image"
 import * as React from "react"
 
 const HeaderImage = (props: HeaderImageProps) => {
@@ -9,7 +9,7 @@ const HeaderImage = (props: HeaderImageProps) => {
         edges {
           node {
             childImageSharp {
-              gatsbyImageData(height: 1024)
+              gatsbyImageData(layout: FULL_WIDTH)
             }
             id
             name
@@ -19,27 +19,16 @@ const HeaderImage = (props: HeaderImageProps) => {
       }
     }
   `)
-  const { banner, background, backgroundColor, children } = props
+  const { banner, children } = props
 
   const bannerIndex = data.allFile.edges.findIndex(
     ({ node }) => node.name === banner
   )
   const { node } = data.allFile.edges[bannerIndex > -1 ? bannerIndex : 0]
-  const src = getSrc(node)
-  return src ? (
+  const image = getImage(node)
+  return image ? (
     <>
-      <div
-        className={`w-full`}
-        style={{
-          background,
-          backgroundColor,
-        }}
-      >
-        <div
-          style={{ backgroundImage: `url(${src})`, zIndex: -1 }}
-          className={`xl:container bg-cover mt-24 lg:mt-0 bg-no-repeat z-0 h-48 lg:h-96`}
-        ></div>
-      </div>
+      <GatsbyImage image={image} alt={props.alt} />
       <div className="">{children ? children : null}</div>
     </>
   ) : (
@@ -48,9 +37,8 @@ const HeaderImage = (props: HeaderImageProps) => {
 }
 
 interface HeaderImageProps {
+  alt?: string
   banner: string
-  background?: string
-  backgroundColor?: string
   children?: any
 }
 
