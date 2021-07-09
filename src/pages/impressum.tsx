@@ -17,7 +17,7 @@ const ImprintPage = props => {
       <HeaderImage banner="Banner_2">
         <SectionHeadline headline="Impressum" subheadline="" />
         <div
-          className="container w-1/2"
+          className="container p-4 lg:p-0 lg:w-1/2"
           dangerouslySetInnerHTML={{ __html: html }}
         />
       </HeaderImage>
