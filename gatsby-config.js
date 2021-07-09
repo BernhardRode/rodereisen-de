@@ -154,7 +154,7 @@ module.exports = {
         defaults: {
           formats: [`auto`, `webp`],
           placeholder: "tracedSVG",
-          breakpoints: [540, 1080],
+          breakpoints: [640, 768, 1024, 1280, 1536],
         },
       },
     },
@@ -178,7 +178,7 @@ module.exports = {
           {
             resolve: "gatsby-remark-images",
             options: {
-              maxWidth: 1080,
+              maxWidth: 1536,
             },
           },
           "gatsby-remark-classes",
