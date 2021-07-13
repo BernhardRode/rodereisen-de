@@ -11,7 +11,7 @@ const SectionContact = () => {
 
   return (
     <section className="w-full p-8 lg:p-0">
-      <div className="flex flex-col lg:flex-row overflow-hidden pb-8 lg:pl-96 lg:pr-96">
+      <div className="flex flex-col lg:flex-row overflow-hidden pb-8">
         <div className="flex flex-row lg:flex-col items-center flex-grow">
           <div className="text-white">
             <div className="bg-blue-900 rounded-full inline-block p-2">
@@ -37,7 +37,7 @@ const SectionContact = () => {
               </svg>
             </div>
           </div>
-          <div className="text-xl p-7 text-blue-900 hover:text-pink-500">
+          <div className="text-xl p-4 pb-7 lg:text-center lg:pb-0 text-blue-900 hover:text-pink-500">
             <a
               href={`/standorte`}
               className="text-blue-900 hover:text-pink-500 flex-grow"
@@ -65,7 +65,7 @@ const SectionContact = () => {
               </svg>
             </div>
           </div>
-          <div className="text-xl p-7 text-blue-900 hover:text-pink-500">
+          <div className="text-xl p-4 pb-7 lg:text-center lg:pb-0 text-blue-900 hover:text-pink-500">
             <a
               href={`mailto:${email}`}
               className="text-blue-900 hover:text-pink-500 flex-grow"
@@ -93,7 +93,7 @@ const SectionContact = () => {
               </svg>
             </div>
           </div>
-          <div className="text-xl p-7 flex flex-col">
+          <div className="text-xl p-4 pb-7 lg:text-center lg:pb-0 flex flex-col">
             <div>
               <a
                 href={`tel:${telefon1Link}`}
