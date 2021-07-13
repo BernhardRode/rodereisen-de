@@ -1,6 +1,12 @@
+import { GatsbyImage, getImage } from "gatsby-plugin-image"
 import * as React from "react"
-import ExpertImageBack from "./experte-image-back"
-import ExpertImageFront from "./experte-image-front"
+
+const getImageFromResult = (arr, name) => {
+  const results = arr?.filter(
+    edge => `${edge.node.name}.${edge.node.extension}` === name
+  )
+  return results?.length > 0 ? getImage(results[0].node) : null
+}
 
 const SectionExperten = ({ data }) => {
   return (
@@ -11,12 +17,22 @@ const SectionExperten = ({ data }) => {
             .filter(({ node }) => node?.frontmatter?.bilder?.bild.length > 0)
             .map((obj, index) => {
               const { node } = obj
+              const front = getImageFromResult(
+                data.smallPortraits.edges,
+                node?.frontmatter?.bilder?.bild
+              )
+              const back = getImageFromResult(
+                data.smallPortraitsFunny.edges,
+                node?.frontmatter?.bilder?.bild_hover
+              )
+              const alt = `${node.frontmatter.name} ${node.frontmatter.nachname}`
+
               return (
                 <div className="aspect-h-4" key={index}>
                   <a href={`/experten/${node.frontmatter.slug}`}>
                     <div className="relative block overflow-hidden">
                       <div className="w-full relative z-30 hideme">
-                        <ExpertImageFront experte={node} />
+                        <GatsbyImage image={front} alt={alt} />
                       </div>
                       <div className="w-full absolute hue-rotate-180 top-0 left-0">
                         <div className="absolute z-20 w-full text-center text-white pt-4 pb-4 bottom-0">
@@ -30,7 +46,7 @@ const SectionExperten = ({ data }) => {
                           </h5>
                         </div>
                         <div className="z-10">
-                          <ExpertImageBack experte={node} />
+                          <GatsbyImage image={back} alt={alt} />
                         </div>
                       </div>
                     </div>

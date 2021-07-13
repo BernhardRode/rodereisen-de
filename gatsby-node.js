@@ -48,6 +48,78 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
   try {
     const result = await graphql(`
       query ExpertsQuery {
+        smallPortraits: allFile(
+          filter: { sourceInstanceName: { eq: "portraits" } }
+        ) {
+          edges {
+            node {
+              childImageSharp {
+                gatsbyImageData(
+                  aspectRatio: 1.5
+                  transformOptions: { fit: INSIDE }
+                  height: 540
+                )
+              }
+              id
+              name
+              extension
+            }
+          }
+        }
+        largePortraits: allFile(
+          filter: { sourceInstanceName: { eq: "portraits" } }
+        ) {
+          edges {
+            node {
+              childImageSharp {
+                gatsbyImageData(
+                  aspectRatio: 1.5
+                  transformOptions: { fit: INSIDE }
+                  height: 1080
+                )
+              }
+              id
+              name
+              extension
+            }
+          }
+        }
+        smallPortraitsFunny: allFile(
+          filter: { sourceInstanceName: { eq: "portraits-funny" } }
+        ) {
+          edges {
+            node {
+              childImageSharp {
+                gatsbyImageData(
+                  aspectRatio: 1.5
+                  transformOptions: { fit: INSIDE }
+                  height: 540
+                )
+              }
+              id
+              name
+              extension
+            }
+          }
+        }
+        largePortraitsFunny: allFile(
+          filter: { sourceInstanceName: { eq: "portraits-funny" } }
+        ) {
+          edges {
+            node {
+              childImageSharp {
+                gatsbyImageData(
+                  aspectRatio: 1.5
+                  transformOptions: { fit: INSIDE }
+                  height: 1080
+                )
+              }
+              id
+              name
+              extension
+            }
+          }
+        }
         mitarbeiter: allFile(
           filter: { sourceInstanceName: { eq: "mitarbeiter" } }
         ) {
@@ -88,10 +160,30 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
     const template = path.resolve("./src/templates/experte.tsx")
 
     entries.forEach(({ node }) => {
+      const {
+        smallPortraits,
+        largePortraits,
+        smallPortraitsFunny,
+        largePortraitsFunny,
+      } = result.data
+
+      const getImageFromResult = arr => {
+        const results = arr.edges.filter(edge => edge.node.name === node.name)
+        return results.length > 0 ? results[0] : null
+      }
+
       const page = {
         path: `/experten/${node.childMarkdownRemark.frontmatter.slug}`,
         component: template,
-        context: node,
+        context: {
+          ...node,
+          images: {
+            smallPortrait: getImageFromResult(smallPortraits),
+            largePortrait: getImageFromResult(largePortraits),
+            smallPortraitFunny: getImageFromResult(smallPortraitsFunny),
+            largePortraitFunny: getImageFromResult(largePortraitsFunny),
+          },
+        },
       }
       createPage(page)
     })

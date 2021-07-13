@@ -1,8 +1,5 @@
-// import "./experten.css"
 import { graphql } from "gatsby"
-import { GatsbyImage, getImage, getSrc } from "gatsby-plugin-image"
 import * as React from "react"
-import { useState } from "react"
 import HeaderImage from "../components/header-image"
 import Layout from "../components/layout"
 import SectionExperten from "../components/section-experten"
@@ -26,6 +23,42 @@ const ExpertenPage = ({ data }) => {
 
 export const query = graphql`
   {
+    smallPortraits: allFile(
+      filter: { sourceInstanceName: { eq: "portraits" } }
+    ) {
+      edges {
+        node {
+          childImageSharp {
+            gatsbyImageData(
+              aspectRatio: 1.5
+              transformOptions: { fit: INSIDE }
+              height: 540
+            )
+          }
+          id
+          name
+          extension
+        }
+      }
+    }
+    smallPortraitsFunny: allFile(
+      filter: { sourceInstanceName: { eq: "portraits-funny" } }
+    ) {
+      edges {
+        node {
+          childImageSharp {
+            gatsbyImageData(
+              aspectRatio: 1.5
+              transformOptions: { fit: INSIDE }
+              height: 540
+            )
+          }
+          id
+          name
+          extension
+        }
+      }
+    }
     allMarkdownRemark {
       edges {
         node {
