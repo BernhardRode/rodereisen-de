@@ -1,6 +1,7 @@
 import * as React from "react"
 import Layout from "../components/layout"
 import SectionBestReisen from "../components/section-best-reisen"
+import SectionContact from "../components/section-contact"
 import SectionHeadline from "../components/section-headline"
 import SectionRodeApp from "../components/section-rode-app"
 import SectionRodeInklusive from "../components/section-rode-inklusive"
@@ -14,6 +15,7 @@ const IndexPage = () => {
       <SEO title="Home" />
       <Wall />
       <SectionHeadline headline="wir sind" subheadline="für sie da" />
+      <SectionContact />
       <SectionRodeVideo />
       <SectionRodeInklusive />
       <SectionRodeApp />
