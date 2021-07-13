@@ -6,7 +6,7 @@ const SectionExperten = ({ data }) => {
   return (
     <section className="w-full">
       <div className="container overflow-hidden">
-        <div className="grid grid-cols-2 md:grid-cols-4 rounded overflow-hidden">
+        <div className="grid grid-cols-3 md:grid-cols-4 rounded overflow-hidden">
           {data.allMarkdownRemark.edges
             .filter(({ node }) => node?.frontmatter?.bilder?.bild.length > 0)
             .map((obj, index) => {
@@ -20,7 +20,7 @@ const SectionExperten = ({ data }) => {
                       </div>
                       <div className="w-full absolute hue-rotate-180 top-0 left-0">
                         <div className="absolute z-20 w-full text-center text-white pt-4 pb-4 bottom-0">
-                          <h5 className="text-5xl text-white flex flex-col">
+                          <h5 className="text-xl md:text-5xl text-white flex flex-col">
                             <span className="font-light">
                               {node.frontmatter.name}
                             </span>

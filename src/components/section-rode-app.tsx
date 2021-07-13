@@ -67,7 +67,7 @@ const SectionRodeApp = () => {
   const appLogoImage = getImage(appLogo)
 
   return (
-    <section className="w-full pb-16">
+    <section className="w-full pb-4 lg:pb-16">
       <div className="container lg:w-1/2 p-4 lg:p-0 mb-16 mt-16">
         <div className="flex flex-col  items-center content-center justify-evenly">
           <div className="pt-12">

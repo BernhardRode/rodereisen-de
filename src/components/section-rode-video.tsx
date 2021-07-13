@@ -2,12 +2,12 @@ import * as React from "react"
 import SectionHeadline from "./section-headline"
 
 const SectionRodeVideo = () => (
-  <section className="w-full pb-16">
+  <section className="w-full pb-4 lg:pb-16">
     <div className="container">
       <div className="grid grid-cols-1 lg:grid-cols-2">
         <div className="lg:p-32">
           <div className="text-5xl text-center"></div>
-          <h1 className="text-3xl text-blue-900 text-center pb-8">
+          <h1 className="text-3xl text-blue-900 text-center p-4 lg:p-0">
             Träumen werden wieder wahr
           </h1>
           <p className="text-center text-gray-400 pb-4">
@@ -16,7 +16,7 @@ const SectionRodeVideo = () => (
           </p>
         </div>
         <div>
-          <div className="h-96 lg:p-8">
+          <div className="lg:h-96 p-4 lg:p-8">
             <iframe
               src="https://player.vimeo.com/video/534828118?title=0&byline=0&portrait=0"
               style={{

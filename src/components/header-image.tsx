@@ -28,7 +28,7 @@ const HeaderImage = (props: HeaderImageProps) => {
   const image = getImage(node)
   return image ? (
     <>
-      <div className="container">
+      <div className="container mt-24 lg:mt-0">
         <GatsbyImage image={image} alt={props.alt} />
       </div>
       <div className="">{children ? children : null}</div>

@@ -29,16 +29,16 @@ const SectionBestReisen = () => {
   const image = getImage(file)
 
   return (
-    <section className="w-full pb-16">
+    <section className="w-full pb-4 lg:pb-16">
       <div className="container">
-        <div className="flex flex-col items-center pt-16">
+        <div className="flex flex-col items-center pt-16 p-4 lg:p-0">
           <GatsbyImage
             image={image}
             alt="Reisebüro Rode - Mein Reisebüro App"
           />
         </div>
         <div className="flex flex-col lg:flex-row justify-evenly">
-          <div className="p-8">
+          <div className="p-4">
             <h1 className="text-blue-900 text-center text-3xl pb-8">
               Vor über 30 Jahren
             </h1>
@@ -53,7 +53,7 @@ const SectionBestReisen = () => {
               Technik.
             </p>
           </div>
-          <div className="p-8">
+          <div className="p-4">
             <h1 className="text-blue-900 text-center text-3xl pb-8">
               BEST-Reisen Werte
             </h1>
