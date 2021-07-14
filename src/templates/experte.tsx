@@ -11,8 +11,6 @@ const ExpertPage = props => {
     return number.replace("(0)", "").replace(/ /g, "").replace(/\-/g, "")
   }
 
-  console.log(props)
-
   const offers = [] // data.allOffers.edges.map(({ node }) => node)
   const { pageContext } = props
   const { childMarkdownRemark } = pageContext
@@ -20,8 +18,13 @@ const ExpertPage = props => {
   const { telefon, email } = frontmatter.kontakt
   const telefonLink = cleanPhone(telefon)
 
-  const frontLarge = getSrc(pageContext.images.largePortrait.node)
-  const backLarge = getSrc(pageContext.images.largePortraitFunny.node)
+  const frontLarge = pageContext?.images?.largePortrait?.node
+    ? getSrc(pageContext.images.largePortrait.node)
+    : null
+
+  const backLarge = pageContext?.images?.largePortraitFunny?.node
+    ? getSrc(pageContext.images.largePortraitFunny.node)
+    : null
 
   return (
     <Layout>
