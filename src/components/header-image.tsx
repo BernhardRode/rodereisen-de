@@ -1,6 +1,7 @@
 import { graphql, useStaticQuery } from "gatsby"
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
 import * as React from "react"
+import SectionWaves from "./section-waves"
 
 const HeaderImage = (props: HeaderImageProps) => {
   const data = useStaticQuery(graphql`
@@ -28,8 +29,11 @@ const HeaderImage = (props: HeaderImageProps) => {
   const image = getImage(node)
   return image ? (
     <>
-      <div className="container mt-24 lg:mt-0">
-        <GatsbyImage image={image} alt={props.alt} />
+      <div className={`bg-gradient ${banner}`}>
+        <div className="container mt-24 lg:mt-0">
+          <GatsbyImage image={image} alt={props.alt} />
+        </div>
+        <SectionWaves />
       </div>
       <div className="">{children ? children : null}</div>
     </>

@@ -1,4 +1,4 @@
-import { GatsbyImage, getImage, getSrc } from "gatsby-plugin-image"
+import { getSrc } from "gatsby-plugin-image"
 import React from "react"
 import ExpertHeaderImage from "../components/experte-header-image"
 import Layout from "../components/layout"

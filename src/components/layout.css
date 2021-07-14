@@ -116,3 +116,141 @@
   white-space: pre-line;
 }
 /* purgecss end ignore */
+
+.bg-gradient {
+  background: linear-gradient(
+    135deg,
+    #34a4ca 0%,
+    #59d7dd 28%,
+    #a8f2f0 59%,
+    #d0f8ef 84%,
+    #d6f6e1 100%
+  );
+}
+
+.bg-gradient.sunset {
+  background: linear-gradient(
+    135deg,
+    #47565f 0%,
+    #5b625a 15%,
+    #947461 38%,
+    #f98056 70%,
+    #f7ec86 100%
+  );
+}
+
+.bg-gradient.Banner_1 {
+  background: linear-gradient(
+    153deg,
+    rgb(243, 170, 65) 0%,
+    rgb(231, 218, 77) 100%
+  );
+}
+
+.bg-gradient.Banner_2 {
+  background: linear-gradient(135deg, #99E5EC 0%, #52CDD5 100%);
+}
+
+.bg-gradient.Banner_3 {
+  background: linear-gradient(
+    to bottom,
+    rgb(240, 97, 63) 0%,
+    rgb(229, 89, 54) 75%,
+    rgb(253, 114, 71) 95%
+  );
+}
+
+.bg-gradient.Banner_4 {
+  background: linear-gradient(135deg, #eeb201 0%, #f2b601 100%);
+}
+
+.bg-gradient.Banner_5 {
+  background: linear-gradient(135deg, #eeb201 0%, #f2b601 100%);
+}
+
+.bg-gradient.Banner_6 {
+  background: linear-gradient(
+    to bottom,
+    rgb(232, 137, 135) 0%,
+    rgb(218, 109, 112) 100%
+  );
+}
+
+.bg-gradient.Banner_7 {
+  background: linear-gradient(130deg, rgb(9, 9, 9) 0%, rgb(31, 30, 26) 100%);
+}
+
+.bg-gradient.Banner_8 {
+  background: linear-gradient(
+    117deg,
+    rgb(124, 105, 150) 0%,
+    rgb(143, 127, 164) 43%,
+    rgb(169, 146, 188) 100%
+  );
+}
+
+.bg-gradient.Banner_9 {
+  background: linear-gradient(
+    75deg,
+    rgb(250, 106, 71) 0%,
+    rgb(252, 108, 71) 83%
+  );
+}
+
+.bg-gradient.Banner_10 {
+  background: linear-gradient(
+    152deg,
+    rgb(70, 87, 157) 0%,
+    rgb(69, 88, 157) 100%
+  );
+}
+
+.waves {
+  position: relative;
+  width: 100%;
+  height: 15vh;
+  margin-bottom: -7px; /*Fix for safari gap*/
+  min-height: 100px;
+  max-height: 150px;
+}
+
+.parallax > use {
+  animation: move-forever 25s cubic-bezier(0.55, 0.5, 0.45, 0.5) infinite;
+}
+.parallax > use:nth-child(1) {
+  animation-delay: -2s;
+  animation-duration: 7s;
+}
+.parallax > use:nth-child(2) {
+  animation-delay: -3s;
+  animation-duration: 10s;
+}
+.parallax > use:nth-child(3) {
+  animation-delay: -4s;
+  animation-duration: 13s;
+}
+.parallax > use:nth-child(4) {
+  animation-delay: -5s;
+  animation-duration: 20s;
+}
+@keyframes move-forever {
+  0% {
+    transform: translate3d(-90px, 0, 0);
+  }
+  100% {
+    transform: translate3d(85px, 0, 0);
+  }
+}
+/*Shrinking for mobile*/
+@media (max-width: 768px) {
+  .waves {
+    height: 40px;
+    min-height: 40px;
+  }
+  .content {
+    height: 30vh;
+  }
+  h1 {
+    font-size: 24px;
+  }
+}
