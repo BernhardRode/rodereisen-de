@@ -14,7 +14,7 @@ exports.sourceNodes = async ({
 }) => {
   try {
     // const url = "http://0.0.0.0:7071/api/offers?id="
-    const baskets = ["PRBG-2151"]
+    const baskets = ["XJQZ-9250"]
     const offers = []
 
     for (const id in baskets) {
