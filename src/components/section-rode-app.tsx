@@ -53,6 +53,23 @@ const SectionRodeApp = () => {
           }
         }
       }
+      qrCodeLogo: allFile(
+        filter: {
+          sourceInstanceName: { eq: "logos" }
+          name: { eq: "meine-reise-app-qr" }
+        }
+      ) {
+        edges {
+          node {
+            childImageSharp {
+              gatsbyImageData(height: 100)
+            }
+            id
+            name
+            extension
+          }
+        }
+      }
     }
   `)
 
@@ -62,8 +79,10 @@ const SectionRodeApp = () => {
   const [googleAppStore] = data.googleAppStore.edges
     .map(({ node }) => node)
     .map(({ publicURL }) => publicURL)
+  const [qrCodeLogo] = data.qrCodeLogo.edges.map(({ node }) => node)
   const [appLogo] = data.dataAppLogo.edges.map(({ node }) => node)
 
+  const qrCodeLogoImage = getImage(qrCodeLogo)
   const appLogoImage = getImage(appLogo)
 
   return (
@@ -103,6 +122,12 @@ const SectionRodeApp = () => {
               alt="Apple App Store"
             />
           </a>
+          <div className="">
+            <GatsbyImage
+              image={qrCodeLogoImage}
+              alt="Reisebüro Rode - Mein Reisebüro App"
+            />
+          </div>
           <a
             href="https://play.google.com/store/apps/details?id=com.numbirds.app"
             target="_blank"
