@@ -3,24 +3,17 @@ title: Impressum
 date: "2021-07-28T00:00:00.000Z"
 ---
 
-## suedwest touristik GmbH
+## Reisebüro Rode GmbH
 
 ### Geschäftsführer
 
-> Dipl.-Kfm. Bernhard Eckel
+> Peter Rode
 >
-> [be@vdv-gmbh.de](mailto:be@vdv-gmbh.de)
-> [06204/7015016](tel:062047015016)
+> [peter@rodereisen.de](mailto:peter@rodereisen.de)
 >
 > Hauptstrasse 44
 >
-> Q4, 12-16, 68161 Mannheim
-
-### Gesellschafter
-
-> Ulrich Beteiligungsgesellschaft mbH
->
-> Schubertstraße 4/6, 69469 Weinheim
+> 71717 Beilstein
 
 ### Inhaltlich Verantwortlicher (gemäß § 5 TMG)
 
@@ -44,19 +37,19 @@ date: "2021-07-28T00:00:00.000Z"
 
 ### Eingetragenes Unternehmen
 
-> HRB 713366 AG Mannheim
+> Amtsgericht Heilbronn
 >
-> steuer nummer: 38189/23761 FA Mannheim
+> hrb 104001
 >
-> ust.id. DE149962850
+> ust.id. DE145781171
 
 ### Kontakt
 
-> Telefon: +49 (0)7062 9499-0
+> Telefon: +49 (0)7062 9499-0
 >
-> Fax: +49 (0)7062 9499-94
+> Fax: +49 (0)7062 9499-94
 >
-> Mail: info@rodereisen.de
+> Mail: info@rodereisen.de
 >
 > Internet: <https://www.rodereisen.de>
 
