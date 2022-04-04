@@ -50,9 +50,9 @@ const StandortePage = ({ data }) => {
   const [sthImage] = result.sth.edges.map(({ node }) => getImage(node))
 
   const openDaysBst = [1, 2, 3, 4, 5]
-  const openHoursBst = [9, 10, 11, 12, 13, 14, 15, 16, 17, 18]
+  const openHoursBst = [9, 10, 11, 12, 13, 14, 15, 16, 17]
   const openDaysSth = [1, 2, 3, 4, 5]
-  const openHoursSth = [9, 10, 11, 12, 13, 14, 15, 16, 17, 18]
+  const openHoursSth = [9, 10, 11, 12, 13, 14, 15, 16, 17]
 
   return (
     <Layout>
