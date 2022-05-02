@@ -5,7 +5,7 @@ date: "2021-07-28T00:00:00.000Z"
 
 ## Reisebüro Rode
 
-> Inhaber Reisebüro Albrecht GmbH
+> Inhaber [Reisebüro Albrecht GmbH](https://reisebuero-albrecht.de/)
 
 ### Geschäftsführer
 
