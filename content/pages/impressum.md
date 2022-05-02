@@ -3,11 +3,17 @@ title: Impressum
 date: "2021-07-28T00:00:00.000Z"
 ---
 
-## Reisebüro Rode GmbH
+## Reisebüro Rode - Reisebüro Albrecht GmbH
 
 ### Geschäftsführer
 
 > Dipl. Kfm. Bernhard Eckel
+>
+> [info@city-reisen.de](mailto:info@city-reisen.de)
+>
+> Westliche-Karl-Friedr.-Str. 53
+>
+> 75172 Pforzheim
 
 ### Inhaltlich Verantwortlicher (gemäß § 5 TMG)
 
@@ -19,13 +25,14 @@ date: "2021-07-28T00:00:00.000Z"
 >
 > 71717 Beilstein
 
+
 ### Eingetragenes Unternehmen
 
-> Amtsgericht Heilbronn
+> Amtsgericht Mannheim
 >
-> hrb 104001
+> hrb 105151
 >
-> ust.id. DE145781171
+> ust.id. DE143586374
 
 ### Kontakt
 
