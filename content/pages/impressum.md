@@ -7,29 +7,13 @@ date: "2021-07-28T00:00:00.000Z"
 
 ### Geschäftsführer
 
-> Peter Rode
->
-> [peter@rodereisen.de](mailto:peter@rodereisen.de)
->
-> Hauptstrasse 44
->
-> 71717 Beilstein
+> Dipl. Kfm. Bernhard Eckel
 
 ### Inhaltlich Verantwortlicher (gemäß § 5 TMG)
 
 > Thomas Baltzer
 >
 > [thomas@rodereisen.de](mailto:thomas@rodereisen.de)
->
-> Hauptstrasse 44
->
-> 71717 Beilstein
-
-### Datenschutz Beauftragter
-
-> Bernhard Rode
->
-> [mail@bernhardrode.de](mailto:mail@bernhardrode.de)
 >
 > Hauptstrasse 44
 >
