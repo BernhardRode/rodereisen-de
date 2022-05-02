@@ -14,12 +14,12 @@ const SectionNewsletter = () => {
           Sie möchten aktuelle, von unseren Experten handverlesene Angebote
           direkt in Ihr E-Mail Postfach?
         </p>
-        <a
+        <button
           className="mt-16 hover:text-blue-900 cursor-pointer inline-block w-auto h-full px-5 py-4 lg:text-base text-sm font-bold leading-none text-white transition-all duration-100 bg-indigo-700 rounded shadow-md fold-bold lg:bg-pink-500 lg:text-white sm:w-full lg:shadow-none hover:shadow-xl max-w-xl"
           onClick={() => setIsOpen(true)}
         >
           Dann jetzt direkt hier anmelden!
-        </a>
+        </button>
       </div>
       {modalIsOpen ? (
         <ModalBooking onClose={() => setIsOpen(false)} src={src} />
