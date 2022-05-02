@@ -3,7 +3,9 @@ title: Impressum
 date: "2021-07-28T00:00:00.000Z"
 ---
 
-## Reisebüro Rode - Reisebüro Albrecht GmbH
+## Reisebüro Rode
+
+> Inhaber Reisebüro Albrecht GmbH
 
 ### Geschäftsführer
 
@@ -28,11 +30,11 @@ date: "2021-07-28T00:00:00.000Z"
 
 ### Eingetragenes Unternehmen
 
-> Amtsgericht Mannheim
+> Amtsgericht Heilbronn
 >
-> hrb 105151
+> hrb 104001
 >
-> ust.id. DE143586374
+> ust.id. DE145781171
 
 ### Kontakt
 
