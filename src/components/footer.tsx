@@ -278,7 +278,7 @@ const Footer = () => {
               </a>
             </div>
             <div className="text-sm text-white mt-4">
-              &copy; 1981 - {new Date().getFullYear()} Reisebüro Rode GmbH. Alle
+              &copy; 1981 - {new Date().getFullYear()} Reisebüro Rode. Alle
               Rechte vorbehalten.
             </div>
           </div>

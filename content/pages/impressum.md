@@ -56,13 +56,13 @@ Die Europäische Kommission stellt eine Plattform für die außergerichtliche On
 
 ## Haftungshinweis
 
-Die Reisebüro Rode GmbH übernimmt keine Garantie, dass die auf dieser Internetpräsenz bereitgestellten Informationen und Inhalte vollständig, richtig und aktuell sind. Trotz sorgfältiger inhaltlicher Kontrolle übernehmen wir keine Haftung für die Inhalte auf dieser Website und für extern verlinkte Inhalte. Für den Inhalt der verlinkten Seiten sind ausschließlich deren Betreiber verantwortlich.
+Die Reisebüro Rode übernimmt keine Garantie, dass die auf dieser Internetpräsenz bereitgestellten Informationen und Inhalte vollständig, richtig und aktuell sind. Trotz sorgfältiger inhaltlicher Kontrolle übernehmen wir keine Haftung für die Inhalte auf dieser Website und für extern verlinkte Inhalte. Für den Inhalt der verlinkten Seiten sind ausschließlich deren Betreiber verantwortlich.
 
 ## Copyright
 
 Fotos, Logos, Bilder, Grafiken, Textinhalte, Sound, Animationen, Videos und andere auf der Website veröffentlichte Informationen sowie die Komposition dieser Inhalte/Elemente auf dieser Internetpräsenz sind urheberrechtlich geschützt.
 
-Der Inhalt dieser Websites darf nicht kopiert, verbreitet, verändert oder Dritten zugänglich gemacht werden. Die Nutzung des geistigen Eigentums der Reisebüro Rode GmbH ist nur mit schriftlicher Zustimmung des inhaltlich Verantwortlichen der Reisebüro Rode GmbH erlaubt. Jede Verbreitung, Speicherung, Sendung und Wieder- bzw. Weitergabe der Inhalte für gewerbliche Zwecke ist ohne schriftliche Genehmigung der Reisebüro Rode GmbH ausdrücklich untersagt.
+Der Inhalt dieser Websites darf nicht kopiert, verbreitet, verändert oder Dritten zugänglich gemacht werden. Die Nutzung des geistigen Eigentums der Reisebüro Rode ist nur mit schriftlicher Zustimmung des inhaltlich Verantwortlichen der Reisebüro Rode erlaubt. Jede Verbreitung, Speicherung, Sendung und Wieder- bzw. Weitergabe der Inhalte für gewerbliche Zwecke ist ohne schriftliche Genehmigung der Reisebüro Rode ausdrücklich untersagt.
 
 ## Datenschutz Erklärung
 
@@ -127,7 +127,7 @@ Sicherheit ist nicht zuletzt auch von Ihrem System abhängig. Sie sollten Ihre Z
 Verwenden Sie ein Betriebssystem, das Benutzerrechte verwalten kann. Richten Sie auch in der Familie mehrere Benutzer auf Ihrem System ein und nutzen Sie das Internet niemals unter Administratorrechten. Nutzen Sie Sicherheits-Software wie Virenscanner und Firewalls und halten Sie ihr System laufend auf dem aktuellen Stand.
 Der Verantwortliche für diese Onlinepräsenz im Sinne der Datenschutz-Grundverordnung und anderer nationaler Datenschutzgesetze der Mitgliedsstaaten sowie sonstiger datenschutzrechtlicher Bestimmungen ist:
 
-Reisebüro Rode GmbH
+Reisebüro Rode
 Hauptstrasse 44
 71717 Beilstein
 07062 94990 / [info@rodereisen.de](mailto:info@rodereisen.de)
