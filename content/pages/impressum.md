@@ -11,7 +11,7 @@ date: "2021-07-28T00:00:00.000Z"
 
 > Dipl. Kfm. Bernhard Eckel
 >
-> [info@city-reisen.de](mailto:info@city-reisen.de)
+> [info@reisebuero-albrecht.de](mailto:info@reisebuero-albrecht.de)
 >
 > Westliche-Karl-Friedr.-Str. 53
 >
