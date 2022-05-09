@@ -223,7 +223,7 @@ const Footer = () => {
                     <div className="">
                       <div>Volksbank Backnang</div>
                       <div>
-                        IBAN: <span>DE52 6029 1120 0660 2660 08</span>
+                        IBAN: <span>DE14 6029 1120 0142 5030 02</span>
                       </div>
                       <div>
                         BIC: <span>GENODES1VBK</span>

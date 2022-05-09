@@ -1,6 +1,6 @@
 ---
 title: Impressum
-date: "2021-07-28T00:00:00.000Z"
+date: "2022-05-01T00:00:00.000Z"
 ---
 
 ## Reisebüro Rode
@@ -8,16 +8,15 @@ date: "2021-07-28T00:00:00.000Z"
 ### Inhaber
 
 > [Reisebüro Albrecht GmbH](https://reisebuero-albrecht.de/)
+>
+> Auer Straße 34
+> 76227 Karlsruhe
+>
+> [info@reisebuero-albrecht.de](mailto:info@reisebuero-albrecht.de)
 
 ### Geschäftsführer
 
 > Dipl. Kfm. Bernhard Eckel
->
-> [info@reisebuero-albrecht.de](mailto:info@reisebuero-albrecht.de)
->
-> Westliche-Karl-Friedr.-Str. 53
->
-> 75172 Pforzheim
 
 ### Inhaltlich Verantwortlicher (gemäß § 5 TMG)
 
@@ -32,11 +31,11 @@ date: "2021-07-28T00:00:00.000Z"
 
 ### Eingetragenes Unternehmen
 
-> Amtsgericht Heilbronn
+> Registergericht Mannheim
 >
-> hrb 104001
+> hrb 105151
 >
-> ust.id. DE145781171
+> ust.id. DE143586374
 
 ### Kontakt
 
@@ -56,17 +55,17 @@ Die Europäische Kommission stellt eine Plattform für die außergerichtliche On
 
 ## Haftungshinweis
 
-Die Reisebüro Rode übernimmt keine Garantie, dass die auf dieser Internetpräsenz bereitgestellten Informationen und Inhalte vollständig, richtig und aktuell sind. Trotz sorgfältiger inhaltlicher Kontrolle übernehmen wir keine Haftung für die Inhalte auf dieser Website und für extern verlinkte Inhalte. Für den Inhalt der verlinkten Seiten sind ausschließlich deren Betreiber verantwortlich.
+Die Reisebüro Albrecht GmbH übernimmt keine Garantie, dass die auf dieser Internetpräsenz bereitgestellten Informationen und Inhalte vollständig, richtig und aktuell sind. Trotz sorgfältiger inhaltlicher Kontrolle übernehmen wir keine Haftung für die Inhalte auf dieser Website und für extern verlinkte Inhalte. Für den Inhalt der verlinkten Seiten sind ausschließlich deren Betreiber verantwortlich.
 
 ## Copyright
 
 Fotos, Logos, Bilder, Grafiken, Textinhalte, Sound, Animationen, Videos und andere auf der Website veröffentlichte Informationen sowie die Komposition dieser Inhalte/Elemente auf dieser Internetpräsenz sind urheberrechtlich geschützt.
 
-Der Inhalt dieser Websites darf nicht kopiert, verbreitet, verändert oder Dritten zugänglich gemacht werden. Die Nutzung des geistigen Eigentums der Reisebüro Rode ist nur mit schriftlicher Zustimmung des inhaltlich Verantwortlichen der Reisebüro Rode erlaubt. Jede Verbreitung, Speicherung, Sendung und Wieder- bzw. Weitergabe der Inhalte für gewerbliche Zwecke ist ohne schriftliche Genehmigung der Reisebüro Rode ausdrücklich untersagt.
+Der Inhalt dieser Websites darf nicht kopiert, verbreitet, verändert oder Dritten zugänglich gemacht werden. Die Nutzung des geistigen Eigentums der Reisebüro Albrecht GmbH ist nur mit schriftlicher Zustimmung des inhaltlich Verantwortlichen der Reisebüro Albrecht GmbH erlaubt. Jede Verbreitung, Speicherung, Sendung und Wieder- bzw. Weitergabe der Inhalte für gewerbliche Zwecke ist ohne schriftliche Genehmigung der Reisebüro Albrecht GmbH ausdrücklich untersagt.
 
 ## Datenschutz Erklärung
 
-### Herzlich willkommen auf der Onlinepräsenz des Reisebüro Rodes
+### Herzlich willkommen auf der Onlinepräsenz des Reisebüro Albrecht GmbHs
 
 Wir freuen uns, dass wir Ihr Interesse an unseren Angeboten geweckt haben. Am Schutz Ihrer Privatsphäre und Ihrer persönlichen Daten ist uns sehr gelegen. Die Erhebung und Verwendung Ihrer Daten erfolgt daher stets im Einklang mit den Bestimmungen der Datenschutz-Grundverordnung (EU) 2016/679 (DSGVO), des Bundesdatenschutzgesetzes (BDSG) und des Telemediengesetzes (TMG). Im Folgenden informieren wir Sie daher darüber, welche Daten durch uns erhoben werden und auf welche Weise wir diese Daten verarbeiten.
 
@@ -127,7 +126,7 @@ Sicherheit ist nicht zuletzt auch von Ihrem System abhängig. Sie sollten Ihre Z
 Verwenden Sie ein Betriebssystem, das Benutzerrechte verwalten kann. Richten Sie auch in der Familie mehrere Benutzer auf Ihrem System ein und nutzen Sie das Internet niemals unter Administratorrechten. Nutzen Sie Sicherheits-Software wie Virenscanner und Firewalls und halten Sie ihr System laufend auf dem aktuellen Stand.
 Der Verantwortliche für diese Onlinepräsenz im Sinne der Datenschutz-Grundverordnung und anderer nationaler Datenschutzgesetze der Mitgliedsstaaten sowie sonstiger datenschutzrechtlicher Bestimmungen ist:
 
-Reisebüro Rode
+Reisebüro Albrecht GmbH
 Hauptstrasse 44
 71717 Beilstein
 07062 94990 / [info@rodereisen.de](mailto:info@rodereisen.de)
