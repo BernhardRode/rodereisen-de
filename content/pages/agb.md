@@ -275,21 +275,4 @@ Gemäß Artikel 251 EGBGB ist die Reisebüro Rode GmbH als Reiseveranstalter ver
 
 - [Reisebüro Rode GmbH Standard Formblatt](/standard-formblatt/)
 
-### Reisebüro Rode GmbH
-
-### Firmensitz
-
-Reisebüro Rode GmbH
-
-Hauptstrasse 44
-
-71717 Beilstein
-
-Geschäftsführer: Peter Rode
-
-> Telefon: 07062 94990
-> E-Mail: [info@rodereisen.de](mailto:info@rodereisen.de)
-> URL: <https://www.rodereisen.de>
-> Ust-IdNr.: DE145781171
-
 Die vorstehenden Reisebedingungen für Pauschalreiseveranstalter sind urheberrechtlich geschützt, Stand September 2018, Anwaltsbüro Wittkop, Essen.
