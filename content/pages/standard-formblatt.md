@@ -3,11 +3,11 @@ title: Standard Formblatt
 date: "2021-07-28T00:00:00.000Z"
 ---
 
-> (nach Art. 251 EGBGB) zur Unterrichtung des Reisenden bei einer Pauschalreise der Reisebüro Rode GmbH (nach §651a BGB).
+> (nach Art. 251 EGBGB) zur Unterrichtung des Reisenden bei einer Pauschalreise der Reisebüro Albrecht GmbH GmbH (nach §651a BGB).
 
-Bei der Ihnen angebotenen Kombination von Reiseleistungen handelt es sich um eine Pauschalreise im Sinne der Richtlinie (EU) 2015/2302. Daher können Sie alle EU-Rechte in Anspruch nehmen, die für Pauschalreisen gelten. Reisebüro Rode GmbH trägt die volle Verantwortung für die ordnungsgemäße Durchführung der gesamten Pauschalreise.
+Bei der Ihnen angebotenen Kombination von Reiseleistungen handelt es sich um eine Pauschalreise im Sinne der Richtlinie (EU) 2015/2302. Daher können Sie alle EU-Rechte in Anspruch nehmen, die für Pauschalreisen gelten. Reisebüro Albrecht GmbH trägt die volle Verantwortung für die ordnungsgemäße Durchführung der gesamten Pauschalreise.
 
-Zudem verfügt Reisebüro Rode GmbH über die gesetzlich vorgeschriebene Absicherung für die Rückzahlung Ihrer Zahlungen und, falls der Transport in der Pauschalreise inbegriffen ist, zur Sicherstellung Ihrer Rückbeförderung im Falle ihrer Insolvenz.
+Zudem verfügt Reisebüro Albrecht GmbH über die gesetzlich vorgeschriebene Absicherung für die Rückzahlung Ihrer Zahlungen und, falls der Transport in der Pauschalreise inbegriffen ist, zur Sicherstellung Ihrer Rückbeförderung im Falle ihrer Insolvenz.
 
 Weiterführende Informationen zu Ihren wichtigsten Rechten nach der Richtlinie (EU) 2015/2302 in der in das nationale Recht umgesetzten Form finden sie unter [www.umsetzung-richtlinie-eu2015-2302.de](https://www.umsetzung-richtlinie-eu2015-2302.de).
 
