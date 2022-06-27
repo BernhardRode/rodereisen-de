@@ -1,53 +1,25 @@
-import * as React from "react"
-import { graphql, Link } from "gatsby"
-
-import Layout from "../components/layout"
-import SEO from "../components/seo"
 import HeaderImage from "../components/header-image"
-import SectionOffers from "../components/section-offers"
+import Layout from "../components/layout"
 import SectionHeadline from "../components/section-headline"
+import SEO from "../components/seo"
+import Spinner from "../components/spinner"
+import * as React from "react"
+import { Suspense } from "react"
+import SectionOffers from "../components/section-offers"
 
 const AngebotePage = props => {
-  // const offers = props.data.allOffers.edges.map(({ node }) => node)
   return (
     <Layout>
       <SEO title="Angebote" />
       <HeaderImage banner="Banner_3">
         <SectionHeadline headline="Aktuelle" subheadline="Angebote" />
-        {/* <SectionOffers offers={offers} /> */}
+        <Suspense fallback={<Spinner />}>
+          {/* loading must happen inside a <Suspense> */}
+          <SectionOffers />
+        </Suspense>
       </HeaderImage>
     </Layout>
   )
 }
-
-// We use the GraphiQL query here
-// export const query = graphql`
-//   query OffersQuery {
-//     allOffers {
-//       edges {
-//         node {
-//           basketId
-//           city
-//           destination
-//           destinationDescription
-//           duration
-//           end
-//           facts
-//           final
-//           flight
-//           hotel
-//           image
-//           link
-//           offerId
-//           organizer
-//           pkg
-//           price
-//           slug
-//           start
-//         }
-//       }
-//     }
-//   }
-// `
 
 export default AngebotePage

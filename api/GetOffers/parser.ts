@@ -597,7 +597,7 @@ const createSlug = str => {
     .replace(/^-+/, "") // trim - from start of text
     .replace(/-+$/, "")
 
-  //   console.log(str)
+  // console.log(str)
   return str
 }
 
@@ -633,6 +633,7 @@ const parseOffer = ({
       .replace(new RegExp("&Uuml;"), "Ü")
       .replace(new RegExp("&Ouml;"), "Ö")
       .replace(new RegExp("&Auml;"), "Ä")
+
     const city = body
       .querySelector(".ph-offer-city")
       .childNodes[0].rawText.trim()
@@ -642,6 +643,7 @@ const parseOffer = ({
       .replace(new RegExp("&Uuml;"), "Ü")
       .replace(new RegExp("&Ouml;"), "Ö")
       .replace(new RegExp("&Auml;"), "Ä")
+
     const destination = body
       .querySelector(".ph-offer-destination")
       .childNodes[0].rawText.trim()
@@ -651,6 +653,7 @@ const parseOffer = ({
       .replace(new RegExp("&Uuml;"), "Ü")
       .replace(new RegExp("&Ouml;"), "Ö")
       .replace(new RegExp("&Auml;"), "Ä")
+
     const destinationDescription = body
       .querySelector(".ph-offer-destination-description")
       .childNodes[0].rawText.trim()
@@ -660,14 +663,17 @@ const parseOffer = ({
       .replace(new RegExp("&Uuml;"), "Ü")
       .replace(new RegExp("&Ouml;"), "Ö")
       .replace(new RegExp("&Auml;"), "Ä")
+
     const time = body
       .querySelector(".ph-offer-traveltime")
       .childNodes[0].rawText.trim()
       .split(" - ")
       .map(mapTime)
+
     const flight = body
       .querySelector(".ph-offer-flight")
       .childNodes[0].rawText.trim()
+
     const [duration, description, pkg] = body
       .querySelector(".ph-offer-host")
       .childNodes.filter(a => a.constructor.name === "TextNode")
@@ -680,9 +686,11 @@ const parseOffer = ({
 
     // Parse Image
     const imageEl = image.querySelector(".ph-offer-image-placeholder")
-    const imageSrc = imageEl._rawAttrs.style
+    const imageSrc = imageEl._rawAttrs["bg-offer-image"]
       .replace(`background-image: url('`, "")
       .replace(`')`, "")
+      .replace(`)`, "")
+      .replace(`url(`, "")
 
     // Parse Logo
     const organizer = logo.querySelector("img").getAttribute("src")
@@ -729,7 +737,7 @@ const parseOffer = ({
 }
 
 const cache = {}
-export const getOffers = async (id = "PRBG-2151") => {
+export const getOffers = async id => {
   if (cache[id]) {
     return cache[id]
   }
@@ -741,10 +749,12 @@ export const getOffers = async (id = "PRBG-2151") => {
   const phOfferLinks = root
     .querySelectorAll("a")
     .map(l => l.attrs.href)
-    .filter(path => path.indexOf(id) > -1)
+    .filter(p => p !== undefined)
+    .filter(p => p.indexOf(id) > -1)
     .filter(path => path.indexOf("https") === -1)
     .filter(path => path !== `/${id}`)
     .map(path => `${BASE_URL}${path}`)
+
   const phOfferHeaders = root.querySelectorAll(".ph-offer-header")
   const phOfferImages = root.querySelectorAll(".ph-offer-image")
   const phOfferBodies = root.querySelectorAll(".ph-offer-body")
@@ -762,7 +772,7 @@ export const getOffers = async (id = "PRBG-2151") => {
     const phOfferReview = phOfferReviews[index]
     const phOfferLogo = phOfferLogos[index]
 
-    const result = parseOffer({
+    const result = {
       offerId,
       basketId: id,
       header: phOfferHeader,
@@ -772,9 +782,10 @@ export const getOffers = async (id = "PRBG-2151") => {
       review: phOfferReview,
       logo: phOfferLogo,
       link: offerId,
-    })
+    }
 
-    return result
+    const offer = parseOffer(result)
+    return offer
   })
 
   cache[id] = { id, cache: true, offers }

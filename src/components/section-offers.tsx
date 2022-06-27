@@ -1,12 +1,25 @@
-import * as React from "react"
-import { useEffect, useState } from "react"
+import React, { useEffect, useState } from "react"
 import ModalBooking from "./modal-booking"
 import SingleOffer from "./single-offer"
 
-const SectionOffers = ({ offers }) => {
+const BASKET_ID = "XJQZ-9250"
+const GET_OFFERS_API_PATH = `/api/GetOffers?id=${BASKET_ID}`
+
+async function fetchOffersLists() {
+  try {
+    const res = await fetch(GET_OFFERS_API_PATH)
+    const json = await res.json()
+    return json
+  } catch (error) {
+    throw new Error("Loading failed, likely rate limit")
+  }
+}
+
+const SectionOffers = () => {
   const [modalIsOpen, setIsOpen] = useState(false)
   const [url, setUrl] = useState("")
-  const [browserIsSafari, setBrowserIsSafari] = useState(null)
+  const [browserIsSafari, setBrowserIsSafari] = useState(false)
+  const [offers, setOffers] = useState([])
 
   useEffect(() => {
     const isSafari =
@@ -16,7 +29,9 @@ const SectionOffers = ({ offers }) => {
     if (browserIsSafari !== isSafari) {
       setBrowserIsSafari(isSafari)
     }
-  })
+
+    fetchOffersLists().then(({ offers }) => setOffers(offers))
+  }, [])
 
   const getOfferSrc = offer => {
     const BASE_URL = "https://www.meinereiseangebote.de"
@@ -43,7 +58,7 @@ const SectionOffers = ({ offers }) => {
           className="grid grid-flow-row grid-cols-1 lg:grid-cols-4 gap-4 mb-4"
           style={{ alignItems: "center" }}
         >
-          {offers.map((offer, index) => (
+          {(offers as any[]).map((offer, index) => (
             <div
               className="flex flex-col flex-grow cursor-pointer"
               key={`${offer.id}-${index}`}
