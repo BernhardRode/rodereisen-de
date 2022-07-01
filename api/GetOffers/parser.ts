@@ -736,11 +736,7 @@ const parseOffer = ({
   }
 }
 
-const cache = {}
 export const getOffers = async id => {
-  if (cache[id]) {
-    return cache[id]
-  }
   const url = `${BASE_URL}/${id}`
   const offersPage = await fetch(url)
   const offersBody = await offersPage.text()
