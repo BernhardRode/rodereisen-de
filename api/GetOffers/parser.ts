@@ -784,6 +784,5 @@ export const getOffers = async id => {
     return offer
   })
 
-  cache[id] = { id, cache: true, offers }
   return { id, cache: false, offers }
 }
