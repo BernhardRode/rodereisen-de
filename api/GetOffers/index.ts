@@ -19,9 +19,10 @@ const httpTrigger: AzureFunction = async function (
       body,
     }
   } catch (error) {
+    console.log(error)
     context.res = {
       status: 500 /* Defaults to 200 */,
-      body: error ? { msg: "something happend" } : error,
+      body: error ? { msg: error } : { msg: "something happend" },
     }
   }
 }
