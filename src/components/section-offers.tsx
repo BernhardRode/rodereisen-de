@@ -30,7 +30,14 @@ const SectionOffers = () => {
       setBrowserIsSafari(isSafari)
     }
 
-    fetchOffersLists().then(({ offers }) => setOffers(offers))
+    fetchOffersLists().then(({ offers, msg }) => {
+      if (msg) {
+        setOffers([])
+        return
+      }
+      // setOffers(offers)
+      setOffers([])
+    })
   }, [])
 
   const getOfferSrc = offer => {
@@ -58,27 +65,39 @@ const SectionOffers = () => {
           className="grid grid-flow-row grid-cols-1 lg:grid-cols-4 gap-4 mb-4"
           style={{ alignItems: "center" }}
         >
-          {(offers as any[]).map((offer, index) => (
-            <div
-              className="flex flex-col flex-grow cursor-pointer"
-              key={`${offer.id}-${index}`}
-            >
-              {browserIsSafari === null || browserIsSafari === true ? (
-                <a
-                  href={getOfferSrc(offer)}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <SingleOffer offer={offer} />
-                </a>
-              ) : null}
-              {browserIsSafari === false ? (
-                <a onClick={() => open(offer)}>
-                  <SingleOffer offer={offer} />
-                </a>
-              ) : null}
+          {!offers || offers.length === 0 ? (
+            <div className="">
+              <h1 className="center">
+                Es konnten keine Angebote geladen werden.
+              </h1>
+              <h2 className="center">
+                Wir bitten Sie um Entschuldigung. Bitte versuchen Sie es später
+                noch einmal.
+              </h2>
             </div>
-          ))}
+          ) : (
+            (offers as any[]).map((offer, index) => (
+              <div
+                className="flex flex-col flex-grow cursor-pointer"
+                key={`${offer.id}-${index}`}
+              >
+                {browserIsSafari === null || browserIsSafari === true ? (
+                  <a
+                    href={getOfferSrc(offer)}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <SingleOffer offer={offer} />
+                  </a>
+                ) : null}
+                {browserIsSafari === false ? (
+                  <a onClick={() => open(offer)}>
+                    <SingleOffer offer={offer} />
+                  </a>
+                ) : null}
+              </div>
+            ))
+          )}
         </div>
         {modalIsOpen && url !== "" ? (
           <ModalBooking onClose={() => close()} src={url} />
