@@ -1,7 +1,7 @@
 ---
 name: Ann-Christin
-nachname: Harst
-slug: ann-christin-harst
+nachname: Heidak
+slug: ann-christin-Heidak
 warenkorb: ""
 kontakt:
   email: ann-christin@rodereisen.de
@@ -9,11 +9,11 @@ kontakt:
   instagram: ""
   twitter: ""
 bilder:
-  bild: "ann-christin-harst.jpg"
-  bild_hover: "ann-christin-harst.jpg"
+  bild: "ann-christin-Heidak.jpg"
+  bild_hover: "ann-christin-Heidak.jpg"
 ---
 
-# Ann-Christin Harst
+# Ann-Christin Heidak
 
 > “zögere nie, weit fortzugehen, hinter alle meere, alle grenzen, alle länder, allen glaubens.“ – amin maalouf
 
