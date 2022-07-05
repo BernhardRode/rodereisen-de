@@ -33,10 +33,9 @@ const SectionOffers = () => {
     fetchOffersLists().then(({ offers, msg }) => {
       if (msg) {
         setOffers([])
-        return
+        return 
       }
-      // setOffers(offers)
-      setOffers([])
+      setOffers(offers)
     })
   }, [])
 
