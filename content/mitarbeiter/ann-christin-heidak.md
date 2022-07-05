@@ -1,7 +1,7 @@
 ---
 name: Ann-Christin
 nachname: Heidak
-slug: ann-christin-Heidak
+slug: ann-christin-heidak
 warenkorb: ""
 kontakt:
   email: ann-christin@rodereisen.de
@@ -9,8 +9,8 @@ kontakt:
   instagram: ""
   twitter: ""
 bilder:
-  bild: "ann-christin-Heidak.jpg"
-  bild_hover: "ann-christin-Heidak.jpg"
+  bild: "ann-christin-heidak.jpg"
+  bild_hover: "ann-christin-heidak.jpg"
 ---
 
 # Ann-Christin Heidak
