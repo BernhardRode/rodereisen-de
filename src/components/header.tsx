@@ -122,7 +122,7 @@ const Header = props => {
             </a>
             {browserIsSafari === null || browserIsSafari === true ? (
               <a
-                href="https://outlook.office365.com/owa/calendar/ReisebroRode@rode.io/bookings/"
+                href="https://outlook.office365.com/owa/calendar/ReisebroRode@rodereisen.de/bookings/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="relative hover:text-blue-900 cursor-pointer inline-block w-auto h-full px-5 py-4 lg:text-base text-sm font-bold leading-none text-white transition-all duration-100 bg-indigo-700 text-center shadow-md fold-bold lg:bg-pink-500 lg:text-white sm:w-full lg:shadow-none hover:shadow-xl"
@@ -150,7 +150,7 @@ const Header = props => {
           </a>
           {browserIsSafari === null || browserIsSafari === true ? (
             <a
-              href="https://outlook.office365.com/owa/calendar/ReisebroRode@rode.io/bookings/"
+              href="https://outlook.office365.com/owa/calendar/ReisebroRode@rodereisen.de/bookings/"
               target="_blank"
               className="relative hover:text-blue-900 cursor-pointer inline-block w-auto h-full px-5 py-4 lg:text-base text-sm font-bold leading-none text-white transition-all duration-100 bg-indigo-700 rounded shadow-md fold-bold lg:bg-pink-500 lg:text-white sm:w-full lg:shadow-none hover:shadow-xl"
             >
