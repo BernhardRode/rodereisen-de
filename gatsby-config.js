@@ -22,7 +22,7 @@ module.exports = {
       twitter_handle: "rodereisen",
       website: "www.rodereisen.de",
       bookings:
-        "https://outlook.office365.com/owa/calendar/ReisebroRode@rodereisen.de/bookings/",
+        "https://outlook.office365.com/owa/calendar/ReisebroRodeGmbH2@rodereisen.de/bookings/",
     },
     locations: [
       {

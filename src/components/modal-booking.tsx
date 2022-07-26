@@ -26,7 +26,7 @@ const ModalBooking = props => {
   let { src } = props
   if (!src) {
     src =
-      "https://outlook.office365.com/owa/calendar/ReisebroRode@rodereisen.de/bookings/"
+      "https://outlook.office365.com/owa/calendar/ReisebroRodeGmbH2@rodereisen.de/bookings/"
   }
 
   return (
