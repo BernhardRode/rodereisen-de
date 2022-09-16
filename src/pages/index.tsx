@@ -16,7 +16,6 @@ const IndexPage = () => {
       <Wall />
       <SectionHeadline headline="wir sind" subheadline="für sie da" />
       <SectionContact />
-      <SectionRodeVideo />
       <SectionRodeInklusive />
       <SectionRodeApp />
       <SectionBestReisen />
