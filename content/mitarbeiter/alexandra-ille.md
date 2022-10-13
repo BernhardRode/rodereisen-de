@@ -28,4 +28,5 @@ Nach 14 jahren am stuttgarter flughafen wollte ich den reisenden nicht nur einen
 ## Diese Länder/Regionen haben mich besonders fasziniert
 
 - amerika
+- österreich
 - skandinavien (norwegen, dänemark)
