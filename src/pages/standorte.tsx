@@ -10,12 +10,7 @@ import SEO from "../components/seo"
 const StandortePage = ({ data }) => {
   const result = useStaticQuery(graphql`
     query LocationImagesQuery {
-      bst: allFile(
-        filter: {
-          sourceInstanceName: { eq: "locations" }
-          name: { eq: "buero-bst" }
-        }
-      ) {
+      bst: allFile(filter: { sourceInstanceName: { eq: "locations" }, name: { eq: "buero-bst" } }) {
         edges {
           node {
             childImageSharp {
@@ -27,12 +22,7 @@ const StandortePage = ({ data }) => {
           }
         }
       }
-      sth: allFile(
-        filter: {
-          sourceInstanceName: { eq: "locations" }
-          name: { eq: "buero-sth" }
-        }
-      ) {
+      sth: allFile(filter: { sourceInstanceName: { eq: "locations" }, name: { eq: "buero-sth" } }) {
         edges {
           node {
             childImageSharp {
@@ -81,7 +71,7 @@ const StandortePage = ({ data }) => {
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d598.7486749782171!2d9.278332971778612!3d48.96580047413999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4799cd1149209e83%3A0x8bf2cb0c083f2357!2sReiseb%C3%BCro%20Rode%20GmbH!5e0!3m2!1sde!2sde!4v1624920478953!5m2!1sde!2sde"
               openHours={openHoursSth}
               openDays={openDaysSth}
-              open="Montag-Freitag: 09:00 - 12:30 Uhr und 13:30 - 18:00 Uhr, Samstag: 10:00 - 13:00 Uhr"
+              open="Montag-Freitag: 09:00 - 12:30 Uhr und 13:30 - 18:00 Uhr, Samstag: 10:00 - 13:00 Uhr (Nach Terminvereinbarung)"
             />
           </div>
         </div>
