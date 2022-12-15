@@ -47,7 +47,7 @@ const StandortePage = ({ data }) => {
   return (
     <Layout>
       <SEO title="Standorte" />
-      <HeaderImage banner="Banner_8">
+      <HeaderImage banner="Banner_5">
         <div className="container">
           <SectionHeadline headline="unsere" subheadline="standorte" />
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
