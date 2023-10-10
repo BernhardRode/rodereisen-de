@@ -30,10 +30,6 @@ function PageHead(props: PageHeadProps) {
     <>
       <title>{metaTitle.title}</title>
       <meta name="description" content={metaDescription} />
-      <meta
-        name="twitter:url"
-        content={`https://www.rodereisen.de/${location.pathname}`}
-      />
     </>
   )
 }
