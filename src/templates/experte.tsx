@@ -4,7 +4,7 @@ import ExpertHeaderImage from "../components/experte-header-image"
 import Layout from "../components/layout"
 import SectionHeadline from "../components/section-headline"
 import SectionOffers from "../components/section-offers"
-import SEO from "../components/seo"
+import PageHead from "../components/page-head"
 
 const ExpertPage = props => {
   const cleanPhone = number => {
@@ -28,7 +28,7 @@ const ExpertPage = props => {
 
   return (
     <Layout>
-      <SEO title={`Experte ${frontmatter.name} ${frontmatter.nachname}`} />
+      <PageHead title={`Experte ${frontmatter.name} ${frontmatter.nachname}`} />
       <ExpertHeaderImage front={frontLarge} back={backLarge}>
         <div className="container">
           <SectionHeadline headline="Experte" subheadline={frontmatter.name} />

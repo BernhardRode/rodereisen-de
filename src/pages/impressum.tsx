@@ -2,7 +2,7 @@ import * as React from "react"
 import { graphql, Link } from "gatsby"
 
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import PageHead from "../components/page-head"
 import HeaderImage from "../components/header-image"
 import SectionOffers from "../components/section-offers"
 import SectionHeadline from "../components/section-headline"
@@ -13,7 +13,7 @@ const ImprintPage = props => {
   const { html } = childrenMarkdownRemark[0]
   return (
     <Layout>
-      <SEO title="Impressum" />
+      <PageHead title="Impressum" />
       <HeaderImage banner="Banner_2">
         <SectionHeadline headline="Impressum" subheadline="" />
         <div

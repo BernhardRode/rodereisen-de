@@ -4,12 +4,12 @@ import HeaderImage from "../components/header-image"
 import Layout from "../components/layout"
 import SectionExperten from "../components/section-experten"
 import SectionHeadline from "../components/section-headline"
-import SEO from "../components/seo"
+import PageHead from "../components/page-head"
 
 const ExpertenPage = ({ data }) => {
   return (
     <Layout>
-      <SEO title="Experten" />
+      <PageHead title="Experten" />
       <HeaderImage banner="Banner_5">
         <SectionHeadline
           headline="Unsere Experten"

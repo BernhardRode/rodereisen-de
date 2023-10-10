@@ -6,13 +6,13 @@ import SectionHeadline from "../components/section-headline"
 import SectionRodeApp from "../components/section-rode-app"
 import SectionRodeInklusive from "../components/section-rode-inklusive"
 import SectionRodeVideo from "../components/section-rode-video"
-import SEO from "../components/seo"
+import PageHead from "../components/page-head"
 import Wall from "../components/wall"
 
 const IndexPage = () => {
   return (
     <Layout>
-      <SEO title="Home" />
+      <PageHead title="Home" />
       <Wall />
       <SectionHeadline headline="wir sind" subheadline="für sie da" />
       <SectionContact />
