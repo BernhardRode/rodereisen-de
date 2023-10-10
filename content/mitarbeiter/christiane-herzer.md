@@ -5,7 +5,7 @@ slug: christiane-herzer
 warenkorb: ""
 kontakt:
   email: christiane@rodereisen.de
-  telefon: "+49 (0)7144 - 8155 11"
+  telefon: "+49 (0)7144 – 8155 14"
   instagram: ""
   twitter: ""
 bilder:
