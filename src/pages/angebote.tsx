@@ -1,7 +1,7 @@
 import HeaderImage from "../components/header-image"
 import Layout from "../components/layout"
 import SectionHeadline from "../components/section-headline"
-import SEO from "../components/seo"
+import PageHead from "../components/page-head"
 import Spinner from "../components/spinner"
 import * as React from "react"
 import { Suspense } from "react"
@@ -10,7 +10,7 @@ import SectionOffers from "../components/section-offers"
 const AngebotePage = props => {
   return (
     <Layout>
-      <SEO title="Angebote" />
+      <PageHead title="Angebote" />
       <HeaderImage banner="Banner_3">
         <SectionHeadline headline="Aktuelle" subheadline="Angebote" />
         <Suspense fallback={<Spinner />}>

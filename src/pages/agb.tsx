@@ -2,7 +2,7 @@ import * as React from "react"
 import { graphql, Link } from "gatsby"
 
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import PageHead from "../components/page-head"
 import HeaderImage from "../components/header-image"
 import SectionHeadline from "../components/section-headline"
 
@@ -12,7 +12,7 @@ const AGBPage = props => {
   const { html } = childrenMarkdownRemark[0]
   return (
     <Layout>
-      <SEO title="AGB" />
+      <PageHead title="AGB" />
       <HeaderImage banner="Banner_6">
         <SectionHeadline headline="AGB" subheadline="" />
         <div

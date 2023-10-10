@@ -5,7 +5,7 @@ import HeaderImage from "../components/header-image"
 import Layout from "../components/layout"
 import SectionHeadline from "../components/section-headline"
 import SectionStandort from "../components/section-standort"
-import SEO from "../components/seo"
+import PageHead from "../components/page-head"
 
 const StandortePage = ({ data }) => {
   const result = useStaticQuery(graphql`
@@ -46,7 +46,7 @@ const StandortePage = ({ data }) => {
 
   return (
     <Layout>
-      <SEO title="Standorte" />
+      <PageHead title="Standorte" />
       <HeaderImage banner="Banner_6">
         <div className="container">
           <SectionHeadline headline="unsere" subheadline="standorte" />

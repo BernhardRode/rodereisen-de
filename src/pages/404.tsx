@@ -1,11 +1,11 @@
 import * as React from "react"
 
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import PageHead from "../components/page-head"
 
 const NotFoundPage = () => (
   <Layout>
-    <SEO title="404: Not found" />
+    <PageHead title="404: Not found" />
     <section>
       <div className="bg-black text-white">
         <div className="flex h-screen">
