@@ -34,14 +34,12 @@ const SectionStandort = ({
       <div className="lg:border sm:rounded p-8 flex flex-col-reverse lg:flex-row lg:space-x-8 lg:shadow">
         <div className="lg:h-60 overflow-visible lg:w-1/2">
           <div className="flex rounded-xl overflow-hidden ring-2 ring-gray-200">
-            <iframe
-              width="100%"
-              height="500"
-              style={{ border: 0 }}
-              loading="lazy"
-              src={src}
-              className="block rounded-xl overflow-hidden"
-            ></iframe>
+            <GatsbyImage
+              image={image}
+              alt={`Standort ${name}`}
+              className="rounded-3xl shadow-lg max-"
+              imgClassName=""
+            />
           </div>
         </div>
         <div className="flex flex-col lg:w-1/2 space-y-4">
@@ -49,18 +47,12 @@ const SectionStandort = ({
             <h2 className="text-2xl font-bold">{name}</h2>
             {isOpen !== null ? (
               <div
-                className={`rounded-full h-6 w-6 ${
-                  isOpen === true ? "bg-green-500" : "bg-red-500"
-                }`}
+                className={`rounded-full h-6 w-6 ${isOpen === true ? "bg-green-500" : "bg-red-500"
+                  }`}
               ></div>
             ) : null}
           </div>
-          <GatsbyImage
-            image={image}
-            alt={`Standort ${name}`}
-            className="rounded-3xl shadow-lg max-"
-            imgClassName=""
-          />
+
           <div>
             <div className="text-sm text-gray-400">Telefon</div>
             <div className="text-lg text-gray-800">
