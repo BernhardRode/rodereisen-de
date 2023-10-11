@@ -39,6 +39,8 @@ jobs:
           ###### End of Repository/Build Configurations ######
         env: # Or as an environment variable
           FACEBOOK_TOKEN: ${{ secrets.FACEBOOK_TOKEN }}
+          NPM_CONFIG_FORCE: true
+          NPM_CONFIG_LEGACY_PEER_DEPS: true
 
   close_pull_request_job:
     if: github.event_name == 'pull_request' && github.event.action == 'closed'
