@@ -2,6 +2,10 @@ import { GatsbyImage } from "gatsby-plugin-image"
 import * as React from "react"
 import { useEffect, useState } from "react"
 
+const cleanPhone = (s: String) => {
+  return s.replace(' (0)', '').replace(' ', '')
+}
+
 const SectionStandort = ({
   name,
   phone,
@@ -56,7 +60,7 @@ const SectionStandort = ({
           <div>
             <div className="text-sm text-gray-400">Telefon</div>
             <div className="text-lg text-gray-800">
-              <a href={`tel:${phone}`}>{phone}</a>
+              <a href={`tel:${cleanPhone(phone)}`}>{phone}</a>
             </div>
           </div>
           <div>
