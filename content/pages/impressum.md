@@ -29,6 +29,26 @@ date: "2022-05-01T00:00:00.000Z"
 >
 > 71717 Beilstein
 
+### Datenschutz Verantwortlicher für die Ulrich Grupp
+
+> Herr Thomas Ott 
+>
+> P7 22
+>
+> 68161 Mannheim
+
+#### Ansprechpartner in der Kanzlei:
+
+> Herr Sven Lohmann LL.M.
+> kolbcom GmbH
+> 
+> P7 22
+>
+> 68161 Mannheim
+> Tel: 0621 121829 - 31
+> Fax: 0621 121829 - 32
+> E-Mail: [info@kolbcom.de](mailto:info@kolbcom.de)
+
 
 ### Eingetragenes Unternehmen
 
