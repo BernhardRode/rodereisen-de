@@ -45,8 +45,11 @@ date: "2022-05-01T00:00:00.000Z"
 > P7 22
 >
 > 68161 Mannheim
+>
 > Tel: 0621 121829 - 31
+>
 > Fax: 0621 121829 - 32
+>
 > E-Mail: [info@kolbcom.de](mailto:info@kolbcom.de)
 
 
