@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react"
 import ModalBooking from "./modal-booking"
 import SingleOffer from "./single-offer"
+import Spinner from "./spinner"
 
 const BASKET_ID = "XJQZ-9250"
 const GET_OFFERS_API_PATH = `/api/GetOffers?id=${BASKET_ID}`
@@ -67,12 +68,10 @@ const SectionOffers = () => {
           {!offers || offers.length === 0 ? (
             <div className="">
               <h1 className="center">
-                Es konnten keine Angebote geladen werden.
               </h1>
               <h2 className="center">
-                Wir bitten Sie um Entschuldigung. Bitte versuchen Sie es später
-                noch einmal.
               </h2>
+                <Spinner />
             </div>
           ) : (
             (offers as any[]).map((offer, index) => (
