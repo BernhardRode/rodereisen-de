@@ -1,5 +1,6 @@
 import { app } from "@azure/functions"
 import { parse } from "node-html-parser"
+import fetch from "node-fetch"
 
 const BASE_URL = "https://www.meinereiseangebote.de"
 
