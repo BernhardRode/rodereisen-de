@@ -700,7 +700,15 @@ const parseOffer = ({
       .replace(`url(`, "")
 
     // Parse Logo
-    const organizer = logo.querySelector("img").getAttribute("src")
+    let organizer = logo.querySelector("img").getAttribute("src")
+    if (
+      organizer[0] &&
+      organizer[1] &&
+      organizer[0] === "/" &&
+      organizer[1] === "/"
+    ) {
+      organizer = `https:${organizer}`
+    }
 
     // Parse Body
     const price = parseFloat(
