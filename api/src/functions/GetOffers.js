@@ -724,7 +724,9 @@ const parseOffer = ({
 
     const slug = createSlug(`${hotel}-${destination}`)
 
-    const [start, end] = time
+    const [start, end] = time.split(" - ").map(mapTime)
+
+    console.log(time)
     const result = {
       basketId,
       city,
