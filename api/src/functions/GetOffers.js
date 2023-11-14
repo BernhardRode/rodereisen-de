@@ -664,13 +664,22 @@ const parseOffer = ({
       .replace(new RegExp("&Ouml;"), "Ö")
       .replace(new RegExp("&Auml;"), "Ä")
 
-    const time = body
-      .querySelector("p")
-      .childNodes[0].rawText.trim()
-      .split(" - ")
-      .map(mapTime)
+    const time = body.childNodes[5].childNodes[0]._rawText.trim()
 
-    const flight = body.querySelector(".time") // .childNodes[0].rawText.trim()
+    const flight = body.childNodes[7].childNodes
+      .map(s => {
+        if (s._rawText) {
+          return s._rawText.trim() !== "" ? [s._rawText.trim()] : []
+        } else {
+          return s.childNodes
+            .filter(s => s._rawText !== "")
+            .map(s => s._rawText.trim())
+          // .filter(s => s._rawText === "")
+        }
+        return s
+      })
+      .join(" ")
+      .trim()
 
     const [duration, description, pkg] = body
       .querySelector(".ph-offer-host")
@@ -706,6 +715,7 @@ const parseOffer = ({
       .childNodes[0].rawText.trim()
 
     const slug = createSlug(`${hotel}-${destination}`)
+
     const [start, end] = time
     const result = {
       basketId,
@@ -714,7 +724,7 @@ const parseOffer = ({
       destinationDescription,
       duration,
       end,
-      facts: description.split(","),
+      facts: description.split(",").map(s => s.trim()),
       final,
       flight,
       hotel,
