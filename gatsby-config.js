@@ -10,9 +10,9 @@ module.exports = {
     title: "Reisebüro Rode GmbH",
     bank: [
       {
-        bic: "GENODES1VBK",
-        iban: "DE52 6029 1120 0660 2660 08",
-        name: "Volksbank Backnang",
+        bic: "COBADEFFXXX",
+        iban: "DE11 5004 0000 0584 6787 03",
+        name: "Commerzbank",
       },
     ],
     contact: {

@@ -221,12 +221,12 @@ const Footer = () => {
                 <div className="space-y-4 md:space-y-6 mt-4">
                   <div className="flex flex-col items-start space-x-4">
                     <div className="">
-                      <div>Volksbank Backnang</div>
+                      <div>Commerzbank</div>
                       <div>
-                        IBAN: <span>DE14 6029 1120 0142 5030 02</span>
+                        IBAN: <span>DE11 5004 0000 0584 6787 03</span>
                       </div>
                       <div>
-                        BIC: <span>GENODES1VBK</span>
+                        BIC: <span>COBADEFFXXX</span>
                       </div>
                     </div>
                   </div>
