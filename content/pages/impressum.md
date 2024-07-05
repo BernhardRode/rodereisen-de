@@ -19,7 +19,7 @@ date: "2022-05-01T00:00:00.000Z"
 
 > Dipl. Kfm. Bernhard Eckel
 
-### Inhaltlich Verantwortlicher (gemäß § 5 TMG)
+### Inhaltlich Verantwortlicher (gemäß § 5 DDG)
 
 > Thomas Baltzer
 >
@@ -29,7 +29,7 @@ date: "2022-05-01T00:00:00.000Z"
 >
 > 71717 Beilstein
 
-### Datenschutz Verantwortlicher für die Ulrich Grupp
+### Datenschutz Verantwortlicher
 
 > Herr Thomas Ott 
 >
