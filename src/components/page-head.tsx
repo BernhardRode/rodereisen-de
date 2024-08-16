@@ -30,6 +30,7 @@ function PageHead(props: PageHeadProps) {
     <>
       <title>{metaTitle.title}</title>
       <meta name="description" content={metaDescription} />
+      <meta name="facebook-domain-verification" content="2k0w7zwofj8wlrxqmf6xyg2p901p9v" />
     </>
   )
 }
