@@ -3,7 +3,11 @@ title: Allgemeine Geschäfts Bedingungen
 date: "2021-07-28T00:00:00.000Z"
 ---
 
-[Link zu den Veranstalter AGBs](/veranstalter-agb/)
+## Veranstalter AGB:
+
+> [Link zu den Veranstalter AGBs](/veranstalter-agb/)
+
+## Allgemeinen Geschäftsbedingungen/Reisebedingungen der Reisebüro Albrecht GmbH
 
 Dies sind die Allgemeinen Geschäftsbedingungen/Reisebedingungen der Reisebüro Albrecht GmbH (im weiteren Reisebüro Albrecht genannt) und zwar im vorliegenden für den Fall, dass Reisebüro Albrecht als Pauschalreiseveranstalter nach dem neuen Reiserecht auftritt.
 

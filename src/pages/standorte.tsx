@@ -54,12 +54,12 @@ const StandortePage = ({ data }) => {
               image={bstImage}
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2615.4578673951423!2d9.3151022!3d49.0399172!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47983253abbb429d%3A0xa6f6804736e5bc86!2sReiseb%C3%BCro%20Rode%20GmbH!5e0!3m2!1sde!2sde!4v1624920661739!5m2!1sde!2sde"
               open={[
-                "Montag 09:00 - 18:00 Uhr", 
-                "Dienstag 09:00 - 18:00 Uhr", 
-                "Mittwoch 09:00 - 15:30 Uhr",  
-                "Donnerstag 09:00 - 18:00 Uhr",
-                "Freitag 09:00 - 18:00 Uhr",
-                "Samstag 10:00 - 13:00 Uhr"
+                "Montag, Dienstag, Donnerstag, Freitag", 
+                "09:00 - 18:00 Uhr", 
+                "Mittwoch",  
+                "09:00 - 15:30 Uhr",
+                "Samstag",
+                "10:00 - 13:00 Uhr"
               ]}
             />
             <SectionStandort
@@ -70,12 +70,12 @@ const StandortePage = ({ data }) => {
               image={sthImage}
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d598.7486749782171!2d9.278332971778612!3d48.96580047413999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4799cd1149209e83%3A0x8bf2cb0c083f2357!2sReiseb%C3%BCro%20Rode%20GmbH!5e0!3m2!1sde!2sde!4v1624920478953!5m2!1sde!2sde"
               open={[
-                "Montag 09:00 - 12:30 Uhr und 13:30 - 18:00 Uhr", 
-                "Dienstag 09:00 - 12:30 Uhr und 13:30 - 18:00 Uhr", 
-                "Mittwoch 09:00 - 12:30 Uhr und 13:30 - 15:00 Uhr",  
-                "Donnerstag 09:00 - 12:30 Uhr und 13:30 - 18:00 Uhr",
-                "Freitag 09:00 - 12:30 Uhr und 13:30 - 18:00 Uhr",
-                "Samstag 10:00 - 13:00 Uhr"
+                "Montag, Dienstag, Donnerstag, Freitag", 
+                "09:00 - 12:30 Uhr und 13:30 - 18:00 Uhr", 
+                "Mittwoch",  
+                "09:00 - 12:30 Uhr und 13:30 - 15:00 Uhr",
+                "Samstag (Nach Terminverinbarung)",
+                "10:00 - 13:00 Uhr"
               ]}
             />
           </div>
