@@ -12,9 +12,7 @@ const SectionStandort = ({
   street,
   city,
   image,
-  src,
-  openHours,
-  openDays,
+  // src,
   open,
 }) => {
   return (
