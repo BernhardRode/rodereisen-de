@@ -73,8 +73,8 @@ const StandortePage = ({ data }) => {
                 "Montag, Dienstag, Donnerstag, Freitag", 
                 "09:00 - 12:30 Uhr und 13:30 - 18:00 Uhr", 
                 "Mittwoch",  
-                "09:00 - 12:30 Uhr und 13:30 - 15:00 Uhr",
-                "Samstag (Nach Terminverinbarung)",
+                "09:00 - 15:30 Uhr",
+                "Samstag (Nach Terminvereinbarung)",
                 "10:00 - 13:00 Uhr"
               ]}
             />
