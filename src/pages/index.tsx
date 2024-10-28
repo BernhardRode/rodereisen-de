@@ -18,7 +18,6 @@ const IndexPage = () => {
       <SectionHeadline headline="wir sind" subheadline="für sie da" />
       <SectionContact />
       <SectionRodeInklusive />
-      <SectionRodeVideo />
       <SectionRodeApp />
       <SectionBestReisen />
       <SectionAnbieter />
