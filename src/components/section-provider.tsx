@@ -64,9 +64,8 @@ const SectionAnbieter = () => {
       <div className="container">       
         <div className="flex flex-col lg:flex-row justify-evenly">
           <div className="items-center pt-16 p-12 lg:p-0">
-            <h1>Studiosus bietet hochwertige Reisen</h1>
-            <h2>mit einem besonderen Fokus auf Kultur und Begegnungen.</h2>
-            <p>
+            <SectionHeadline headline="Studiosus" subheadline="bietet hochwertige Reisen" />
+            <p className="items-center">
               Ob es um den Austausch mit Einheimischen oder um aufregende Abenteuer in kleinen Gruppen geht – jede Reise wird von erfahrenen Reiseleitern begleitet. 
               Studiosus setzt zudem auf Nachhaltigkeit, indem alle Touren klimaneutral 
               gestaltet sind. Neben klassischen Studienreisen finden sich auch spezielle Angebote für Singles, Familien und Eventreisen. 
