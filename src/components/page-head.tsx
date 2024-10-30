@@ -8,7 +8,12 @@
 import * as React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 
-function PageHead(props: PageHeadProps) {
+function PageHead({
+    title = "",
+    lang = "de",
+    meta = [],
+    description = ``
+  }: PageHeadProps) {
   const { site } = useStaticQuery(
     graphql`
       query {
@@ -23,8 +28,8 @@ function PageHead(props: PageHeadProps) {
     `
   )
 
-  const metaTitle = props.title || site.siteMetadata.title
-  const metaDescription = props.description || site.siteMetadata.description
+  const metaTitle = title || site.siteMetadata.title
+  const metaDescription = description || site.siteMetadata.description
 
   return (
     <>
@@ -33,12 +38,6 @@ function PageHead(props: PageHeadProps) {
       <meta name="facebook-domain-verification" content="2k0w7zwofj8wlrxqmf6xyg2p901p9v" />
     </>
   )
-}
-
-PageHead.defaultProps = {
-  lang: `de`,
-  meta: [],
-  description: ``,
 }
 
 interface PageHeadProps {

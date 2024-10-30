@@ -288,12 +288,4 @@ const Footer = () => {
   )
 }
 
-interface FooterProps {
-  siteTitle?: string
-}
-
-Footer.defaultProps = {
-  siteTitle: ``,
-}
-
 export default Footer

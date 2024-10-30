@@ -10,7 +10,7 @@ export interface Walltile {
   type: "image" | "text"
 }
 
-const Wall = () => {
+const Wall = ({tiles = []}: WallProps) => {
   const data = useStaticQuery(graphql`
     query WallTilesImagesQuery {
       allFile(filter: { sourceInstanceName: { eq: "tiles" } }) {
@@ -32,7 +32,7 @@ const Wall = () => {
     (a, b) =>
       parseInt(a.node.name.split("-")[0]) - parseInt(b.node.name.split("-")[0])
   )
-  const tiles = sorted.map(({ node }) => {
+  const t = sorted.map(({ node }) => {
     const span = node.name.split("-")[1]
     return {
       tile: getImage(node),
@@ -45,7 +45,7 @@ const Wall = () => {
         <div className="rounded shadow overflow-hidden">
           {/* <div className="wall grid grid-cols-2 md:grid-cols-4 lg:grid-cols-7 xl:grid-cols-7 grid-rows-3 gap-0 "> */}
           <div className="wall grid gap-0 ">
-            {tiles.map(({ tile, span }, index) => (
+            {t.map(({ tile, span }, index) => (
               <div
                 key={index}
                 className={`${span === 2 ? "col-span-2" : null}`}
@@ -63,10 +63,6 @@ const Wall = () => {
 
 interface WallProps {
   tiles?: Walltile[]
-}
-
-Wall.defaultProps = {
-  tiles: ``,
 }
 
 export default Wall

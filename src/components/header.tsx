@@ -2,11 +2,11 @@ import * as React from "react"
 import { useEffect, useState } from "react"
 import ModalBooking from "./modal-booking"
 
-const Header = props => {
+const Header = ({siteTitle = ""}) => {
   const [isTransparent, setTransparent] = useState(true)
   const [isOpen, setOpen] = useState(false)
   const [modalIsOpen, setIsOpen] = useState(false)
-  const [browserIsSafari, setBrowserIsSafari] = useState(null)
+  const [browserIsSafari, setBrowserIsSafari] = useState(false)
   const offset = 5
 
   useEffect(() => {
@@ -198,10 +198,6 @@ const Header = props => {
 
 interface HeaderProps {
   siteTitle?: string
-}
-
-Header.defaultProps = {
-  siteTitle: ``,
 }
 
 export default Header

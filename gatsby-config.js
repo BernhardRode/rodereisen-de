@@ -116,6 +116,14 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
+        name: `provider`,
+        path: `${__dirname}/src/images/provider`,
+        ignore: [`**/\.*`],
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
         name: `portraits`,
         path: `${__dirname}/src/images/portraits`,
         ignore: [`**/\.*`],
