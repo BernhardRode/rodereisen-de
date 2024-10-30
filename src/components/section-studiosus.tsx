@@ -74,43 +74,43 @@ const SectionAnbieter = () => {
             </p>
           </div>
         </div>
-        <div className="flex flex-col lg:flex-row justify-evenly" style={{paddingTop: 50}}>
-          <div className="items-center pt-16 p-4 lg:p-0">
+        <div className="flex flex-col lg:flex-row justify-evenly lg:pt-12">
+          <div className="flex justify-center items-center pt-16 p-4 lg:p-0">
             <a
               href={ ["https://www.studiosus.com/reisefinder?agnr=", AGENTURNUMMER].join('') }
               target="_blank"
               rel="noopener noreferrer"
             >
               <img
-                src={studiosusLogo.publicURL}
-                alt="Studiosus"
-                style={{height: 50}}
+          src={studiosusLogo.publicURL}
+          alt="Studiosus"
+          style={{height: 50}}
               />
             </a>
           </div>
-          <div className="items-center pt-16 p-4 lg:p-0">
+          <div className="flex justify-center items-center pt-16 p-4 lg:p-0">
             <a
               href={ ["https://www.studiosus.com/reisevarianten/eventreisen?agnr=", AGENTURNUMMER].join('') }
               target="_blank"
               rel="noopener noreferrer"
             >
               <img
-                src={kultimerLogo.publicURL}
-                alt="Kultimer"
-                style={{height: 50}}
+          src={kultimerLogo.publicURL}
+          alt="Kultimer"
+          style={{height: 50}}
               />
             </a>
           </div>
-          <div className="items-center pt-16 p-4 lg:p-0">
+          <div className="flex justify-center items-center pt-16 p-4 lg:p-0">
            <a
               href={ ["https://www.marco-polo-reisen.com/?agnr=", AGENTURNUMMER].join('') }
               target="_blank"
               rel="noopener noreferrer"
             >
               <img
-                src={marcoPoloLogo.publicURL}
-                alt="Marco Polo"
-                style={{height: 50}}
+          src={marcoPoloLogo.publicURL}
+          alt="Marco Polo"
+          style={{height: 50}}
               />
             </a>
           </div>
