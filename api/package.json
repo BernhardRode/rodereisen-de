@@ -8,9 +8,9 @@
     "start": "func start"
   },
   "dependencies": {
-    "@azure/functions": "^4.1.0",
+    "@azure/functions": "^4.6.0",
     "node-fetch": "^3.3.2",
-    "node-html-parser": "^6.1.11"
+    "node-html-parser": "^6.1.13"
   },
   "devDependencies": {
     "azure-functions-core-tools": "^4.x"

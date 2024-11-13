@@ -3,7 +3,7 @@ import { GatsbyImage, getImage } from "gatsby-plugin-image"
 import * as React from "react"
 
 const ExpertHeaderImage = (props: ExpertHeaderImageProps) => {
-  const { alt, back, children, front } = props
+  const { back, children, front } = props
 
   return back && front ? (
     <div className="br-gradient">
@@ -39,10 +39,6 @@ interface ExpertHeaderImageProps {
   front: any
   back: any
   children?: any
-}
-
-ExpertHeaderImage.defaultProps = {
-  alt: `Reisebüro Rode GmbH`,
 }
 
 export default ExpertHeaderImage

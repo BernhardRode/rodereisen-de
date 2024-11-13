@@ -3,7 +3,7 @@ import { GatsbyImage, getImage } from "gatsby-plugin-image"
 import * as React from "react"
 import SectionWaves from "./section-waves"
 
-const HeaderImage = (props: HeaderImageProps) => {
+const HeaderImage = ({alt = "Reisebüro Rode GmbH", banner, children}: HeaderImageProps) => {
   const data = useStaticQuery(graphql`
     query HeaderImagesQuery {
       allFile(filter: { sourceInstanceName: { eq: "banner" } }) {
@@ -20,7 +20,6 @@ const HeaderImage = (props: HeaderImageProps) => {
       }
     }
   `)
-  const { banner, children } = props
 
   const bannerIndex = data.allFile.edges.findIndex(
     ({ node }) => node.name === banner
@@ -31,7 +30,7 @@ const HeaderImage = (props: HeaderImageProps) => {
     <>
       <div className={`bg-gradient ${banner}`}>
         <div className="container mt-24 lg:mt-0">
-          <GatsbyImage image={image} alt={props.alt} />
+          <GatsbyImage image={image} alt={alt} />
         </div>
         <SectionWaves />
       </div>
@@ -46,10 +45,6 @@ interface HeaderImageProps {
   alt?: string
   banner: string
   children?: any
-}
-
-HeaderImage.defaultProps = {
-  alt: `Reisebüro Rode GmbH`,
 }
 
 export default HeaderImage
