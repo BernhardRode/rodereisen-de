@@ -1,16 +1,14 @@
 {
-  "name": "api",
-  "version": "1.0.0",
+  "name": "rode-api",
   "type": "module",
+  "version": "1.0.0",
   "description": "",
-  "main": "src/functions/*.js",
+  "main": "src/functions/*.mjs",
   "scripts": {
     "start": "func start"
   },
   "dependencies": {
-    "@azure/functions": "^4.6.0",
-    "node-fetch": "^3.3.2",
-    "node-html-parser": "^6.1.13"
+    "@azure/functions": "^4.0.0"
   },
   "devDependencies": {
     "azure-functions-core-tools": "^4.x"

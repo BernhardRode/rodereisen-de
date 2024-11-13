@@ -1,4 +1,6 @@
-import { app } from "@azure/functions"
+import {
+  app
+} from "@azure/functions"
 import { parse } from "node-html-parser"
 import fetch from "node-fetch"
 
@@ -759,9 +761,8 @@ export const getOffers = async id => {
   const offersPage = await fetch(url)
   const offersBody = await offersPage.text()
   const root = parse(offersBody, {})
-
   const phOfferLinks = root
-    .querySelectorAll("a")
+    .querySelectorAll("a)"
     .map(l => l.attrs.href)
     .filter(p => p !== undefined)
     .filter(p => p.indexOf(id) > -1)
@@ -805,7 +806,10 @@ export const getOffers = async id => {
   return { id, cache: false, offers }
 }
 
-const handler = async (request, context) => {
+export async function handler(
+  request,
+  context,
+) {
   context.log(`Http function processed request for url "${request.url}"`)
 
   const id = request.query.get("id")
@@ -828,7 +832,7 @@ const handler = async (request, context) => {
   }
 }
 
-app.http("GetOffers", {
+app.http("getOffers", {
   methods: ["GET"],
   authLevel: "anonymous",
   handler,
