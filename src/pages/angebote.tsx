@@ -6,6 +6,7 @@ import Spinner from "../components/spinner"
 import * as React from "react"
 import { Suspense, useEffect, useRef, useState } from "react"
 import SectionOffers from "../components/section-offers"
+import { graphql } from "gatsby"
 
 const AngebotePage = props => {
   const iframeRef = useRef(null);
@@ -28,7 +29,8 @@ const AngebotePage = props => {
       window.removeEventListener("message", handleMessage);
     };
   }, []);
-
+  const id ="XJQZ-9250";
+  
   return (
     <Layout>
       <PageHead title="Angebote" />
@@ -37,11 +39,76 @@ const AngebotePage = props => {
         <iframe
           ref={iframeRef}
           style={{ width: '100%', height: iframeHeight, border: 'none', overflow: 'hidden' }}
-          src="https://www.meinereiseangebote.de/XJQZ-9250"
+          src={ ["https://www.meinereiseangebote.de", id].join('/') }
         ></iframe>
       </HeaderImage>
     </Layout>
   )
 }
+
+export const query = graphql`
+  {
+    smallPortraits: allFile(
+      filter: { sourceInstanceName: { eq: "portraits" } }
+    ) {
+      edges {
+        node {
+          childImageSharp {
+            gatsbyImageData(
+              aspectRatio: 1.5
+              transformOptions: { fit: INSIDE }
+              height: 540
+            )
+          }
+          id
+          name
+          extension
+        }
+      }
+    }
+    smallPortraitsFunny: allFile(
+      filter: { sourceInstanceName: { eq: "portraits-funny" } }
+    ) {
+      edges {
+        node {
+          childImageSharp {
+            gatsbyImageData(
+              aspectRatio: 1.5
+              transformOptions: { fit: INSIDE }
+              height: 540
+            )
+          }
+          id
+          name
+          extension
+        }
+      }
+    }
+    allMarkdownRemark {
+      edges {
+        node {
+          headings {
+            value
+          }
+          html
+          frontmatter {
+            warenkorb
+            name
+            nachname
+            slug
+            fachgebiete
+            kontakt {
+              email
+            }
+            bilder {
+              bild
+              bild_hover
+            }
+          }
+        }
+      }
+    }
+  }
+`
 
 export default AngebotePage
