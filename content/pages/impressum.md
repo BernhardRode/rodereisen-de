@@ -17,7 +17,7 @@ date: "2022-05-01T00:00:00.000Z"
 
 ### Geschäftsführer
 
-> Dipl. Kfm. Bernhard Eckel
+> Carsten Burgmann
 
 ### Inhaltlich Verantwortlicher (gemäß § 5 DDG)
 
